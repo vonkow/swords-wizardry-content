@@ -1,0 +1,65 @@
+{
+  "title": "Swords & Wizardry Content",
+  "description": "",
+  "version": "0.0.1",
+  "id": "swords-wizardry-content",
+  "compatibility": {
+    "minimum": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "swords-wizardry",
+        "type": "system"
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Caz",
+      "email": "caz@vonkow.com"
+    }
+  ],
+  "packs": [
+    {
+      "name": "actors",
+      "label": "S&W Actors",
+      "path": "packs/actors",
+      "type": "Actor",
+      "system": "swords-wizardry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "items",
+      "label": "S&W Items",
+      "path": "packs/items",
+      "type": "Item",
+      "system": "swords-wizardry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "journals",
+      "label": "S&W Journals",
+      "path": "packs/journals",
+      "type": "JournalEntry",
+      "system": "swords-wizardry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+  ],
+  "url": "",
+  "manifest": "",
+  "download": ""
+}
+
