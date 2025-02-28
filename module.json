@@ -23,18 +23,17 @@
   "packs": [
     {
       "name": "actors",
-      "label": "S&W Actors",
+      "label": "Swords & Wizardry Actors",
       "path": "packs/actors",
       "type": "Actor",
       "system": "swords-wizardry",
       "ownership": {
-        "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
     },
     {
       "name": "items",
-      "label": "S&W Items",
+      "label": "Swords & Wizardry Items",
       "path": "packs/items",
       "type": "Item",
       "system": "swords-wizardry",
@@ -45,7 +44,7 @@
     },
     {
       "name": "journals",
-      "label": "S&W Journals",
+      "label": "Swords & Wizardry Journals",
       "path": "packs/journals",
       "type": "JournalEntry",
       "system": "swords-wizardry",
@@ -58,8 +57,7 @@
   ],
   "esmodules": [
   ],
-  "url": "",
-  "manifest": "",
-  "download": ""
+  "url": "https://github.com/vonkow/swords-wizardry-content",
+  "manifest": "https://github.com/vonkow/swords-wizardry-content/releases/download/v0.0.1/module.json",
+  "download": "https://github.com/vonkow/swords-wizardry-content/releases/download/v0.0.1/swords-wizardry-content.zip"
 }
-
