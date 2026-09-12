@@ -1,10 +1,11 @@
 {
   "title": "Swords & Wizardry Content",
   "description": "",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "id": "swords-wizardry-content",
   "compatibility": {
-    "minimum": "11"
+    "minimum": "13",
+    "verified": "14.367"
   },
   "relationships": {
     "systems": [
@@ -58,6 +59,6 @@
   "esmodules": [
   ],
   "url": "https://github.com/vonkow/swords-wizardry-content",
-  "manifest": "https://github.com/vonkow/swords-wizardry-content/releases/download/v1.0.0/module.json",
-  "download": "https://github.com/vonkow/swords-wizardry-content/releases/download/v1.0.0/swords-wizardry-content.zip"
+  "manifest": "https://github.com/vonkow/swords-wizardry-content/releases/download/v1.1.0/module.json",
+  "download": "https://github.com/vonkow/swords-wizardry-content/releases/download/v1.1.0/swords-wizardry-content.zip"
 }

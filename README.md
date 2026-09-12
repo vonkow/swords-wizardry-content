@@ -2,7 +2,7 @@
 
 > Compatible with the Swords & Wizardry rules
 
-![Foundry v12](https://img.shields.io/badge/foundry-v12-green)
+![Foundry v14](https://img.shields.io/badge/foundry-v14-green)
 
 This module contains the AELF Licensed content needed to play Swords & Wizardry using the unofficial [Swords & Wizardry game system](https://foundryvtt.com/packages/swords-wizardry) for Foundry.
 
@@ -19,3 +19,16 @@ The author is not affiliated in any way with Mythmere Games LLC.
   a. This work includes material from the System Reference Document 5.1 (“SRD 5.1”) by Wizards of the Coast LLC and available at: https://dnd.wizards.com/resources/systems-reference-document. The SRD 5.1 is licensed under the Creative Commons Attribution 4.0 International License available at: https://creativecommons.org/licenses/by/4.0/legalcode.
   b. This work includes artwork from https://game-icons.net. This art is licensed under the Creative Commons Attribution 3.0 International License available at: https://creativecommons.org/licenses/by/3.0/legalcode.
 
+## Development
+
+### Requirements
+You will need to install the [Foundry VTT CLI](https://github.com/foundryvtt/foundryvtt-cli).
+
+### Workflow
+Typically, you should make your edits in Foundry. Unlock the content pack you're working on and make your edits in a mostly-empty world that has few, if any, modules installed.
+
+To unpack your changes into more durable yaml files, quit foundry and run `make unpack`.
+
+If you hand-edit the yaml files use `make pack` to update the packs.
+
+**Warning** `make pack` and `make unpack` will clobber any changes you have made to the target output, don't get them backwards!
