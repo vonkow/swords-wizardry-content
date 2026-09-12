@@ -1,0 +1,32 @@
+folder: CS2IshfPoZ8JR8Is
+name: Hold Person (Cleric)
+type: spell
+_id: JYMmyXwZWdHSzrU4
+img: systems/swords-wizardry/assets/game-icons-net/embrassed-energy.svg
+system:
+  description: >-
+    <p class="p1">The caster targets 1d4 persons (according&nbsp;to the same
+    parameters as the charm person spell), who are completely
+    immobilized&nbsp;(saving throw applies). The caster may also&nbsp;target a
+    single person, in which case the&nbsp;saving throw is made with a penalty of
+    &ndash;2.</p>
+  spellLevel: '2'
+  range: 180 feet
+  duration: 9 turns
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740804663288
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!JYMmyXwZWdHSzrU4'

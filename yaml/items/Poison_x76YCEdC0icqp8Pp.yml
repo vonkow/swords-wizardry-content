@@ -1,0 +1,35 @@
+folder: GMcwj291csYhCh5f
+name: Poison
+type: feature
+_id: x76YCEdC0icqp8Pp
+img: systems/swords-wizardry/assets/game-icons-net/poison-bottle.svg
+system:
+  description: >-
+    <p class="p1">Assassins are able to use poison on their weapons
+    without&nbsp;the risk of making basic errors. Fighters who coat their swords
+    with poison might &mdash; just might &mdash; make the mistake of
+    absentmindedly rubbing their eyes before remembering to wash the deadly
+    toxin from their hands; Assassins are trained not to fall prey to such basic
+    errors when using poison. Assassins are not, however, trained at concocting
+    poisons; most guilds employ an alchemist for such&nbsp;purposes.</p>
+  formula: ''
+  target: ''
+  targetType: descending
+effects: []
+sort: 0
+ownership:
+  default: 0
+  saJBeYreurxVYSiH: 3
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763413850
+  modifiedTime: 1740763413850
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!x76YCEdC0icqp8Pp'

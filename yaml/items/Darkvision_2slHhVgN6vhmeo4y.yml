@@ -1,0 +1,28 @@
+folder: STUomBl7aWsr1PNE
+name: Darkvision
+type: feature
+_id: 2slHhVgN6vhmeo4y
+img: systems/swords-wizardry/assets/game-icons-net/night-vision.svg
+system:
+  description: <p>Dwarves can see in the dark (darkvision) to a limit of 60 feet.</p>
+  formula: ''
+  target: ''
+  targetType: descending
+effects: []
+sort: 0
+ownership:
+  default: 0
+  saJBeYreurxVYSiH: 3
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763413850
+  modifiedTime: 1740763413850
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!2slHhVgN6vhmeo4y'

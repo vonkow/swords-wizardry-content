@@ -1,0 +1,30 @@
+folder: UIdtOsdabTuoaOdC
+name: Reverse Gravity
+type: spell
+_id: qUfNIOqIaNrsJQB6
+img: systems/swords-wizardry/assets/game-icons-net/vertical-flip.svg
+system:
+  description: >-
+    <p>The spell reverses gravity in a cubical area approximately 30 feet x 30
+    feet x 30 feet in size. Everything in the area falls upward, and then when
+    the spell ends, it all falls back down again.</p>
+  spellLevel: '7'
+  range: 90 feet
+  duration: 1 round (minute)
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.9.4
+  createdTime: 1740763417887
+  modifiedTime: 1741404827435
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!qUfNIOqIaNrsJQB6'

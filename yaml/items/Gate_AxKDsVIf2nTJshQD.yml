@@ -1,0 +1,35 @@
+folder: tkCTHKEiQWhhHwzy
+name: Gate
+type: spell
+_id: AxKDsVIf2nTJshQD
+img: systems/swords-wizardry/assets/game-icons-net/abstract-101.svg
+system:
+  description: >-
+    <p>A gate spell creates an opening to another plane of existence and summons
+    forth a specified, tremendously powerful being from the other plane,
+    including gods, demi-gods, demons, etc. The caster must know the name of the
+    creature being summoned or the spell fails. There is a 5% chance that the
+    wrong being might be summoned forth, and (regardless whether the summoned
+    being is the right one or not) there is a 5% chance that it lacks interest
+    in the situation and returns through the gate. The summoned being is not
+    necessarily friendly to the caster, and may even be extremely annoyed.</p>
+  spellLevel: '9'
+  range: Near the caster
+  duration: See below
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.9.4
+  createdTime: 1740763417887
+  modifiedTime: 1741406681697
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!AxKDsVIf2nTJshQD'

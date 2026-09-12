@@ -1,0 +1,29 @@
+folder: FVFfB2fcoY4UshUN
+name: Water Breathing
+type: spell
+_id: 3r1J0rpla2EVZzr5
+img: systems/swords-wizardry/assets/game-icons-net/bubbles.svg
+system:
+  description: >-
+    <p class="p1">The recipient of the spell is able to breathe&nbsp;underwater
+    until the spell&rsquo;s duration expires.</p>
+  spellLevel: '3'
+  range: 30 feet
+  duration: 2 hours
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740807506641
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!3r1J0rpla2EVZzr5'

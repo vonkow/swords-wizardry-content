@@ -1,0 +1,36 @@
+folder: Sskj22iG5s6tBaLO
+name: Shape Change (5th)
+type: feature
+_id: 47pJKsbA2ANJbPCJ
+img: systems/swords-wizardry/assets/game-icons-net/deer-head.svg
+system:
+  description: >-
+    <p class="p1">At 5th level, the Druid can change shape&nbsp;into the form of
+    an animal. The animal&rsquo;s size can range from&nbsp;that of a crow to
+    that of a black bear (but not a huge bear such&nbsp;as a grizzly or polar
+    bear). The druid can change into as many as&nbsp;three different animal
+    forms per day &mdash; one from each category of&nbsp;reptile, mammal, and
+    bird &mdash; but only once for each form within a&nbsp;single day. When the
+    Druid shapeshifts, 1d6 x 10% of any lost hit&nbsp;points are cured in the
+    transformation.</p>
+  formula: ''
+  target: ''
+  targetType: descending
+effects: []
+sort: 0
+ownership:
+  default: 0
+  saJBeYreurxVYSiH: 3
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763413850
+  modifiedTime: 1740763413850
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!47pJKsbA2ANJbPCJ'

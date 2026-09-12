@@ -1,0 +1,29 @@
+folder: 7TYCol1vgCOCQW6N
+name: Death Spell
+type: spell
+_id: TYg0psTF1pjLXopv
+img: systems/swords-wizardry/assets/game-icons-net/dead-head.svg
+system:
+  description: >-
+    <p>Within a 60-foot radius, up to 2d8 creatures with fewer than 7 hit dice
+    each perish.</p>
+  spellLevel: '6'
+  range: 240 feet
+  duration: Causes normal death
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.9.4
+  createdTime: 1740763417887
+  modifiedTime: 1741401271257
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!TYg0psTF1pjLXopv'

@@ -1,0 +1,56 @@
+folder: tkCTHKEiQWhhHwzy
+name: Prismatic Sphere
+type: spell
+_id: ZAvsLcf8l9MW1PjN
+img: systems/swords-wizardry/assets/game-icons-net/caged-ball.svg
+system:
+  description: >-
+    <p>A sphere of seven colors whirls about the Magic-User, with a radius of 10
+    feet. The glowing colors form a layered spectrum. To destroy the sphere,
+    each layer must be destroyed in turn from red to orange, to yellow, to blue,
+    to indigo, and then to the innermost violet layer. Any creature of 7 or
+    fewer hit dice that looks upon the sphere is blinded for 1d6
+    turns.</p><p><span class="s1"><strong>Prismatic
+    Sphere</strong></span></p><table><tbody><tr><td><p><strong>Layer</strong></p></td><td><p><strong>Effects
+    of Color</strong></p></td><td><p><strong>Negated
+    By</strong></p></td></tr><tr><td><p>Red</p></td><td><p>Causes 12 points of
+    damage when touched. Stops any magic arrows or missiles (including magic
+    missile).</p></td><td><p>Ice storm or other cold-based
+    attack.</p></td></tr><tr><td><p>Orange</p></td><td><p>Causes 24 points of
+    damage when touched. Stops arrows and any other non-magical
+    missile.</p></td><td><p>Lightning bolt or other electrical
+    attack.</p></td></tr><tr><td><p>Yellow</p></td><td><p>Causes 48 points of
+    damage when touched. Blocks all breath weapons.</p></td><td><p>Magic missile
+    spell or a magical
+    arrow.</p></td></tr><tr><td><p>Green</p></td><td><p>Causes death (saving
+    throw allowed) when touched. Blocks any scrying and detection-type spells
+    from seeing within.</p></td><td><p>Passwall spell or other earth-moving
+    magic.</p></td></tr><tr><td><p>Blue</p></td><td><p>Turns flesh to stone when
+    touched (saving throw allowed). Blocks all divine (Clerical) magic from
+    passing through.</p></td><td><p>Disintegrate spell (may be from a wand or
+    item.</p></td></tr><tr><td><p>Indigo</p></td><td><p>Causes death and
+    destroys the soul utterly when touched (saving throw
+    allowed).</p></td><td><p>Dispel
+    magic.</p></td></tr><tr><td><p>Violet</p></td><td><p>Causes permanent
+    insanity when touched. Blocks arcane (Magic-User)
+    spells.</p></td><td><p>Continual light.</p></td></tr></tbody></table>
+  spellLevel: '9'
+  range: 10-foot sphere
+  duration: 1 hour
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.9.4
+  createdTime: 1740763417887
+  modifiedTime: 1741407511785
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!ZAvsLcf8l9MW1PjN'

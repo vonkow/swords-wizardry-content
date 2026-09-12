@@ -1,0 +1,33 @@
+folder: fsq6EYE2NmVMACXd
+name: Transmute Metal to Wood
+type: spell
+_id: INsAi1mK61MnKGW9
+img: systems/swords-wizardry/assets/game-icons-net/wood-beam.svg
+system:
+  description: >-
+    <p class="p1">This spell transmutes metal into wood in a&nbsp;10-foot x
+    10-foot area. Each discrete piece&nbsp;of metal is allowed a saving throw.
+    (Coins&nbsp;may be checked in batches rather than rolling hundreds of saving
+    throws.) The effect&nbsp;cannot be dispelled, although a
+    reversed&nbsp;version of this spell could be used to undo&nbsp;the
+    transmutation.</p>
+  spellLevel: '7'
+  range: 120 feet
+  duration: Permanent
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!INsAi1mK61MnKGW9'

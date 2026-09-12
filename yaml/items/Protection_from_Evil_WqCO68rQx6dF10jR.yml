@@ -1,0 +1,40 @@
+folder: s0tHYN4wKS8r93E7
+name: Protection from Evil
+type: spell
+_id: WqCO68rQx6dF10jR
+img: systems/swords-wizardry/assets/game-icons-net/aura.svg
+system:
+  description: >-
+    <p class="p1">Creates a magical field of protection immediately around the
+    caster, blocking out all&nbsp;enchanted monsters such as elementals
+    and&nbsp;demons). Evil monsters suffer a &ndash;1 penalty&nbsp;to hit the
+    caster, and the caster gains +1 on&nbsp;all saving throws against such
+    attacks. If&nbsp;the caster already has any magical bonuses&nbsp;to saving
+    throws or armor class, the bonus&nbsp;from the magic circle has no effect,
+    although&nbsp;the protective circle still functions against&nbsp;enchanted
+    creatures. This spell may be reversed by a Cleric of Chaos to protect
+    from&nbsp;good.</p>
+
+    <p class="p1">The Magic-User version of this spell is exactly the same as
+    the one used by the Cleric,&nbsp;except that it has a duration time of 1
+    hour.</p>
+  spellLevel: '1'
+  range: Caster
+  duration: 2 hours
+effects: []
+sort: 175000
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!WqCO68rQx6dF10jR'

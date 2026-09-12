@@ -1,0 +1,19 @@
+name: Ammunition
+sorting: a
+folder: ZEf8XJPtrxD0imXQ
+type: Item
+_id: AKpqo6snUqb9LZg7
+sort: 400000
+color: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+description: ''
+_key: '!folders!AKpqo6snUqb9LZg7'

@@ -1,0 +1,32 @@
+folder: fcpHI1gquedjQXVD
+name: Anti-Plant Ward
+type: spell
+_id: SWBX4Xl2WeafLUQH
+img: systems/swords-wizardry/assets/game-icons-net/zebra-shield.svg
+system:
+  description: >-
+    <p class="p1">The caster is surrounded by a magical barrier that prevents
+    any sort of plant, magical&nbsp;or not, from reaching through or
+    attacking.&nbsp;The shell has a radius of 10 feet. If anyone&nbsp;within the
+    magical ward casts an attack&nbsp;spell or makes a physical attack, the
+    barrier&nbsp;instantly evaporates.</p>
+  spellLevel: '5'
+  range: Caster
+  duration: 2 hours
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!SWBX4Xl2WeafLUQH'

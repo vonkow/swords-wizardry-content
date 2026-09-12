@@ -1,0 +1,33 @@
+folder: JyjLtkmrFkA1auIr
+name: Fireball
+type: spell
+_id: 2aAuzC6S7IGAGLim
+img: systems/swords-wizardry/assets/game-icons-net/fireball.svg
+system:
+  description: >-
+    <p>A bead-like missile shoots from the caster’s finger to explode at the
+    targeted location in a furnace-like blast of fire. The burst radius is 20
+    feet, and damage is 1d6 per level of the caster. The blast fills 33,000
+    cubic feet (33 10-foot x 10-foot x 10-foot cubical areas) but shapes itself
+    to the available volume. A successful saving throw means that the target
+    takes only half damage.</p>
+  spellLevel: '3'
+  range: 240 feet
+  duration: Instantaneous
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.8.0
+  createdTime: 1740763417887
+  modifiedTime: 1740804348995
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!2aAuzC6S7IGAGLim'

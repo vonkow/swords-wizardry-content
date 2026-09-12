@@ -1,0 +1,38 @@
+folder: u1wIWsI5L1tgkpvP
+name: Torch
+type: item
+_id: UhATdg00VsfVQB9q
+img: systems/swords-wizardry/assets/game-icons-net/primitive-torch.svg
+system:
+  description: >-
+    <p class="p1">Torches burn for one hour and create a 30-foot radius&nbsp;of
+    light. They are easily blown out by gusts of wind, and may even&nbsp;be
+    extinguished when dropped. However, if the party needs to set&nbsp;something
+    on fire quickly &mdash; and they will &mdash; a lit torch can come&nbsp;in
+    very handy.</p>
+  quantity: 1
+  weight: 0
+  gp: 0.01
+  pp: 0
+  sp: 0
+  cp: 0
+  formula: d6
+  gold: 0.01
+effects: []
+sort: 0
+ownership:
+  default: 0
+  saJBeYreurxVYSiH: 3
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763416123
+  modifiedTime: 1740763416123
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!UhATdg00VsfVQB9q'

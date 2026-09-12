@@ -1,0 +1,36 @@
+folder: jWkqzSa3QlzF1HdU
+name: Hallucinatory Forest
+type: spell
+_id: tthpi5nD0OiWr4Hc
+img: systems/swords-wizardry/assets/game-icons-net/circle-forest.svg
+system:
+  description: >-
+    <p class="p1">Much like the Magic-User spell hallucinatory terrain, this
+    spell changes the appearance&nbsp;of the land, although the illusion is
+    always&nbsp;that of a forest. Druids and magical creatures of the forest
+    such as a dryad or treant&nbsp;are not fooled by the illusion, but
+    until&nbsp;the dweomer is dispelled, all other creatures perceive the area
+    to be forested. The&nbsp;maximum extent of the nonexistent
+    forest,&nbsp;measured for convenience in 30-foot x 30-foot
+    &ldquo;squares,&rdquo; is one such square per level&nbsp;of the caster. The
+    spell may also be used to&nbsp;remove an existing hallucinatory forest.</p>
+  spellLevel: '4'
+  range: 60 feet
+  duration: Until dispelled
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!tthpi5nD0OiWr4Hc'

@@ -1,0 +1,246 @@
+name: Water Naga
+type: npc
+img: systems/swords-wizardry/assets/game-icons-net/snake-totem.svg
+system:
+  hp:
+    value: 0
+    min: 0
+    max: 0
+  save:
+    value: 9
+    min: 0
+    max: 20
+  ac:
+    value: 5
+    min: -9
+    max: 28
+  aac:
+    value: 14
+    min: 0
+    max: 28
+  moveRate:
+    value: 12 (swim 20)
+  tHAACB: 7
+  tHAC0: 12
+  spellSlots:
+    '1':
+      max: 0
+      memorized: []
+    '2':
+      max: 0
+      memorized: []
+    '3':
+      max: 0
+      memorized: []
+    '4':
+      max: 0
+      memorized: []
+    '5':
+      max: 0
+      memorized: []
+    '6':
+      max: 0
+      memorized: []
+    '7':
+      max: 0
+      memorized: []
+    '8':
+      max: 0
+      memorized: []
+    '9':
+      max: 0
+      memorized: []
+  treasure:
+    pp: 0
+    gp: 0
+    sp: 0
+    cp: 0
+    gems: ''
+    misc: ''
+  alignment: Any
+  description: >-
+    <p class="p1">Water nagas might be of any alignment.&nbsp;They do not
+    ordinarily have human heads,&nbsp;but like the guardian nagas they will
+    have&nbsp;some physical attributes separating them&nbsp;clearly from normal
+    serpents. In the case&nbsp;of water nagas, this might be the color
+    of&nbsp;the scales or the presence of flowing beard-like fins, perhaps.
+    Water nagas are from 10&nbsp;to 15ft long. Water nagas cast
+    magic-user&nbsp;spells (4/2/1). A sample spell selection for&nbsp;a water
+    naga might be: level 1: <em>charm person </em>x2, <em>magic missile,
+    sleep</em>; level 2: <em>mirror image, </em><em>web</em>; level 3:
+    <em>protection from normal missiles</em>.</p>
+
+    <hr>
+
+    <p class="p1"><em>&ldquo;Naga&rdquo; is the Sanskrit word for dragon
+    or&nbsp;snake. In mythology, the naga are benevolent and very powerful,
+    equivalent to Asian&nbsp;dragons. The nagas portrayed here are&nbsp;more
+    serpentine and less powerful; all have&nbsp;the body of a snake, although
+    the head is&nbsp;not necessarily that of a serpent. All kinds&nbsp;of
+    interesting abilities may be found in&nbsp;&ldquo;unusual&rdquo; nagas
+    designed by the Referee,&nbsp;from breathing fire to moving in and out
+    of&nbsp;strange planes of existence.</em></p>
+  cl: 10
+  hd: '7'
+  morale: 9
+  special: lethal poison (save or die), spells (MU 4/2/1)
+  xp:
+    value: 1800
+  numberEncountered: 1d4
+  percentInLair: '50'
+  toHitAC:
+    '-9': 21
+    '-8': 20
+    '-7': 19
+    '-6': 18
+    '-5': 17
+    '-4': 16
+    '-3': 15
+    '-2': 14
+    '-1': 13
+    '+0': 12
+    '+1': 11
+    '+2': 10
+    '+3': 9
+    '+4': 8
+    '+5': 7
+    '+6': 6
+    '+7': 5
+    '+8': 4
+    '+9': 3
+prototypeToken:
+  name: Water Naga
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: systems/swords-wizardry/assets/game-icons-net/snake-totem.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: hp
+  bar2:
+    attribute: ac
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  depth: 1
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items:
+  - name: bite
+    type: weapon
+    system:
+      description: ''
+      quantity: 1
+      weight: 0
+      gp: 0
+      pp: 0
+      sp: 0
+      cp: 0
+      missile: false
+      range: 0
+      rateOfFire: 1
+      modifier: '0'
+      formula: d20 + @toHit.v
+      damageFormula: 1d4
+      specialDamage: Poison
+    _id: 3OvwNSeIaHCFtcHU
+    img: icons/svg/item-bag.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      uY5ZaNbCwA9WwEXo: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '14.367'
+      systemId: swords-wizardry
+      systemVersion: 2.7.0
+      createdTime: null
+      modifiedTime: 1740782456665
+      lastModifiedBy: uY5ZaNbCwA9WwEXo
+      exportSource: null
+    _key: '!actors.items!Kpfaxtp97lIWOatB.3OvwNSeIaHCFtcHU'
+effects: []
+folder: u68zOgO0PMWUOmH3
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763249430
+  modifiedTime: 1740763249430
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_id: Kpfaxtp97lIWOatB
+sort: 200000
+_key: '!actors!Kpfaxtp97lIWOatB'

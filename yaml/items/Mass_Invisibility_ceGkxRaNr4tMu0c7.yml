@@ -1,0 +1,32 @@
+folder: UIdtOsdabTuoaOdC
+name: Mass Invisibility
+type: spell
+_id: ceGkxRaNr4tMu0c7
+img: systems/swords-wizardry/assets/game-icons-net/dark-squad.svg
+system:
+  description: >-
+    <p>This spell makes 1d3 x 100 man- or horse-sized creatures (or objects)
+    invisible, as if they had been affected by a single invisibility spell. The
+    spell can instead affect up to 6 creatures of dragon size. As with the
+    invisibility spell, the enchantment lasts until dispelled or until one of
+    the creatures makes an attack.</p>
+  spellLevel: '7'
+  range: 240 feet
+  duration: See below
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.9.4
+  createdTime: 1740763417887
+  modifiedTime: 1741404245692
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!ceGkxRaNr4tMu0c7'

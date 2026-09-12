@@ -1,0 +1,178 @@
+folder: S6C6djqSw90xc99J
+name: Move Silently
+type: feature
+_id: NzlgqFADBy5oC9iw
+img: systems/swords-wizardry/assets/game-icons-net/mute.svg
+system:
+  description: >-
+    <p class="p1"><strong>Moving silently</strong>. Thieves can move quietly,
+    without being&nbsp;heard.</p>
+
+    <h3 class="p1">Move Silently Advancement</h3>
+
+    <table border="1"><colgroup><col><col></colgroup>
+
+    <tbody>
+
+    <tr>
+
+    <td><strong>Level</strong></td>
+
+    <td><strong>Move Silently</strong></td>
+
+    </tr>
+
+    <tr>
+
+    <td>1</td>
+
+    <td>20%</td>
+
+    </tr>
+
+    <tr>
+
+    <td>2</td>
+
+    <td>25%</td>
+
+    </tr>
+
+    <tr>
+
+    <td>3</td>
+
+    <td>30%</td>
+
+    </tr>
+
+    <tr>
+
+    <td>4</td>
+
+    <td>35%</td>
+
+    </tr>
+
+    <tr>
+
+    <td>5</td>
+
+    <td>40%</td>
+
+    </tr>
+
+    <tr>
+
+    <td>6</td>
+
+    <td>45%</td>
+
+    </tr>
+
+    <tr>
+
+    <td>7</td>
+
+    <td>50%</td>
+
+    </tr>
+
+    <tr>
+
+    <td>8</td>
+
+    <td>60%</td>
+
+    </tr>
+
+    <tr>
+
+    <td>9</td>
+
+    <td>70%</td>
+
+    </tr>
+
+    <tr>
+
+    <td>10</td>
+
+    <td>80%</td>
+
+    </tr>
+
+    <tr>
+
+    <td>11</td>
+
+    <td>90%</td>
+
+    </tr>
+
+    <tr>
+
+    <td>12</td>
+
+    <td>100%</td>
+
+    </tr>
+
+    <tr>
+
+    <td>13</td>
+
+    <td>100%</td>
+
+    </tr>
+
+    <tr>
+
+    <td>14</td>
+
+    <td>100%</td>
+
+    </tr>
+
+    <tr>
+
+    <td>15</td>
+
+    <td>100%</td>
+
+    </tr>
+
+    <tr>
+
+    <td>16+</td>
+
+    <td>Remains at 100%</td>
+
+    </tr>
+
+    </tbody>
+
+    </table>
+
+    <p>Note: Thieving skills do not gain bonuses from a high Dexterity
+    score.</p>
+  formula: d100
+  target: '20'
+  targetType: descending
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763413850
+  modifiedTime: 1740763413850
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!NzlgqFADBy5oC9iw'

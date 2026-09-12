@@ -1,0 +1,239 @@
+name: Air Elemental (8HD)
+type: npc
+img: systems/swords-wizardry/assets/game-icons-net/tornado.svg
+system:
+  hp:
+    value: 0
+    min: 0
+    max: 0
+  save:
+    value: 8
+    min: 0
+    max: 20
+  ac:
+    value: 2
+    min: -9
+    max: 28
+  aac:
+    value: 17
+    min: 0
+    max: 28
+  moveRate:
+    value: 36 (fly)
+  tHAACB: 8
+  tHAC0: 11
+  spellSlots:
+    '1':
+      max: 0
+      memorized: []
+    '2':
+      max: 0
+      memorized: []
+    '3':
+      max: 0
+      memorized: []
+    '4':
+      max: 0
+      memorized: []
+    '5':
+      max: 0
+      memorized: []
+    '6':
+      max: 0
+      memorized: []
+    '7':
+      max: 0
+      memorized: []
+    '8':
+      max: 0
+      memorized: []
+    '9':
+      max: 0
+      memorized: []
+  treasure:
+    pp: 0
+    gp: 0
+    sp: 0
+    cp: 0
+    gems: ''
+    misc: ''
+  alignment: 'N'
+  description: >-
+    <p class="p1">Air elementals can turn into a whirlwind of&nbsp;air with a
+    diameter of 30 feet, hurling any&nbsp;creature of 1HD or less for great
+    distances&nbsp;(and almost certainly killing them). These&nbsp;elemental
+    whirlwinds are approximately&nbsp;100 feet in height.</p>
+
+    <hr>
+
+    <p class="p1"><em>Elementals are living manifestations of&nbsp;the basic
+    forms of matter: air, earth, fire,&nbsp;and water. They are usually
+    summoned&nbsp;from their native planes of existence to do&nbsp;the bidding
+    of a powerful wizard. These&nbsp;beings can also be &ldquo;chained&rdquo;
+    within objects&nbsp;or structures to give the objects
+    magical&nbsp;properties. Elementals are barely intelligent&nbsp;at all, but
+    they are as powerful as the forces&nbsp;of nature that they actually
+    are.</em></p>
+  cl: 9
+  hd: '8'
+  morale: 10
+  special: +1 or better magic weapons to hit, whirlwind
+  xp:
+    value: 1300
+  numberEncountered: '1'
+  percentInLair: '0'
+  toHitAC:
+    '-9': 20
+    '-8': 19
+    '-7': 18
+    '-6': 17
+    '-5': 16
+    '-4': 15
+    '-3': 14
+    '-2': 13
+    '-1': 12
+    '+0': 11
+    '+1': 10
+    '+2': 9
+    '+3': 8
+    '+4': 7
+    '+5': 6
+    '+6': 5
+    '+7': 4
+    '+8': 3
+    '+9': 2
+prototypeToken:
+  name: Air Elemental
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: systems/swords-wizardry/assets/game-icons-net/tornado.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: hp
+  bar2:
+    attribute: ac
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  depth: 1
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items:
+  - name: strike
+    type: weapon
+    system:
+      description: ''
+      quantity: 1
+      weight: 0
+      gp: 0
+      pp: 0
+      sp: 0
+      cp: 0
+      missile: false
+      range: 0
+      rateOfFire: 1
+      modifier: '0'
+      formula: d20 + @toHit.v
+      damageFormula: 2d8
+    _id: 2xJn3VxhtQbjva5j
+    img: icons/svg/item-bag.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      uY5ZaNbCwA9WwEXo: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '14.367'
+      systemId: swords-wizardry
+      systemVersion: 2.6.1
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!nahWbVsKaY9ACFUM.2xJn3VxhtQbjva5j'
+effects: []
+folder: pYDVo5ral1pWl4d5
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763235646
+  modifiedTime: 1740763235646
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_id: nahWbVsKaY9ACFUM
+sort: 900000
+_key: '!actors!nahWbVsKaY9ACFUM'

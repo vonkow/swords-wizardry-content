@@ -1,0 +1,32 @@
+folder: JyjLtkmrFkA1auIr
+name: Clairaudience
+type: spell
+_id: 98b7QRiL6CP8SsIz
+img: systems/swords-wizardry/assets/game-icons-net/human-ear.svg
+system:
+  description: >-
+    <p>Clairaudience allows the caster to hear any sounds within a range of 60
+    feet through solid stone (which limits the spell’s range to 2 feet or so)
+    and other obstacles. The spell’s effect cannot pass through even a thin
+    sheeting of lead, however, for this metal blocks it utterly. The spell can
+    be cast through a crystal ball.</p>
+  spellLevel: '3'
+  range: 60 feet
+  duration: 2 hours
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.8.0
+  createdTime: 1740763417887
+  modifiedTime: 1740803879864
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!98b7QRiL6CP8SsIz'

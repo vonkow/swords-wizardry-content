@@ -1,0 +1,32 @@
+folder: jWkqzSa3QlzF1HdU
+name: Produce Fire
+type: spell
+_id: TVKkQP8YXwWX5MfG
+img: systems/swords-wizardry/assets/game-icons-net/celebration-fire.svg
+system:
+  description: >-
+    <p class="p1">This spell instantly creates fire in an area of&nbsp;up to 10
+    feet x 10 feet. The fire burns for no&nbsp;longer than 10 minutes without
+    fuel but sets&nbsp;alight any flammable materials in the area&nbsp;where it
+    was summoned forth. The spell may&nbsp;also be reversed to quench flames
+    rather&nbsp;than ignite them.</p>
+  spellLevel: '4'
+  range: 30 feet
+  duration: 1 turn (10 minutes)
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!TVKkQP8YXwWX5MfG'

@@ -1,0 +1,31 @@
+folder: JyjLtkmrFkA1auIr
+name: Fly
+type: spell
+_id: 5ddwYm7AkJtIX7D0
+img: systems/swords-wizardry/assets/game-icons-net/fluffy-wing.svg
+system:
+  description: >-
+    <p>This spell imbues the Magic-User with the power of flight, with a
+    movement rate of 120 feet per round. The Referee secretly rolls the 1d6
+    additional turns; the player does not know exactly how long the power of
+    flight will last.</p>
+  spellLevel: '3'
+  range: Touch
+  duration: 1 turn/level + 1d6 turns
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.8.0
+  createdTime: 1740763417887
+  modifiedTime: 1740804447018
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!5ddwYm7AkJtIX7D0'

@@ -1,0 +1,30 @@
+folder: V7L1xETAOpPH4vRG
+name: Massmorph
+type: spell
+_id: KHfgq7MFxJXjLar3
+img: systems/swords-wizardry/assets/game-icons-net/forest.svg
+system:
+  description: >-
+    <p>One hundred or fewer man- or horse-sized creatures are changed to appear
+    to be innocent trees. The illusion is so perfect that creatures moving
+    through the “forest” do not detect the deception.</p>
+  spellLevel: '4'
+  range: 240 feet
+  duration: Until negated by caster or dispelled
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.9.4
+  createdTime: 1740763417887
+  modifiedTime: 1741393414267
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!KHfgq7MFxJXjLar3'

@@ -1,0 +1,32 @@
+folder: UIdtOsdabTuoaOdC
+name: Power Word, Stun
+type: spell
+_id: JEutONtTV4I1nAu9
+img: systems/swords-wizardry/assets/game-icons-net/lightning-shout.svg
+system:
+  description: >-
+    <p>The caster speaks a word of power to a particular creature. If that
+    creature has 35 or fewer hit points, it is instantly stunned for 2d6 turns;
+    if the creature has from 36 to 70 hit points, it is stunned for only 1d6
+    turns. If the creature has more than 70 hit points, it is not affected by
+    the spell. No saving throw is permitted.</p>
+  spellLevel: '7'
+  range: 120 feet
+  duration: 1d6 or 2d6 turns (See below)
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.9.4
+  createdTime: 1740763417887
+  modifiedTime: 1741404745485
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!JEutONtTV4I1nAu9'

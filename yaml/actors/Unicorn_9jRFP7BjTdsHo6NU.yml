@@ -1,0 +1,267 @@
+name: Unicorn
+type: npc
+img: systems/swords-wizardry/assets/game-icons-net/unicorn.svg
+system:
+  hp:
+    value: 0
+    min: 0
+    max: 0
+  save:
+    value: 13
+    min: 0
+    max: 20
+  ac:
+    value: 2
+    min: -9
+    max: 28
+  aac:
+    value: 17
+    min: 0
+    max: 28
+  moveRate:
+    value: '24'
+  tHAACB: 4
+  tHAC0: 15
+  spellSlots:
+    '1':
+      max: 0
+      memorized: []
+    '2':
+      max: 0
+      memorized: []
+    '3':
+      max: 0
+      memorized: []
+    '4':
+      max: 0
+      memorized: []
+    '5':
+      max: 0
+      memorized: []
+    '6':
+      max: 0
+      memorized: []
+    '7':
+      max: 0
+      memorized: []
+    '8':
+      max: 0
+      memorized: []
+    '9':
+      max: 0
+      memorized: []
+  treasure:
+    pp: 0
+    gp: 0
+    sp: 0
+    cp: 0
+    gems: ''
+    misc: ''
+  alignment: L
+  description: >-
+    <p class="p1">Unicorns are generally shy and benevolent&nbsp;creatures that
+    allow only a chaste maiden&nbsp;to approach them. They can teleport
+    once&nbsp;per day to a distance of 360 feet with a&nbsp;rider. According to
+    legend, the unicorn&rsquo;s&nbsp;horn has healing properties (the details
+    of&nbsp;this, if any, are left to the Referee). There is&nbsp;considerable
+    room to create variant sorts of&nbsp;unicorns: evil ones, flying ones,
+    etc.</p>
+  cl: 5
+  hd: '4'
+  morale: 7
+  special: double damage for charge, magic resistance (25%), teleport
+  xp:
+    value: 240
+  numberEncountered: 1d4
+  percentInLair: '0'
+  toHitAC:
+    '-9': 24
+    '-8': 23
+    '-7': 22
+    '-6': 21
+    '-5': 20
+    '-4': 19
+    '-3': 18
+    '-2': 17
+    '-1': 16
+    '+0': 15
+    '+1': 14
+    '+2': 13
+    '+3': 12
+    '+4': 11
+    '+5': 10
+    '+6': 9
+    '+7': 8
+    '+8': 7
+    '+9': 6
+prototypeToken:
+  name: Unicorn
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: systems/swords-wizardry/assets/game-icons-net/unicorn.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: hp
+  bar2:
+    attribute: ac
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  depth: 1
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items:
+  - name: 2 hoofs
+    type: weapon
+    system:
+      description: ''
+      quantity: 1
+      weight: 0
+      gp: 0
+      pp: 0
+      sp: 0
+      cp: 0
+      missile: false
+      range: 0
+      rateOfFire: 1
+      modifier: '0'
+      formula: d20 + @toHit.v
+      damageFormula: 1d8
+    _id: Kl6DGEnTtcsJECHx
+    img: icons/svg/item-bag.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      uY5ZaNbCwA9WwEXo: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '14.367'
+      systemId: swords-wizardry
+      systemVersion: 2.6.1
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!9jRFP7BjTdsHo6NU.Kl6DGEnTtcsJECHx'
+  - name: horn
+    type: weapon
+    system:
+      description: ''
+      quantity: 1
+      weight: 0
+      gp: 0
+      pp: 0
+      sp: 0
+      cp: 0
+      missile: false
+      range: 0
+      rateOfFire: 1
+      modifier: '0'
+      formula: d20 + @toHit.v
+      damageFormula: 1d8
+    _id: iu3etN0VwLyUQFl4
+    img: icons/svg/item-bag.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      uY5ZaNbCwA9WwEXo: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '14.367'
+      systemId: swords-wizardry
+      systemVersion: 2.6.1
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!9jRFP7BjTdsHo6NU.iu3etN0VwLyUQFl4'
+effects: []
+folder: XXGWQm03RpMKy7G8
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763258083
+  modifiedTime: 1740763258083
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_id: 9jRFP7BjTdsHo6NU
+sort: 0
+_key: '!actors!9jRFP7BjTdsHo6NU'

@@ -1,0 +1,30 @@
+folder: 9TEZjFvmfamticJE
+name: Passwall
+type: spell
+_id: AG85DUB1tRrcz8e2
+img: systems/swords-wizardry/assets/game-icons-net/cave-entrance.svg
+system:
+  description: >-
+    <p>This spell creates a hole through solid rock, about 7 feet high, 10 feet
+    wide, and 10 feet deep (possibly deeper at the discretion of the Referee).
+    The hole closes again at the end of the spell’s duration.</p>
+  spellLevel: '5'
+  range: 30 feet
+  duration: 3 turns (30 minutes)
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.9.4
+  createdTime: 1740763417887
+  modifiedTime: 1741395491838
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!AG85DUB1tRrcz8e2'

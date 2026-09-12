@@ -1,0 +1,197 @@
+name: Shrieker
+type: npc
+img: systems/swords-wizardry/assets/game-icons-net/chanterelles.svg
+system:
+  hp:
+    value: 0
+    min: 0
+    max: 0
+  save:
+    value: 14
+    min: 0
+    max: 20
+  ac:
+    value: 7
+    min: -9
+    max: 28
+  aac:
+    value: 12
+    min: 0
+    max: 28
+  moveRate:
+    value: '1'
+  tHAACB: 3
+  tHAC0: 16
+  spellSlots:
+    '1':
+      max: 0
+      memorized: []
+    '2':
+      max: 0
+      memorized: []
+    '3':
+      max: 0
+      memorized: []
+    '4':
+      max: 0
+      memorized: []
+    '5':
+      max: 0
+      memorized: []
+    '6':
+      max: 0
+      memorized: []
+    '7':
+      max: 0
+      memorized: []
+    '8':
+      max: 0
+      memorized: []
+    '9':
+      max: 0
+      memorized: []
+  treasure:
+    pp: 0
+    gp: 0
+    sp: 0
+    cp: 0
+    gems: ''
+    misc: ''
+  alignment: 'N'
+  description: >-
+    <p class="p1">Shriekers are huge mushrooms with tough,&nbsp;fibrous bodies.
+    They do not physically&nbsp;attack, but if light shines on them (or
+    within&nbsp;about 30 feet) or if anything moves near&nbsp;them (within about
+    10 feet), they emit a&nbsp;high-pitched shrieking noise. This
+    noise&nbsp;causes 1 hp damage per round (saving throw&nbsp;applies) to
+    anyone nearby (within 30 feet).&nbsp;The true danger of shriekers is that
+    they&nbsp;tend to summon wandering monsters. If&nbsp;they are attacked with
+    missile weapons, they&nbsp;attempt to shuffle away, although they
+    do&nbsp;not move very fast.</p>
+  cl: 3
+  hd: '3'
+  morale: 12
+  special: shriek (1 point of damage per round to all within 30ft)
+  xp:
+    value: 60
+  numberEncountered: 2d4
+  percentInLair: '0'
+  toHitAC:
+    '-9': 25
+    '-8': 24
+    '-7': 23
+    '-6': 22
+    '-5': 21
+    '-4': 20
+    '-3': 19
+    '-2': 18
+    '-1': 17
+    '+0': 16
+    '+1': 15
+    '+2': 14
+    '+3': 13
+    '+4': 12
+    '+5': 11
+    '+6': 10
+    '+7': 9
+    '+8': 8
+    '+9': 7
+prototypeToken:
+  name: Shrieker
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: systems/swords-wizardry/assets/game-icons-net/chanterelles.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: hp
+  bar2:
+    attribute: ac
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  depth: 1
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items: []
+effects: []
+folder: PO9NOWgZtyT8y1Bf
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763254895
+  modifiedTime: 1740763254895
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_id: N7tAIjMlDkrsAbxt
+sort: 300000
+_key: '!actors!N7tAIjMlDkrsAbxt'

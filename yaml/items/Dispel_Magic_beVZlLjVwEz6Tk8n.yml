@@ -1,0 +1,40 @@
+folder: jWkqzSa3QlzF1HdU
+name: Dispel Magic
+type: spell
+_id: beVZlLjVwEz6Tk8n
+img: systems/swords-wizardry/assets/game-icons-net/lightning-flame.svg
+system:
+  description: >-
+    <p class="p1">Dispel magic, although not powerful enough&nbsp;to permanently
+    disenchant a magic item&nbsp;(which it nullifies for 10 minutes), can
+    be&nbsp;used to completely dispel most other spells&nbsp;and
+    enchantments.</p>
+
+    <p class="p1">The chance of successfully dispelling magic&nbsp;is a
+    percentage based on the ratio of the&nbsp;level of the dispelling caster
+    over the level of&nbsp;original caster (or hit dice of the
+    monster).&nbsp;Thus, a 6th-level Magic-User attempting to&nbsp;dispel a
+    charm cast by a 12th-level Magic-User has a 50% chance of success
+    (6/12&nbsp;= 0.50, or 50%). If the 12th-level Magic-User was dispelling the
+    6th-level Magic-User&rsquo;s&nbsp;charm, success would be certain (12/6
+    =&nbsp;2.00, or 200%).</p>
+  spellLevel: '4'
+  range: 120 feet
+  duration: 10 minutes against an item
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!beVZlLjVwEz6Tk8n'

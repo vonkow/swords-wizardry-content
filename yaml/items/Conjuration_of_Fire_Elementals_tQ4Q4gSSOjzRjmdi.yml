@@ -1,0 +1,43 @@
+folder: PcenDMzPb13XI8Uf
+name: Conjuration of Fire Elementals
+type: spell
+_id: tQ4Q4gSSOjzRjmdi
+img: systems/swords-wizardry/assets/game-icons-net/fire-silhouette.svg
+system:
+  description: >-
+    <p class="p1">The caster summons a 16 hit dice fire&nbsp;elemental from the
+    elemental planes of existence, and binds it to obey the
+    character&rsquo;s&nbsp;commands. The elemental obeys the caster&nbsp;only
+    for as long as the caster concentrates on&nbsp;it. Unlike the Magic-User
+    spell conjuration&nbsp;of elementals, this spell summons a willing&nbsp;ally
+    from the elemental planes rather than a&nbsp;hostile slave. The elemental
+    will not stay longer than the caster concentrates upon it, but&nbsp;it will
+    not seek to attack a druidic summoner. There is, however, a 5% chance that
+    the&nbsp;spell summons forth powers unintended by&nbsp;the druid. If this
+    happens, one of two things&nbsp;occurs, with a 50% chance of each.
+    The&nbsp;spell might summon forth a truly great elemental force, an
+    elemental with 20 hit dice.&nbsp;However, there is also the chance that
+    the&nbsp;spell summons forth an efreeti. The efreet&nbsp;do not have the
+    same rapport with Druids&nbsp;as the pure elementals do, and an
+    efreeti,&nbsp;unlike elementals, attacks the caster when&nbsp;the
+    Druid&rsquo;s concentration falters.</p>
+  spellLevel: '6'
+  range: 240 feet
+  duration: Until dispelled or concentration ceases
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!tQ4Q4gSSOjzRjmdi'

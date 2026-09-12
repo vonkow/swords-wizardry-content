@@ -1,0 +1,33 @@
+folder: PcenDMzPb13XI8Uf
+name: Repel Wood
+type: spell
+_id: frdPFhWESNDwvigv
+img: systems/swords-wizardry/assets/game-icons-net/wood-pile.svg
+system:
+  description: >-
+    <p class="p1">When this spell is cast, a mystical druidic&nbsp;force issues
+    forth from a place designated&nbsp;by the caster, in roughly the shape of a
+    wall&nbsp;120 feet across. This power rolls forward at&nbsp;a rate of 5 feet
+    per round directly away from&nbsp;the caster, inexorably pressing all wood,
+    or&nbsp;wooden objects, backward. Once the power&nbsp;is set in motion, it
+    cannot be stopped other&nbsp;than by the caster&rsquo;s command.</p>
+  spellLevel: '6'
+  range: 20 feet/level
+  duration: 1 turn/level
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!frdPFhWESNDwvigv'

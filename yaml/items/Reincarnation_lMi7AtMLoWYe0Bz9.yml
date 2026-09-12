@@ -1,0 +1,41 @@
+folder: 7TYCol1vgCOCQW6N
+name: Reincarnation
+type: spell
+_id: lMi7AtMLoWYe0Bz9
+img: systems/swords-wizardry/assets/game-icons-net/life-in-the-balance.svg
+system:
+  description: >-
+    <p>This spell brings a dead person’s soul back from the dead, but the soul
+    reappears in a newly formed body. Reincarnation will not affect someone who
+    has been dead more than a week. Roll 1d20 on the following table. If the
+    resulting creature is a normal character ancestry, roll 1d6 to determine the
+    character’s new level.</p><p class="p2"><span
+    class="s1"><strong>Reincarnation by
+    Magic-Users</strong></span></p><table><tbody><tr><td><p><strong>Die Roll
+    (d20)</strong></p></td><td><p><strong>Reincarnated as
+    …</strong></p></td></tr><tr><td><p>1</p></td><td><p>Bugbear</p></td></tr><tr><td><p>2</p></td><td><p>Centaur</p></td></tr><tr><td><p>3</p></td><td><p>Dog,
+    Cat, or
+    Wolf</p></td></tr><tr><td><p>4</p></td><td><p>Dwarf</p></td></tr><tr><td><p>5</p></td><td><p>Elf</p></td></tr><tr><td><p>6</p></td><td><p>Gnoll</p></td></tr><tr><td><p>7</p></td><td><p>Goblin</p></td></tr><tr><td><p>8</p></td><td><p>Halfling</p></td></tr><tr><td><p>9</p></td><td><p>Harpy</p></td></tr><tr><td><p>10</p></td><td><p>Hobgoblin</p></td></tr><tr><td><p>11</p></td><td><p>Human</p></td></tr><tr><td><p>12</p></td><td><p>Kobold</p></td></tr><tr><td><p>13</p></td><td><p>Lizardman</p></td></tr><tr><td><p>14</p></td><td><p>Lycanthrope
+    (Werewolf or
+    other)</p></td></tr><tr><td><p>15</p></td><td><p>Minotaur</p></td></tr><tr><td><p>16</p></td><td><p>Ogre</p></td></tr><tr><td><p>17</p></td><td><p>Ogre
+    Mage</p></td></tr><tr><td><p>18</p></td><td><p>Orc</p></td></tr><tr><td><p>19</p></td><td><p>Troll</p></td></tr><tr><td><p>20</p></td><td><p>Wyvern</p></td></tr></tbody></table>
+  spellLevel: '6'
+  range: Touch
+  duration: Instantaneous
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.9.4
+  createdTime: 1740763417887
+  modifiedTime: 1741402898710
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!lMi7AtMLoWYe0Bz9'

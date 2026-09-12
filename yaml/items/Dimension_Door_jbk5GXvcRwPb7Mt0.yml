@@ -1,0 +1,32 @@
+folder: V7L1xETAOpPH4vRG
+name: Dimension Door
+type: spell
+_id: jbk5GXvcRwPb7Mt0
+img: systems/swords-wizardry/assets/game-icons-net/portal.svg
+system:
+  description: >-
+    <p>Dimension door is a weak form of teleportation, a spell that can be
+    managed by lesser magicians who cannot yet manage the teleport spell. The
+    caster can teleport himself, an object, or another person, with perfect
+    accuracy, to the stated location, as long as it is within the spell’s
+    range.</p>
+  spellLevel: '4'
+  range: 10 feet (360-foot teleport distance)
+  duration: Instantaneous
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.9.4
+  createdTime: 1740763417887
+  modifiedTime: 1741392252015
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!jbk5GXvcRwPb7Mt0'

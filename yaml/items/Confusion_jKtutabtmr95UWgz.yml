@@ -1,0 +1,27 @@
+folder: V7L1xETAOpPH4vRG
+name: Confusion
+type: spell
+_id: jKtutabtmr95UWgz
+img: systems/swords-wizardry/assets/game-icons-net/knocked-out-stars.svg
+system:
+  description: "<p class=\"p1\">This spell confuses people and monsters,\_making them act randomly. On a roll of\_2d6, the creatures do the following:</p><h3 class=\"p1\">Confusion</h3><table border=\"1\"><colgroup><col><col></colgroup><tbody><tr><td><strong>Die Roll (2d6)</strong></td><td><strong>Effect</strong></td></tr><tr><td><span class=\"s2\">2–5</span></td><td>Attack caster & caster’s allies</td></tr><tr><td>6–8</td><td>Stand baffled and inactive</td></tr><tr><td>9–12</td><td>Attack each other</td></tr></tbody></table><p class=\"p3\">The effects of the confusion may shift every 10 minutes or so, and the dice are once again rolled.</p><p class=\"p1\">The spell affects 2d6 creatures, plus an\_additional creature for every caster level\_above 8th. Creatures of 3 hit dice or fewer\_are automatically affected by the spell, and\_it takes effect instantly. Creatures of 4 hit\_dice or more automatically overcome the\_confusion effect as it builds up to its full\_power (1d12 minutes, minus the caster’s\_level), and only then are they permitted a\_saving throw. Eventually, these creatures are\_likely to succumb to the confusion, for they\_must continue to make another saving throw\_every 10 minutes until the spell’s two-hour\_duration runs its course.</p>"
+  spellLevel: '4'
+  range: 120 feet
+  duration: 2 hours
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.9.4
+  createdTime: 1740763417887
+  modifiedTime: 1741391639606
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!jKtutabtmr95UWgz'

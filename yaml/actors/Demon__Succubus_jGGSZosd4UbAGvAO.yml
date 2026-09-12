@@ -1,0 +1,267 @@
+name: Demon, Succubus
+type: npc
+img: systems/swords-wizardry/assets/game-icons-net/female-vampire.svg
+system:
+  hp:
+    value: 0
+    min: 0
+    max: 0
+  save:
+    value: 11
+    min: 0
+    max: 20
+  ac:
+    value: 9
+    min: -9
+    max: 28
+  aac:
+    value: 10
+    min: 0
+    max: 28
+  moveRate:
+    value: 12 (fly 18)
+  tHAACB: 6
+  tHAC0: 13
+  spellSlots:
+    '1':
+      max: 0
+      memorized: []
+    '2':
+      max: 0
+      memorized: []
+    '3':
+      max: 0
+      memorized: []
+    '4':
+      max: 0
+      memorized: []
+    '5':
+      max: 0
+      memorized: []
+    '6':
+      max: 0
+      memorized: []
+    '7':
+      max: 0
+      memorized: []
+    '8':
+      max: 0
+      memorized: []
+    '9':
+      max: 0
+      memorized: []
+  treasure:
+    pp: 0
+    gp: 0
+    sp: 0
+    cp: 0
+    gems: ''
+    misc: ''
+  alignment: C
+  description: >-
+    <p class="p1"><em>Spell-like abilities: at will</em>&mdash;charm
+    person,&nbsp;clairaudience, darkness 15ft radius, ESP,&nbsp;suggestion.</p>
+
+    <p class="p1">A succubus is a creature of demonic lust,&nbsp;a drinker of
+    souls who offers fatal temptation to mortals who fall into the trap
+    of&nbsp;her deadly embraces: each kiss drains one&nbsp;level of experience.
+    (The male form of this&nbsp;demon is called an incubus. A succubus
+    is&nbsp;always female, just as an incubus is always&nbsp;male.) The
+    demon&rsquo;s form is that of a supernaturally beautiful woman, curvaceous
+    and&nbsp;alluring, but whose furled bat wings and&nbsp;delicate horns betray
+    her true nature. Small&nbsp;white fangs gleam from behind the
+    demoness&rsquo;s full lips, and when she is enraged, the&nbsp;pupils of her
+    eyes contract and shift into&nbsp;those of a vicious serpent.</p>
+
+    <p class="p1">A succubus can &ldquo;cast&rdquo; charm person whenever
+    desired, as well as ESP, clairaudience,&nbsp;and suggestion. They can change
+    shape at&nbsp;will, but only into human or human-like&nbsp;forms. Succubi
+    also have the ability to call&nbsp;forth (by gate) other demons. A
+    succubus&nbsp;can summon a demon prince (40% chance&nbsp;to succeed), but
+    seldom does so, for the price&nbsp;to be paid afterward is generally
+    significant&nbsp;and unpleasant. However, a succubus can&nbsp;summon a
+    baalroch demon or a nalfeshnee&nbsp;(fourth-category demon), again, with a
+    40%&nbsp;chance of success regardless of the type&nbsp;of demon being
+    summoned. If a succubus&nbsp;does not specify the sort of demon she
+    is&nbsp;summoning, there is a 5% chance that the&nbsp;respondent is a demon
+    prince, and if not,&nbsp;there is a 75% chance that the demon is of&nbsp;the
+    fourth category, a nalfeshnee.</p>
+
+    <p class="p1">Succubi almost never rely upon physical&nbsp;attacks; they use
+    their charm and suggestion&nbsp;abilities to allow them to bestow their
+    deadly&nbsp;kisses upon opponents.</p>
+
+    <hr>
+
+    <p class="p1"><em>Demons are creatures of the lower planes of existence, but
+    they are occasionally encountered in places where they have been enslaved to
+    serve as guardians by powerful Magic-Users or evil Clerics. The more
+    intelligent varieties might also be interrupted while carrying out plots of
+    their own. There is no meaningful game distinction between demons and
+    devils; all are creatures of the lower planes.</em></p>
+  cl: 9
+  hd: '6'
+  morale: 6
+  special: >-
+    +1 or better magic weapons to hit, level drain (drain 1 level with kiss),
+    magic resistance (70%), shapechange (at will), spell-like abilities, summon
+    demons (40% chance, baalroch or nalfeshnee)
+  xp:
+    value: 1300
+  numberEncountered: ''
+  percentInLair: ''
+  toHitAC:
+    '-9': 22
+    '-8': 21
+    '-7': 20
+    '-6': 19
+    '-5': 18
+    '-4': 17
+    '-3': 16
+    '-2': 15
+    '-1': 14
+    '+0': 13
+    '+1': 12
+    '+2': 11
+    '+3': 10
+    '+4': 9
+    '+5': 8
+    '+6': 7
+    '+7': 6
+    '+8': 5
+    '+9': 4
+prototypeToken:
+  name: Demon, Succubus
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: systems/swords-wizardry/assets/game-icons-net/female-vampire.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: hp
+  bar2:
+    attribute: ac
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  depth: 1
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items:
+  - name: 2 scratches
+    type: weapon
+    system:
+      description: ''
+      quantity: 1
+      weight: 0
+      gp: 0
+      pp: 0
+      sp: 0
+      cp: 0
+      missile: false
+      range: 0
+      rateOfFire: 1
+      modifier: '0'
+      formula: d20 + @toHit.v
+      damageFormula: 1d3
+    _id: WbCEcxdbBB2jO4Rw
+    img: icons/svg/item-bag.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      uY5ZaNbCwA9WwEXo: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '14.367'
+      systemId: swords-wizardry
+      systemVersion: 2.6.1
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!jGGSZosd4UbAGvAO.WbCEcxdbBB2jO4Rw'
+effects: []
+folder: kWgeglvJoCFLO1pU
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763234443
+  modifiedTime: 1740781078159
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_id: jGGSZosd4UbAGvAO
+sort: 1000000
+_key: '!actors!jGGSZosd4UbAGvAO'

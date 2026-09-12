@@ -1,0 +1,32 @@
+folder: em3jC8vi5E6vvnmq
+name: Continual Light
+type: spell
+_id: 8y5aWJjoTtZQ3LHk
+img: systems/swords-wizardry/assets/game-icons-net/sundial.svg
+system:
+  description: >-
+    <p>The targeted person or object produces light as bright as sunlight (and
+    with the same effects as sunlight) when cast by a Cleric, and slightly less
+    bright than sunlight (and without the effects of true sunlight) when cast by
+    a Magic-User. The light extends to a radius of 120 feet. Clerics of Chaos
+    may cast a reversed form of the spell, causing darkness.</p>
+  spellLevel: '2'
+  range: 120 feet
+  duration: Permanent until dispelled
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!8y5aWJjoTtZQ3LHk'

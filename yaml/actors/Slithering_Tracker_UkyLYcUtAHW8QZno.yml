@@ -1,0 +1,202 @@
+name: Slithering Tracker
+type: npc
+img: systems/swords-wizardry/assets/game-icons-net/slime.svg
+system:
+  hp:
+    value: 0
+    min: 0
+    max: 0
+  save:
+    value: 13
+    min: 0
+    max: 20
+  ac:
+    value: 5
+    min: -9
+    max: 28
+  aac:
+    value: 14
+    min: 0
+    max: 28
+  moveRate:
+    value: '12'
+  tHAACB: 4
+  tHAC0: 15
+  spellSlots:
+    '1':
+      max: 0
+      memorized: []
+    '2':
+      max: 0
+      memorized: []
+    '3':
+      max: 0
+      memorized: []
+    '4':
+      max: 0
+      memorized: []
+    '5':
+      max: 0
+      memorized: []
+    '6':
+      max: 0
+      memorized: []
+    '7':
+      max: 0
+      memorized: []
+    '8':
+      max: 0
+      memorized: []
+    '9':
+      max: 0
+      memorized: []
+  treasure:
+    pp: 0
+    gp: 0
+    sp: 0
+    cp: 0
+    gems: ''
+    misc: ''
+  alignment: 'N'
+  description: >-
+    <p class="p1">Perhaps the most dangerous of wandering&nbsp;monsters,
+    slithering trackers are a form&nbsp;of transparent slug and may be related
+    to&nbsp;gelatinous cubes. They are difficult to see&nbsp;(10% chance for a
+    person to spot it, and he&nbsp;may lose sight of it again in the next
+    round).&nbsp;Unless they are starving, they do not attack&nbsp;moving prey
+    (5% chance to be starving). Instead, they follow the potential prey until
+    it&nbsp;sleeps or camps. They can ooze under doors&nbsp;and through fairly
+    small cracks, so even a&nbsp;barricaded room with a closed door is probably
+    not safe. When it attacks, the victim&nbsp;must make a saving throw or be
+    paralyzed&nbsp;by the slitherer&rsquo;s secretions. A paralyzed&nbsp;victim
+    is sucked dry of all body fluids in 5&nbsp;turns (50 minutes), losing 20% of
+    hit points&nbsp;each 10 minutes.</p>
+  cl: 6
+  hd: '4'
+  morale: 12
+  special: >-
+    drain fluids (complete in 5 turns, creature loses 20% of hit points every 10
+    minutes), paralysis (save or paralyzed), transparent (10% chance to spot)
+  xp:
+    value: 400
+  numberEncountered: '1'
+  percentInLair: '0'
+  toHitAC:
+    '-9': 24
+    '-8': 23
+    '-7': 22
+    '-6': 21
+    '-5': 20
+    '-4': 19
+    '-3': 18
+    '-2': 17
+    '-1': 16
+    '+0': 15
+    '+1': 14
+    '+2': 13
+    '+3': 12
+    '+4': 11
+    '+5': 10
+    '+6': 9
+    '+7': 8
+    '+8': 7
+    '+9': 6
+prototypeToken:
+  name: Slithering Tracker
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: systems/swords-wizardry/assets/game-icons-net/slime.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: hp
+  bar2:
+    attribute: ac
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  depth: 1
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items: []
+effects: []
+folder: PO9NOWgZtyT8y1Bf
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763254895
+  modifiedTime: 1740763254895
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_id: UkyLYcUtAHW8QZno
+sort: 0
+_key: '!actors!UkyLYcUtAHW8QZno'

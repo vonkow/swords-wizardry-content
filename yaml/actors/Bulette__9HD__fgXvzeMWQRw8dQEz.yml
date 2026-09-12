@@ -1,0 +1,276 @@
+name: Bulette (9HD)
+type: npc
+img: systems/swords-wizardry/assets/game-icons-net/dorsal-scales.svg
+system:
+  hp:
+    value: 0
+    min: 0
+    max: 0
+  save:
+    value: 6
+    min: 0
+    max: 20
+  ac:
+    value: -2
+    min: -9
+    max: 28
+  aac:
+    value: 21
+    min: 0
+    max: 28
+  moveRate:
+    value: 15 (burrow 3)
+  tHAACB: 9
+  tHAC0: 10
+  spellSlots:
+    '1':
+      max: 0
+      memorized: []
+    '2':
+      max: 0
+      memorized: []
+    '3':
+      max: 0
+      memorized: []
+    '4':
+      max: 0
+      memorized: []
+    '5':
+      max: 0
+      memorized: []
+    '6':
+      max: 0
+      memorized: []
+    '7':
+      max: 0
+      memorized: []
+    '8':
+      max: 0
+      memorized: []
+    '9':
+      max: 0
+      memorized: []
+  treasure:
+    pp: 0
+    gp: 0
+    sp: 0
+    cp: 0
+    gems: ''
+    misc: ''
+  alignment: 'N'
+  description: >-
+    <p class="p1">Roughly 10 feet in height, a bulette (boo-LAY) is covered in
+    natural armor plating like&nbsp;that of an armadillo, and has a
+    beak-like&nbsp;head that opens to show wicked, serrated teeth. These
+    creatures can leap to the&nbsp;attack, in which case they cannot bite,
+    but&nbsp;may attack with all four claws. Bulettes dig&nbsp;underground to
+    surprise their prey, leaving&nbsp;a furrow in the ground as they go, caused
+    by&nbsp;a dorsal crest in the creature&rsquo;s armor. These&nbsp;voracious
+    hunters eat horses and halflings&nbsp;with gusto, although they will devour
+    anything from badgers to plowshares if their&nbsp;preferred foods are not
+    readily&nbsp;available. Although bulettes burrow, they&nbsp;do not venture
+    farther underground, for&nbsp;they are surface predators. When the
+    dorsal&nbsp;crest of the bulette is raised (during combat&nbsp;this is
+    usually only after the thing has been&nbsp;wounded), the area underneath is
+    AC 6[13],&nbsp;and this vulnerable point can be attacked if&nbsp;the monster
+    is well enough surrounded for&nbsp;its opponents to attack from behind as
+    well&nbsp;as in front.</p>
+  cl: 11
+  hd: '9'
+  morale: 9
+  special: leaping (30ft leap), surprise (1-4 on d6 from below)
+  xp:
+    value: 2400
+  numberEncountered: 1d2
+  percentInLair: '0'
+  toHitAC:
+    '-9': 21
+    '-8': 20
+    '-7': 19
+    '-6': 18
+    '-5': 17
+    '-4': 16
+    '-3': 15
+    '-2': 14
+    '-1': 13
+    '+0': 12
+    '+1': 11
+    '+2': 10
+    '+3': 9
+    '+4': 8
+    '+5': 7
+    '+6': 6
+    '+7': 5
+    '+8': 4
+    '+9': 3
+prototypeToken:
+  name: Bulette (7HD)
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: systems/swords-wizardry/assets/game-icons-net/dorsal-scales.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: hp
+  bar2:
+    attribute: ac
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  depth: 1
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items:
+  - name: bite
+    type: weapon
+    system:
+      description: ''
+      quantity: 1
+      weight: 0
+      gp: 0
+      pp: 0
+      sp: 0
+      cp: 0
+      missile: false
+      range: 0
+      rateOfFire: 1
+      modifier: '0'
+      formula: d20 + @toHit.v
+      damageFormula: 4d12
+    _id: msgejT6xVxBaLf9c
+    img: icons/svg/item-bag.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      uY5ZaNbCwA9WwEXo: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '14.367'
+      systemId: swords-wizardry
+      systemVersion: 2.6.1
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!fgXvzeMWQRw8dQEz.msgejT6xVxBaLf9c'
+  - name: 2 claws
+    type: weapon
+    system:
+      description: ''
+      quantity: 1
+      weight: 0
+      gp: 0
+      pp: 0
+      sp: 0
+      cp: 0
+      missile: false
+      range: 0
+      rateOfFire: 1
+      modifier: '0'
+      formula: d20
+      damageFormula: 3d6
+    _id: 6PUkrE0zMezV1ScD
+    img: icons/svg/item-bag.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      uY5ZaNbCwA9WwEXo: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '14.367'
+      systemId: swords-wizardry
+      systemVersion: 2.6.1
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!fgXvzeMWQRw8dQEz.6PUkrE0zMezV1ScD'
+effects: []
+folder: dGaQYFPMbfxkI4Ly
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763230668
+  modifiedTime: 1740763230668
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_id: fgXvzeMWQRw8dQEz
+sort: 0
+_key: '!actors!fgXvzeMWQRw8dQEz'

@@ -1,0 +1,29 @@
+folder: 7TYCol1vgCOCQW6N
+name: Repulsion
+type: spell
+_id: beEtMF3dnDoIT7YK
+img: systems/swords-wizardry/assets/game-icons-net/shield-bounces.svg
+system:
+  description: >-
+    <p>Any creature trying to move toward the caster instead finds itself moving
+    away.</p>
+  spellLevel: '6'
+  range: 120 feet
+  duration: 1 hour
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.9.4
+  createdTime: 1740763417887
+  modifiedTime: 1741402990049
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!beEtMF3dnDoIT7YK'

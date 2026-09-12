@@ -1,0 +1,30 @@
+folder: jWkqzSa3QlzF1HdU
+name: Control Temperature 10-Foot Radius
+type: spell
+_id: gGa6X71A8EtUKqTE
+img: systems/swords-wizardry/assets/game-icons-net/frostfire.svg
+system:
+  description: >-
+    <p class="p1">The caster may raise or lower the temperature by 50 degrees
+    (hotter or colder) in a 10-foot radius around the material component,&nbsp;a
+    sprig of mistletoe.</p>
+  spellLevel: '4'
+  range: Touched sprig of mistletoe
+  duration: 3 turns + 1 turn/level
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!gGa6X71A8EtUKqTE'

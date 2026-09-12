@@ -1,0 +1,31 @@
+folder: n35SOQd8s42BEvYR
+name: Mastery of Silence (5th)
+type: feature
+_id: TgFokIOYFE8GKgtQ
+img: systems/swords-wizardry/assets/game-icons-net/silenced.svg
+system:
+  description: >-
+    <p class="p1">The Monk can enter a state of perfect&nbsp;catatonia, stopping
+    his or her own heart to simulate death. The&nbsp;character can maintain this
+    state for 1d6 x 10 minutes x the monk&rsquo;s&nbsp;level.</p>
+  formula: ''
+  target: ''
+  targetType: descending
+effects: []
+sort: 0
+ownership:
+  default: 0
+  saJBeYreurxVYSiH: 3
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763413850
+  modifiedTime: 1740763413850
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!TgFokIOYFE8GKgtQ'

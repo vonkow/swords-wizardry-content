@@ -1,0 +1,92 @@
+folder: QcX26tPTt1VB7iVr
+name: Parry
+type: feature
+_id: sZt4Ya50oXOokNSg
+img: systems/swords-wizardry/assets/game-icons-net/sword-clash.svg
+system:
+  description: >-
+    <p class="p1">Fighters with a Dexterity score of 14 or better can fight
+    on&nbsp;the defensive, parrying enemy blows and dodging attacks, as
+    shown&nbsp;on the table below. The Fighter can parry at any time,
+    without&nbsp;giving up the ability to attack in the same round. Parrying is
+    not&nbsp;effective against missile weapons, but is effective against claws,
+    bites&nbsp;and touch attacks.</p>
+
+    <h3 class="p1">Fighter Parrying Ability</h3>
+
+    <table border="1"><colgroup><col><col></colgroup>
+
+    <tbody>
+
+    <tr>
+
+    <td><strong>Dexterity Score</strong></td>
+
+    <td><strong>Penalty to Enemy Attacks</strong></td>
+
+    </tr>
+
+    <tr>
+
+    <td>14</td>
+
+    <td>-1</td>
+
+    </tr>
+
+    <tr>
+
+    <td>15</td>
+
+    <td>-2</td>
+
+    </tr>
+
+    <tr>
+
+    <td>16</td>
+
+    <td>-3</td>
+
+    </tr>
+
+    <tr>
+
+    <td>17</td>
+
+    <td>-4</td>
+
+    </tr>
+
+    <tr>
+
+    <td>18</td>
+
+    <td>-5</td>
+
+    </tr>
+
+    </tbody>
+
+    </table>
+  formula: ''
+  target: ''
+  targetType: descending
+effects: []
+sort: 0
+ownership:
+  default: 0
+  saJBeYreurxVYSiH: 3
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763413850
+  modifiedTime: 1740763413850
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!sZt4Ya50oXOokNSg'

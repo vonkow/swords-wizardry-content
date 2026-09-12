@@ -1,0 +1,29 @@
+folder: HnOvKpwuYbMsH07l
+name: Purify Water
+type: spell
+_id: i7LK9dNBNotIZism
+img: systems/swords-wizardry/assets/game-icons-net/drop.svg
+system:
+  description: >-
+    <p class="p1">Approximately 10 gallons of water is made&nbsp;pure, removing
+    all poisons, algae, and other&nbsp;such contaminants.</p>
+  spellLevel: '1'
+  range: Close/Touch (Referee's dsicretion)
+  duration: Immediate
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!i7LK9dNBNotIZism'

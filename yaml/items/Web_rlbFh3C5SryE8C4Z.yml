@@ -1,0 +1,33 @@
+folder: em3jC8vi5E6vvnmq
+name: Web
+type: spell
+_id: rlbFh3C5SryE8C4Z
+img: systems/swords-wizardry/assets/game-icons-net/spider-web.svg
+system:
+  description: >-
+    <p>Fibrous, sticky webs fill an area up to 10 x 10 x 20 feet. It is
+    extremely difficult to get through the mass of strands — it takes one turn
+    if a torch and sword (or a flaming sword) are used, and creatures larger
+    than a horse can break through in two turns. Humans alone take more time to
+    break through — perhaps three to four turns or longer at the Referee’s
+    discretion.</p>
+  spellLevel: '2'
+  range: 30 feet
+  duration: 8 hours
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.8.0
+  createdTime: 1740763417887
+  modifiedTime: 1740803575809
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!rlbFh3C5SryE8C4Z'

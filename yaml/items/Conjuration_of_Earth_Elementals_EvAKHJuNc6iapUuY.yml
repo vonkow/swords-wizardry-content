@@ -1,0 +1,39 @@
+folder: fsq6EYE2NmVMACXd
+name: Conjuration of Earth Elementals
+type: spell
+_id: EvAKHJuNc6iapUuY
+img: systems/swords-wizardry/assets/game-icons-net/rock-golem.svg
+system:
+  description: >-
+    <p class="p1">This spell summons forth a 16 hit dice&nbsp;earth elemental
+    and binds it to follow&nbsp;the caster&rsquo;s commands. The
+    elemental&nbsp;obeys the caster only for as long as&nbsp;the caster
+    concentrates on maintaining control over it. Unlike the&nbsp;Magic-User
+    spell conjuration of elementals, this spell summons a willing&nbsp;ally from
+    the elemental planes rather than&nbsp;a hostile slave. The elemental will
+    not&nbsp;stay longer than the caster concentrates&nbsp;upon it, but it will
+    not seek to attack&nbsp;a druidic summoner once this binding&nbsp;is
+    released. The spell is powerful enough&nbsp;not to risk the random
+    consequences of&nbsp;the 6th-level Druid spell conjuration of
+    fire&nbsp;elementals, or perhaps it is simply that the&nbsp;magic of stone
+    is less mercurial than the&nbsp;magic of fire.</p>
+  spellLevel: '7'
+  range: 240 feet
+  duration: Until dispelled or concentration ceases
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!EvAKHJuNc6iapUuY'

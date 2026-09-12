@@ -1,0 +1,35 @@
+folder: vujdD1HXXG8jJdOl
+name: Divine Favor
+type: feature
+_id: gEQ0TSPpjej3yibm
+img: systems/swords-wizardry/assets/game-icons-net/rear-aura.svg
+system:
+  description: >-
+    <p class="p1">Although Paladins do not receive a class-based&nbsp;saving
+    throw bonus in <strong><em>Swords &amp; Wizardry</em></strong>, they have
+    better saving throw chances than any other character class due to the
+    divine&nbsp;influence of Law. If the Referee is using an alternate saving
+    throw&nbsp;system, it is important to take this into account: Paladins
+    should generally have base saving throw &ldquo;target numbers&rdquo; 2
+    points better than&nbsp;those of a regular Fighter.</p>
+  formula: ''
+  target: ''
+  targetType: descending
+effects: []
+sort: 0
+ownership:
+  default: 0
+  saJBeYreurxVYSiH: 3
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763413850
+  modifiedTime: 1740763413850
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!gEQ0TSPpjej3yibm'

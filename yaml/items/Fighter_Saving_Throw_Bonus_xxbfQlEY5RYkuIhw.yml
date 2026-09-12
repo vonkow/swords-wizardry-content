@@ -1,0 +1,30 @@
+folder: QcX26tPTt1VB7iVr
+name: Fighter Saving Throw Bonus
+type: feature
+_id: xxbfQlEY5RYkuIhw
+img: systems/swords-wizardry/assets/game-icons-net/dice-twenty-faces-twenty.svg
+system:
+  description: >-
+    <p class="p1">Fighters have a +1 bonus on all saving&nbsp;throws except
+    against spells (including those from wands and staffs).</p>
+  formula: ''
+  target: ''
+  targetType: descending
+effects: []
+sort: 0
+ownership:
+  default: 0
+  saJBeYreurxVYSiH: 3
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763413850
+  modifiedTime: 1740763413850
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!xxbfQlEY5RYkuIhw'

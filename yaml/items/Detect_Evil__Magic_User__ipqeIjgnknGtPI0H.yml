@@ -1,0 +1,32 @@
+folder: em3jC8vi5E6vvnmq
+name: Detect Evil (Magic-User)
+type: spell
+_id: ipqeIjgnknGtPI0H
+img: systems/swords-wizardry/assets/game-icons-net/eye-target.svg
+system:
+  description: >-
+    <p>The caster detects any evil enchantments, evil intentions, evil thoughts,
+    or evil auras within the spell’s range. Poison is not inherently evil and
+    cannot be detected by means of this spell. Whether there is any meaningful
+    distinction between “evil” and “Chaos” is left to the Referee; in most
+    campaigns they are exactly the same.</p>
+  spellLevel: '2'
+  range: 60 feet
+  duration: 20 minutes
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.8.0
+  createdTime: 1740763417887
+  modifiedTime: 1740796209259
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!ipqeIjgnknGtPI0H'

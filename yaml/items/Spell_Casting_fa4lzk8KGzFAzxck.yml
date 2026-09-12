@@ -1,0 +1,35 @@
+folder: LyRE2hv1z6xUV2mH
+name: Spell Casting
+type: feature
+_id: fa4lzk8KGzFAzxck
+img: systems/swords-wizardry/assets/game-icons-net/prayer-beads.svg
+system:
+  description: >-
+    <p class="p1">Clerics cast &ldquo;divine&rdquo; spells from a specific
+    list,&nbsp;with numbers as per the Cleric Advancement Table. Clerics&nbsp;of
+    specific deities might have different lists of available spells,&nbsp;as
+    designed by the Referee. Each day, the Cleric selects and&nbsp;prays for a
+    particular set of spells, choosing any spells from the&nbsp;standard list.
+    Once a spell is cast, it cannot be cast again until&nbsp;the next day unless
+    the Cleric prepares (prays for) the spell&nbsp;more than once.</p>
+  formula: ''
+  target: ''
+  targetType: descending
+effects: []
+sort: 0
+ownership:
+  default: 0
+  saJBeYreurxVYSiH: 3
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763413850
+  modifiedTime: 1740763413850
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!fa4lzk8KGzFAzxck'

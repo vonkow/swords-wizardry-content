@@ -1,0 +1,39 @@
+folder: SgSeqcUcsl44a2PJ
+name: Speak with Dead
+type: spell
+_id: NgUB6lLKTgMCwXhw
+img: systems/swords-wizardry/assets/game-icons-net/morbid-humour.svg
+system:
+  description: >-
+    <p class="p1">The caster can ask three questions of a&nbsp;corpse, and it
+    will answer, although the&nbsp;answers might be cryptic. Only higher-level
+    Clerics have enough spiritual power to&nbsp;command answers of long-dead
+    corpses.&nbsp;Clerics lower than 8th level can gain answers only from bodies
+    that have been dead&nbsp;1d4 days. Clerics of levels 8&ndash;14 can
+    speak&nbsp;to corpses that have been dead 1d4 months.&nbsp;Clerics of level
+    15+ can gain answers from&nbsp;a corpse of any age, including
+    thousand-year-old relics, as long as the body is still&nbsp;relatively
+    intact. Note that a die roll is involved here. For example, a 7th-level
+    Cleric&nbsp;attempting to speak with a two-day-old&nbsp;corpse might still
+    fail &mdash; the d4 roll might&nbsp;indicate that only a one-day-old corpse
+    can&nbsp;be reached with this particular attempt at&nbsp;the spell.</p>
+  spellLevel: '3'
+  range: Close/Touch (Referee’s discretion)
+  duration: 3 questions
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!NgUB6lLKTgMCwXhw'

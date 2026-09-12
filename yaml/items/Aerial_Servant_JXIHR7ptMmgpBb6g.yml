@@ -1,0 +1,46 @@
+folder: AvRQj6k7Yn2rh2i0
+name: Aerial Servant
+type: spell
+_id: JXIHR7ptMmgpBb6g
+img: systems/swords-wizardry/assets/game-icons-net/swan-breeze.svg
+system:
+  description: >-
+    <p class="p1">This spell summons a powerful creature&nbsp;from the elemental
+    planes of air to fetch&nbsp;and return one thing (or creature) to
+    the&nbsp;caster. Only a creature with a Strength of&nbsp;18 can fight its
+    way from the servant&rsquo;s grasp,&nbsp;and even then the chance is not
+    likely to be&nbsp;greater than 50%. The servant can carry up&nbsp;to 500
+    pounds in weight. If the servant is&nbsp;frustrated in its efforts to bring
+    the desired&nbsp;object to the caster, it becomes insane and&nbsp;returns
+    and attacks him or her.</p>
+
+    <p class="p1"><strong>Aerial Servant</strong>: <strong>HD</strong> 16;
+    <strong>AC</strong> 3[16]; <strong>Atk</strong> slam&nbsp;(4d4);
+    <strong>Move</strong> 24 (fly 24); <strong>Save</strong> 3;
+    <strong>AL</strong> N; <strong>CL/</strong><strong>XP</strong> 20/4400;
+    <strong>Special</strong>: +1 or better magic&nbsp;weapons to hit,
+    invisibility, throttle (if slam&nbsp;hits, creature can grab and hold for
+    automatic 4d4 damage per round, Open Doors check&nbsp;to escape), wind blast
+    (usable once every 1d4&nbsp;rounds, 80ft range, 4d8 damage, push
+    target&nbsp;back 2d10 feet, save for half damage and to&nbsp;resist being
+    moved).</p>
+  spellLevel: '7'
+  range: N/A
+  duration: Until completed or insanity
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!JXIHR7ptMmgpBb6g'

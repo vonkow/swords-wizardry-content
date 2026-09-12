@@ -1,0 +1,37 @@
+folder: PcenDMzPb13XI8Uf
+name: Weather Summoning
+type: spell
+_id: NkM7SMEI6JCCInJj
+img: systems/swords-wizardry/assets/game-icons-net/sun-cloud.svg
+system:
+  description: >-
+    <p class="p1">Within 30 minutes, whatever weather the&nbsp;Druid desires
+    forms in the surrounding&nbsp;five-mile radius. It is not under the
+    caster&rsquo;s control, in the sense that it will not&nbsp;specifically
+    target any individuals or affect&nbsp;one place within the radius more than
+    any&nbsp;other place. Note that this spell is not by&nbsp;any means the only
+    way in which groups of&nbsp;druids might exercise control over weather
+    conditions using holy places or acting&nbsp;together in mystic rituals. It
+    is simply the&nbsp;manner by which a lone (but powerful)&nbsp;Druid can
+    summon forth weather conditions using no ritual beyond mere
+    spellcasting.</p>
+  spellLevel: '6'
+  range: Centered on caster
+  duration: 1 hour/level
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!NkM7SMEI6JCCInJj'

@@ -1,0 +1,268 @@
+name: Medusa
+type: npc
+img: systems/swords-wizardry/assets/game-icons-net/medusa-head.svg
+system:
+  hp:
+    value: 0
+    min: 0
+    max: 0
+  save:
+    value: 11
+    min: 0
+    max: 20
+  ac:
+    value: 8
+    min: -9
+    max: 28
+  aac:
+    value: 11
+    min: 0
+    max: 28
+  moveRate:
+    value: '9'
+  tHAACB: 6
+  tHAC0: 13
+  spellSlots:
+    '1':
+      max: 0
+      memorized: []
+    '2':
+      max: 0
+      memorized: []
+    '3':
+      max: 0
+      memorized: []
+    '4':
+      max: 0
+      memorized: []
+    '5':
+      max: 0
+      memorized: []
+    '6':
+      max: 0
+      memorized: []
+    '7':
+      max: 0
+      memorized: []
+    '8':
+      max: 0
+      memorized: []
+    '9':
+      max: 0
+      memorized: []
+  treasure:
+    pp: 0
+    gp: 0
+    sp: 0
+    cp: 0
+    gems: ''
+    misc: ''
+  alignment: C
+  description: >-
+    <p class="p1">The terrifying medusa has a female face but&nbsp;hair of
+    writhing snakes; it has no legs, but&nbsp;the body of a serpent. The gaze of
+    a medusa turns anyone looking upon it into stone.&nbsp;In addition to the
+    medusa&rsquo;s relatively-weak&nbsp;melee-weapon attack, the snake-hair
+    makes&nbsp;one attack per round, causing no damage&nbsp;but inflicting a
+    lethal poison with a successful hit (saving throw applies).</p>
+  cl: 8
+  hd: '6'
+  morale: 8
+  special: gaze turns to stone, lethal poison (save or die)
+  xp:
+    value: 900
+  numberEncountered: 1d4
+  percentInLair: '74'
+  toHitAC:
+    '-9': 22
+    '-8': 21
+    '-7': 20
+    '-6': 19
+    '-5': 18
+    '-4': 17
+    '-3': 16
+    '-2': 15
+    '-1': 14
+    '+0': 13
+    '+1': 12
+    '+2': 11
+    '+3': 10
+    '+4': 9
+    '+5': 8
+    '+6': 7
+    '+7': 6
+    '+8': 5
+    '+9': 4
+prototypeToken:
+  name: Medusa
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: systems/swords-wizardry/assets/game-icons-net/medusa-head.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: hp
+  bar2:
+    attribute: ac
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  depth: 1
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items:
+  - name: weapon
+    type: weapon
+    system:
+      description: ''
+      quantity: 1
+      weight: 0
+      gp: 0
+      pp: 0
+      sp: 0
+      cp: 0
+      missile: false
+      range: 0
+      rateOfFire: 1
+      modifier: '0'
+      formula: d20 + @toHit.v
+      damageFormula: 1d4
+      specialDamage: ''
+    _id: p5XUX7DCxpVhjkwa
+    img: icons/svg/item-bag.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      uY5ZaNbCwA9WwEXo: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '14.367'
+      systemId: swords-wizardry
+      systemVersion: 2.7.0
+      createdTime: null
+      modifiedTime: 1740782292216
+      lastModifiedBy: uY5ZaNbCwA9WwEXo
+      exportSource: null
+    _key: '!actors.items!FLAjh4tDb6y7Y7Kh.p5XUX7DCxpVhjkwa'
+  - name: snake-hair
+    type: weapon
+    system:
+      description: ''
+      quantity: 1
+      weight: 0
+      gp: 0
+      pp: 0
+      sp: 0
+      cp: 0
+      missile: false
+      range: 0
+      rateOfFire: 1
+      modifier: '0'
+      formula: d20
+      damageFormula: '0'
+      specialDamage: Poison
+    _id: YSX9b54cUCvYeAnB
+    img: icons/svg/item-bag.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      uY5ZaNbCwA9WwEXo: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '14.367'
+      systemId: swords-wizardry
+      systemVersion: 2.7.0
+      createdTime: 1740782293728
+      modifiedTime: 1740782324615
+      lastModifiedBy: uY5ZaNbCwA9WwEXo
+      exportSource: null
+    _key: '!actors.items!FLAjh4tDb6y7Y7Kh.YSX9b54cUCvYeAnB'
+effects: []
+folder: ZTQz297V93OOdYJP
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763247911
+  modifiedTime: 1740763247911
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_id: FLAjh4tDb6y7Y7Kh
+sort: 400000
+_key: '!actors!FLAjh4tDb6y7Y7Kh'

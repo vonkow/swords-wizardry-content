@@ -1,0 +1,30 @@
+folder: 7TYCol1vgCOCQW6N
+name: Enchant Item
+type: spell
+_id: T5Algmf2lQHSn4oi
+img: systems/swords-wizardry/assets/game-icons-net/lunar-wand.svg
+system:
+  description: >-
+    <p>This spell is used in the creation of a magical item, in addition to
+    whatever research, special ingredients, or other efforts the Referee may
+    determine are necessary for the task.</p>
+  spellLevel: '6'
+  range: Touch
+  duration: Permanent
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.9.4
+  createdTime: 1740763417887
+  modifiedTime: 1741401445875
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!T5Algmf2lQHSn4oi'

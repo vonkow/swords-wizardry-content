@@ -1,0 +1,32 @@
+folder: xWKd4Rwa1PhYRdkA
+name: Power Word, Blind
+type: spell
+_id: bRMeAqayItItoDXr
+img: systems/swords-wizardry/assets/game-icons-net/energy-breath.svg
+system:
+  description: >-
+    <p>The caster speaks a word of power to a particular creature. If that
+    creature has 40 hit points or fewer, it is instantly blinded for 2d4 days;
+    if the creature has from 41 to 80 hit points, it is blinded for 1d4 days. If
+    the creature has more than 80 hit points, it is not affected by the spell.
+    No saving throw applies.</p>
+  spellLevel: '8'
+  range: 120 feet
+  duration: 1d4 or 1d4 days (See below)
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.9.4
+  createdTime: 1740763417887
+  modifiedTime: 1741406133795
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!bRMeAqayItItoDXr'

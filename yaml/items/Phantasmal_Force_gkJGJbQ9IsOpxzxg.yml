@@ -1,0 +1,35 @@
+folder: em3jC8vi5E6vvnmq
+name: Phantasmal Force
+type: spell
+_id: gkJGJbQ9IsOpxzxg
+img: systems/swords-wizardry/assets/game-icons-net/magick-trick.svg
+system:
+  description: >-
+    <p>This spell creates an illusion that seems realistic to all who view it.
+    The illusion disappears when it is touched, but if the viewer believes the
+    illusion is real, it can cause damage. Unless the Referee rules otherwise,
+    victims of the spell are permitted a saving throw, and the illusion cannot
+    cause more than 2d6 points of damage per victim. This depends on
+    circumstances; a truly brilliant use of the spell can be quite devastating,
+    and a poorly thought-out illusion might cause almost immediate
+    disbelief.</p>
+  spellLevel: '2'
+  range: 240 feet
+  duration: Until concentration ends
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.8.0
+  createdTime: 1740763417887
+  modifiedTime: 1740797803765
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!gkJGJbQ9IsOpxzxg'

@@ -1,0 +1,236 @@
+name: Squid, Giant
+type: npc
+img: systems/swords-wizardry/assets/game-icons-net/squid.svg
+system:
+  hp:
+    value: 0
+    min: 0
+    max: 0
+  save:
+    value: 11
+    min: 0
+    max: 20
+  ac:
+    value: 7
+    min: -9
+    max: 28
+  aac:
+    value: 12
+    min: 0
+    max: 28
+  moveRate:
+    value: 0 (swim 9 or jet 27)
+  tHAACB: 6
+  tHAC0: 13
+  spellSlots:
+    '1':
+      max: 0
+      memorized: []
+    '2':
+      max: 0
+      memorized: []
+    '3':
+      max: 0
+      memorized: []
+    '4':
+      max: 0
+      memorized: []
+    '5':
+      max: 0
+      memorized: []
+    '6':
+      max: 0
+      memorized: []
+    '7':
+      max: 0
+      memorized: []
+    '8':
+      max: 0
+      memorized: []
+    '9':
+      max: 0
+      memorized: []
+  treasure:
+    pp: 0
+    gp: 0
+    sp: 0
+    cp: 0
+    gems: ''
+    misc: ''
+  alignment: 'N'
+  description: >-
+    <p class="p1">After a giant squid hits with a tentacle,
+    it&nbsp;automatically does 1d6 points of damage&nbsp;per round, instead of
+    the initial 1d3. Also,&nbsp;there is a 25% chance that the
+    tentacle&nbsp;&ldquo;hit&rdquo; pinions one of the victim&rsquo;s limbs
+    (roll&nbsp;randomly for left/right arms and legs to see&nbsp;which is
+    immobilized). A giant squid can jet&nbsp;water out to achieve a movement
+    rate of up&nbsp;to 27 and can also release a huge cloud of&nbsp;ink to
+    obscure its location. If a giant squid&nbsp;wraps its tentacles around a
+    ship, the ship&nbsp;is crushed in 10 rounds, taking damage&nbsp;throughout
+    that time.</p>
+  cl: 11
+  hd: '6'
+  morale: 7
+  special: >-
+    constrict (after tentacle hits, automatic 1d6 damage, 25% chance to pinion
+    random limb), ink cloud (as darkness 15ft radius), jet (move 27)
+  xp:
+    value: 2400
+  numberEncountered: 2d6
+  percentInLair: '40'
+  toHitAC:
+    '-9': 22
+    '-8': 21
+    '-7': 20
+    '-6': 19
+    '-5': 18
+    '-4': 17
+    '-3': 16
+    '-2': 15
+    '-1': 14
+    '+0': 13
+    '+1': 12
+    '+2': 11
+    '+3': 10
+    '+4': 9
+    '+5': 8
+    '+6': 7
+    '+7': 6
+    '+8': 5
+    '+9': 4
+prototypeToken:
+  name: Squid, Giant
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: systems/swords-wizardry/assets/game-icons-net/squid.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: hp
+  bar2:
+    attribute: ac
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  depth: 1
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items:
+  - name: 10 tentacles
+    type: weapon
+    system:
+      description: ''
+      quantity: 1
+      weight: 0
+      gp: 0
+      pp: 0
+      sp: 0
+      cp: 0
+      missile: false
+      range: 0
+      rateOfFire: 1
+      modifier: '0'
+      formula: d20 + @toHit.v
+      damageFormula: 1d3
+    _id: TPhLuddW9sYxWhKE
+    img: icons/svg/item-bag.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      uY5ZaNbCwA9WwEXo: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '14.367'
+      systemId: swords-wizardry
+      systemVersion: 2.6.1
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!xLEb4jKCSCd6Wrk1.TPhLuddW9sYxWhKE'
+effects: []
+folder: PO9NOWgZtyT8y1Bf
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763254895
+  modifiedTime: 1740763254895
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_id: xLEb4jKCSCd6Wrk1
+sort: 0
+_key: '!actors!xLEb4jKCSCd6Wrk1'

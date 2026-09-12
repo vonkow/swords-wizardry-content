@@ -1,0 +1,32 @@
+folder: UIdtOsdabTuoaOdC
+name: Delayed Blast Fireball
+type: spell
+_id: eOH8lucKLvlD704R
+img: systems/swords-wizardry/assets/game-icons-net/flaming-sheet.svg
+system:
+  description: >-
+    <p>This spell creates a normal fireball, but the blast can be delayed for a
+    period of up to 10 minutes. The burst radius, per a normal fireball, is 20
+    feet, and damage is 1d6 per level of the caster. The blast shapes itself to
+    the available volume (33,000 cubic feet), filling 33 10-foot x 10-foot x
+    10-foot cubical areas.</p>
+  spellLevel: '7'
+  range: 240 feet
+  duration: Chosen by caster (up to 10 minutes)
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.9.4
+  createdTime: 1740763417887
+  modifiedTime: 1741403895733
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!eOH8lucKLvlD704R'

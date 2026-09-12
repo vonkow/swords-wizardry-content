@@ -1,0 +1,29 @@
+folder: JyjLtkmrFkA1auIr
+name: Darkvision
+type: spell
+_id: DPNs9E8r87CWa2do
+img: systems/swords-wizardry/assets/game-icons-net/semi-closed-eye.svg
+system:
+  description: >-
+    <p>The recipient of the spell can see in total darkness until the spell’s
+    duration.</p>
+  spellLevel: '3'
+  range: 40 feet
+  duration: 1 day
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.8.0
+  createdTime: 1740763417887
+  modifiedTime: 1740804030412
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!DPNs9E8r87CWa2do'

@@ -1,0 +1,273 @@
+name: Salamander
+type: npc
+img: systems/swords-wizardry/assets/game-icons-net/salamander.svg
+system:
+  hp:
+    value: 0
+    min: 0
+    max: 0
+  save:
+    value: 9
+    min: 0
+    max: 20
+  ac:
+    value: 5
+    min: -9
+    max: 28
+  aac:
+    value: 14
+    min: 0
+    max: 28
+  moveRate:
+    value: '9'
+  tHAACB: 7
+  tHAC0: 12
+  spellSlots:
+    '1':
+      max: 0
+      memorized: []
+    '2':
+      max: 0
+      memorized: []
+    '3':
+      max: 0
+      memorized: []
+    '4':
+      max: 0
+      memorized: []
+    '5':
+      max: 0
+      memorized: []
+    '6':
+      max: 0
+      memorized: []
+    '7':
+      max: 0
+      memorized: []
+    '8':
+      max: 0
+      memorized: []
+    '9':
+      max: 0
+      memorized: []
+  treasure:
+    pp: 0
+    gp: 0
+    sp: 0
+    cp: 0
+    gems: ''
+    misc: ''
+  alignment: C
+  description: >-
+    <p class="p1">Salamanders are intelligent creatures of&nbsp;the Elemental
+    Planes of Fire. They have&nbsp;the upper body of a human and the
+    lower&nbsp;body of a snake, and give off tremendous,&nbsp;intense heat. The
+    very touch of a salamander deals 1d6 hit points of fire damage,&nbsp;and
+    they wrap their tails around foes to&nbsp;cause an additional 2d8 points of
+    crushing&nbsp;damage per round as the victim writhes in&nbsp;the deadly heat
+    of the serpentine coils. The&nbsp;salamander&rsquo;s human torso is AC
+    5[14], and&nbsp;the armored serpent-tail is AC 3[16]. Salamanders cannot be
+    enslaved in the same&nbsp;manner djinn and efreet might be.</p>
+  cl: 8
+  hd: '7'
+  morale: 8
+  special: >-
+    constrict (automatic 2d8 damage per round after hit, save avoids), heat
+    (additional 1d6 heat damage)
+  xp:
+    value: 900
+  numberEncountered: 1d4+1
+  percentInLair: '75'
+  toHitAC:
+    '-9': 21
+    '-8': 20
+    '-7': 19
+    '-6': 18
+    '-5': 17
+    '-4': 16
+    '-3': 15
+    '-2': 14
+    '-1': 13
+    '+0': 12
+    '+1': 11
+    '+2': 10
+    '+3': 9
+    '+4': 8
+    '+5': 7
+    '+6': 6
+    '+7': 5
+    '+8': 4
+    '+9': 3
+prototypeToken:
+  name: Salamander
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: systems/swords-wizardry/assets/game-icons-net/salamander.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: hp
+  bar2:
+    attribute: ac
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  depth: 1
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items:
+  - name: touch
+    type: weapon
+    system:
+      description: ''
+      quantity: 1
+      weight: 0
+      gp: 0
+      pp: 0
+      sp: 0
+      cp: 0
+      missile: false
+      range: 0
+      rateOfFire: 1
+      modifier: '0'
+      formula: d20 + @toHit.v
+      damageFormula: 2d8
+      specialDamage: Constrict + 1d6 heat
+    _id: Hk6vwJzgd5fD8wWG
+    img: icons/svg/item-bag.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      uY5ZaNbCwA9WwEXo: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '14.367'
+      systemId: swords-wizardry
+      systemVersion: 2.7.0
+      createdTime: null
+      modifiedTime: 1740782641757
+      lastModifiedBy: uY5ZaNbCwA9WwEXo
+      exportSource: null
+    _key: '!actors.items!Ce2842qCJE1LR2Al.Hk6vwJzgd5fD8wWG'
+  - name: weapon
+    type: weapon
+    system:
+      description: ''
+      quantity: 1
+      weight: 0
+      gp: 0
+      pp: 0
+      sp: 0
+      cp: 0
+      missile: false
+      range: 0
+      rateOfFire: 1
+      modifier: '0'
+      formula: d20 + @toHit.v
+      damageFormula: 1d6
+      specialDamage: 1d6 heat
+    _id: THIOCH7Hpa0NHWfJ
+    img: icons/svg/item-bag.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      uY5ZaNbCwA9WwEXo: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '14.367'
+      systemId: swords-wizardry
+      systemVersion: 2.7.0
+      createdTime: null
+      modifiedTime: 1740782652751
+      lastModifiedBy: uY5ZaNbCwA9WwEXo
+      exportSource: null
+    _key: '!actors.items!Ce2842qCJE1LR2Al.THIOCH7Hpa0NHWfJ'
+effects: []
+folder: PO9NOWgZtyT8y1Bf
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763254895
+  modifiedTime: 1740763254895
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_id: Ce2842qCJE1LR2Al
+sort: 400000
+_key: '!actors!Ce2842qCJE1LR2Al'

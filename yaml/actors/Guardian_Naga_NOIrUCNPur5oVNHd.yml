@@ -1,0 +1,323 @@
+name: Guardian Naga
+type: npc
+img: systems/swords-wizardry/assets/game-icons-net/snake-totem.svg
+system:
+  hp:
+    value: 0
+    min: 0
+    max: 0
+  save:
+    value: 4
+    min: 0
+    max: 20
+  ac:
+    value: 5
+    min: -9
+    max: 28
+  aac:
+    value: 14
+    min: 0
+    max: 28
+  moveRate:
+    value: '18'
+  tHAACB: 11
+  tHAC0: 8
+  spellSlots:
+    '1':
+      max: 0
+      memorized: []
+    '2':
+      max: 0
+      memorized: []
+    '3':
+      max: 0
+      memorized: []
+    '4':
+      max: 0
+      memorized: []
+    '5':
+      max: 0
+      memorized: []
+    '6':
+      max: 0
+      memorized: []
+    '7':
+      max: 0
+      memorized: []
+    '8':
+      max: 0
+      memorized: []
+    '9':
+      max: 0
+      memorized: []
+  treasure:
+    pp: 0
+    gp: 0
+    sp: 0
+    cp: 0
+    gems: ''
+    misc: ''
+  alignment: L
+  description: >-
+    <p class="p1">The largest and noblest of the naga, guardian nagas are from
+    20 to 25 feet in length.&nbsp;They do not necessarily have a
+    humanlike&nbsp;head, but some characteristic (a flowing&nbsp;mane of hair,
+    for instance) will immediately&nbsp;set their appearance apart from
+    normal&nbsp;serpents. They can bite or spit with lethal&nbsp;poison, and if
+    they hit with their coils they&nbsp;automatically cause 1d8 points of
+    constriction damage per round thereafter. Guardian nagas cast clerical
+    spells (2/2/1/1). A&nbsp;sample selection of spells for a guardian&nbsp;naga
+    might include: level 1: <em>Cure light wounds </em>x2; level 2: <em>hold
+    person</em>, <em>silence 15-foot radius</em>;&nbsp;level 3: <em>cure
+    disease</em>; level 4: <em>cure serious wounds</em>.</p>
+
+    <hr>
+
+    <p class="p1"><em>&ldquo;Naga&rdquo; is the Sanskrit word for dragon
+    or&nbsp;snake. In mythology, the naga are benevolent and very powerful,
+    equivalent to Asian&nbsp;dragons. The nagas portrayed here are&nbsp;more
+    serpentine and less powerful; all have&nbsp;the body of a snake, although
+    the head is&nbsp;not necessarily that of a serpent. All kinds&nbsp;of
+    interesting abilities may be found in&nbsp;&ldquo;unusual&rdquo; nagas
+    designed by the Referee,&nbsp;from breathing fire to moving in and out
+    of&nbsp;strange planes of existence.</em></p>
+  cl: 13
+  hd: '11'
+  morale: 10
+  special: >-
+    constrict (automatic 1d8 damage after coils hit), lethal poison (save or
+    die), spells (Clr 2/2/1/1)
+  xp:
+    value: 3900
+  numberEncountered: 1d2
+  percentInLair: '75'
+  toHitAC:
+    '-9': 17
+    '-8': 16
+    '-7': 15
+    '-6': 14
+    '-5': 13
+    '-4': 12
+    '-3': 11
+    '-2': 10
+    '-1': 9
+    '+0': 8
+    '+1': 7
+    '+2': 6
+    '+3': 5
+    '+4': 4
+    '+5': 3
+    '+6': 2
+    '+7': 1
+    '+8': 1
+    '+9': 1
+prototypeToken:
+  name: Guardian Naga
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: systems/swords-wizardry/assets/game-icons-net/snake-totem.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: hp
+  bar2:
+    attribute: ac
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  depth: 1
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items:
+  - name: bite
+    type: weapon
+    system:
+      description: ''
+      quantity: 1
+      weight: 0
+      gp: 0
+      pp: 0
+      sp: 0
+      cp: 0
+      missile: false
+      range: 0
+      rateOfFire: 1
+      modifier: '0'
+      formula: d20 + @toHit.v
+      damageFormula: 1d6
+      specialDamage: Poison
+    _id: hP3hjKUrRmaU9kUE
+    img: icons/svg/item-bag.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      uY5ZaNbCwA9WwEXo: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '14.367'
+      systemId: swords-wizardry
+      systemVersion: 2.7.0
+      createdTime: null
+      modifiedTime: 1740782400473
+      lastModifiedBy: uY5ZaNbCwA9WwEXo
+      exportSource: null
+    _key: '!actors.items!NOIrUCNPur5oVNHd.hP3hjKUrRmaU9kUE'
+  - name: coils
+    type: weapon
+    system:
+      description: ''
+      quantity: 1
+      weight: 0
+      gp: 0
+      pp: 0
+      sp: 0
+      cp: 0
+      missile: false
+      range: 0
+      rateOfFire: 1
+      modifier: '0'
+      formula: d20 + @toHit.v
+      damageFormula: 1d8
+      specialDamage: Constrict
+    _id: 09HlZCR5cGp7XMLQ
+    img: icons/svg/item-bag.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      uY5ZaNbCwA9WwEXo: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '14.367'
+      systemId: swords-wizardry
+      systemVersion: 2.7.0
+      createdTime: null
+      modifiedTime: 1740782410407
+      lastModifiedBy: uY5ZaNbCwA9WwEXo
+      exportSource: null
+    _key: '!actors.items!NOIrUCNPur5oVNHd.09HlZCR5cGp7XMLQ'
+  - name: spit
+    type: weapon
+    system:
+      description: ''
+      quantity: 1
+      weight: 0
+      gp: 0
+      pp: 0
+      sp: 0
+      cp: 0
+      missile: false
+      range: 0
+      rateOfFire: 1
+      modifier: '0'
+      formula: d20 + @toHit.v
+      damageFormula: '0'
+      specialDamage: Poison
+    _id: Isg9JBgnrh3YwQiT
+    img: icons/svg/item-bag.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      uY5ZaNbCwA9WwEXo: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '14.367'
+      systemId: swords-wizardry
+      systemVersion: 2.7.0
+      createdTime: null
+      modifiedTime: 1740782418278
+      lastModifiedBy: uY5ZaNbCwA9WwEXo
+      exportSource: null
+    _key: '!actors.items!NOIrUCNPur5oVNHd.Isg9JBgnrh3YwQiT'
+effects: []
+folder: u68zOgO0PMWUOmH3
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763249430
+  modifiedTime: 1740763249430
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_id: NOIrUCNPur5oVNHd
+sort: 100000
+_key: '!actors!NOIrUCNPur5oVNHd'

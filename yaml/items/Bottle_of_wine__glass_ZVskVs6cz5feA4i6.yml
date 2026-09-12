@@ -1,0 +1,33 @@
+folder: u1wIWsI5L1tgkpvP
+name: Bottle of wine, glass
+type: item
+_id: ZVskVs6cz5feA4i6
+img: systems/swords-wizardry/assets/game-icons-net/wine-bottle.svg
+system:
+  description: ''
+  quantity: 1
+  weight: 0
+  gp: 2
+  pp: 0
+  sp: 0
+  cp: 0
+  formula: d6
+  gold: 2
+effects: []
+sort: 2900000
+ownership:
+  default: 0
+  saJBeYreurxVYSiH: 3
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763416123
+  modifiedTime: 1740763416123
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!ZVskVs6cz5feA4i6'

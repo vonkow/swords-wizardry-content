@@ -1,0 +1,31 @@
+folder: Sskj22iG5s6tBaLO
+name: Immunity to Fey Charms (5th)
+type: feature
+_id: rWn1ZYpRRTIwFn3Z
+img: systems/swords-wizardry/assets/game-icons-net/fairy_1.svg
+system:
+  description: >-
+    <p class="p1">Also at 5th level, the Druid becomes completely immune to the
+    charms of dryads, naiads, satyrs,&nbsp;and other such fey creatures of the
+    wild woods and rivers.</p>
+  formula: ''
+  target: ''
+  targetType: descending
+effects: []
+sort: 0
+ownership:
+  default: 0
+  saJBeYreurxVYSiH: 3
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763413850
+  modifiedTime: 1740763413850
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!rWn1ZYpRRTIwFn3Z'

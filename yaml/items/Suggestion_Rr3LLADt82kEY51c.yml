@@ -1,0 +1,33 @@
+folder: JyjLtkmrFkA1auIr
+name: Suggestion
+type: spell
+_id: Rr3LLADt82kEY51c
+img: systems/swords-wizardry/assets/game-icons-net/teacher.svg
+system:
+  description: >-
+    <p>The caster speaks a hypnotic suggestion to the intended victim. Victims
+    who fail a saving throw carry out the suggestion as long as it can be
+    performed within a week. The suggestion might not call for the action to be
+    carried out immediately, and can be contingent upon something else happening
+    first. A suggestion that the victim commit suicide is only 1% likely to be
+    obeyed.</p>
+  spellLevel: '3'
+  range: Shouting distance
+  duration: 1 week
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.8.0
+  createdTime: 1740763417887
+  modifiedTime: 1740807415788
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!Rr3LLADt82kEY51c'

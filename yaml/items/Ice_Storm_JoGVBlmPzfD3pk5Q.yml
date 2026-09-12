@@ -1,0 +1,30 @@
+folder: V7L1xETAOpPH4vRG
+name: Ice Storm
+type: spell
+_id: JoGVBlmPzfD3pk5Q
+img: systems/swords-wizardry/assets/game-icons-net/ice-bolt.svg
+system:
+  description: >-
+    <p>A whirling vortex of ice, snow, and hail forms in a cube roughly 30 feet
+    across. Massive hailstones inflict 3d10 points of damage (no saving throw
+    applies) to all within the area.</p>
+  spellLevel: '4'
+  range: 120 feet
+  duration: 1 round
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.9.4
+  createdTime: 1740763417887
+  modifiedTime: 1741393343170
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!JoGVBlmPzfD3pk5Q'

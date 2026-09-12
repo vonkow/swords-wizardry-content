@@ -1,0 +1,19 @@
+name: Melee Weapons
+sorting: a
+folder: ZEf8XJPtrxD0imXQ
+type: Item
+_id: cbr3eej04djHQUuV
+sort: 300000
+color: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+description: ''
+_key: '!folders!cbr3eej04djHQUuV'

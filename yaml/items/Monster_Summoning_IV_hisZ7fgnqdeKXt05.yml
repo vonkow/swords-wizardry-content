@@ -1,0 +1,40 @@
+folder: 7TYCol1vgCOCQW6N
+name: Monster Summoning IV
+type: spell
+_id: hisZ7fgnqdeKXt05
+img: systems/swords-wizardry/assets/game-icons-net/evil-minion.svg
+system:
+  description: >-
+    <p>The caster summons allies that serve him until slain or until the
+    duration of the spell expires. The allies do not appear immediately; there
+    is a delay of 1 turn (10 minutes) before they appear.</p><p><span
+    class="s1"><strong>Monster Summoning
+    IV</strong></span></p><table><tbody><tr><td><p><strong>Die Roll
+    (1d6)</strong></p></td><td><p><strong>Monster
+    Summoned</strong></p></td></tr><tr><td><p>1</p></td><td><p>1
+    Gargoyle</p></td></tr><tr><td><p>2</p></td><td><p>1
+    Ogre</p></td></tr><tr><td><p>3</p></td><td><p>1
+    Owlbear</p></td></tr><tr><td><p>4</p></td><td><p>1
+    Shadow</p></td></tr><tr><td><p>5</p></td><td><p>1
+    Werewolf</p></td></tr><tr><td><p>6</p></td><td><p>1
+    Wraith</p></td></tr></tbody></table>
+  spellLevel: '6'
+  range: N/A
+  duration: 6 rounds (minutes)
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.9.4
+  createdTime: 1740763417887
+  modifiedTime: 1741402146294
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!hisZ7fgnqdeKXt05'

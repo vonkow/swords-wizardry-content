@@ -1,0 +1,31 @@
+folder: HnOvKpwuYbMsH07l
+name: Detect Magic
+type: spell
+img: systems/swords-wizardry/assets/game-icons-net/radar-cross-section.svg
+system:
+  description: >-
+    <p class="p1">The caster can perceive the presence of a&nbsp;magical spell
+    or enchantment in places, people, or things. For example, magical
+    items&nbsp;may be discovered in this fashion, as can&nbsp;the presence of a
+    charm secretly laid upon&nbsp;a person.</p>
+  spellLevel: '1'
+  range: 60 feet
+  duration: 20 minutes
+effects: []
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_id: cVXi07O9xPV3cgZK
+sort: 0
+_key: '!items!cVXi07O9xPV3cgZK'

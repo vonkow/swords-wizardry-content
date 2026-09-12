@@ -1,0 +1,30 @@
+folder: jWkqzSa3QlzF1HdU
+name: Protection from Lightning
+type: spell
+_id: 7gcvgjCK7ZhEl7HG
+img: systems/swords-wizardry/assets/game-icons-net/lightning-shield.svg
+system:
+  description: >-
+    <p class="p1">This spell protects any creature from lightning, reducing any
+    damage by one-half.&nbsp;Once lightning strikes, however, the
+    spell&nbsp;ends.</p>
+  spellLevel: '4'
+  range: Touch
+  duration: 6 turns + 1 turn/level
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!7gcvgjCK7ZhEl7HG'

@@ -1,0 +1,32 @@
+folder: S6C6djqSw90xc99J
+name: Backstab
+type: feature
+_id: wFPgcqb5a9GIn9jv
+img: systems/swords-wizardry/assets/game-icons-net/backstab.svg
+system:
+  description: >-
+    <p>When attacking with surprise, from behind, the Thief&nbsp;gains +4 to hit
+    and inflicts double damage. At levels 5&ndash;8, damage&nbsp;is tripled, and
+    from a Thief above level 8 such an attack inflicts&nbsp;quadruple
+    damage.</p>
+  formula: ''
+  target: ''
+  targetType: descending
+effects: []
+sort: 0
+ownership:
+  default: 0
+  saJBeYreurxVYSiH: 3
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763413850
+  modifiedTime: 1740763413850
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!wFPgcqb5a9GIn9jv'

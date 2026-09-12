@@ -1,0 +1,227 @@
+name: Pegasus
+type: npc
+img: systems/swords-wizardry/assets/game-icons-net/pegasus.svg
+system:
+  hp:
+    value: 0
+    min: 0
+    max: 0
+  save:
+    value: 13
+    min: 0
+    max: 20
+  ac:
+    value: 6
+    min: -9
+    max: 28
+  aac:
+    value: 13
+    min: 0
+    max: 28
+  moveRate:
+    value: 24 (fly 48)
+  tHAACB: 4
+  tHAC0: 15
+  spellSlots:
+    '1':
+      max: 0
+      memorized: []
+    '2':
+      max: 0
+      memorized: []
+    '3':
+      max: 0
+      memorized: []
+    '4':
+      max: 0
+      memorized: []
+    '5':
+      max: 0
+      memorized: []
+    '6':
+      max: 0
+      memorized: []
+    '7':
+      max: 0
+      memorized: []
+    '8':
+      max: 0
+      memorized: []
+    '9':
+      max: 0
+      memorized: []
+  treasure:
+    pp: 0
+    gp: 0
+    sp: 0
+    cp: 0
+    gems: ''
+    misc: ''
+  alignment: L
+  description: >-
+    <p class="p1">Pegasi are winged horses. Most have feathered wings, but some
+    might have bat wings&nbsp;and some might be evil &mdash; at the
+    Referee&rsquo;s&nbsp;discretion.</p>
+  cl: 5
+  hd: '4'
+  morale: 8
+  special: flying
+  xp:
+    value: 240
+  numberEncountered: 1d12
+  percentInLair: '0'
+  toHitAC:
+    '-9': 24
+    '-8': 23
+    '-7': 22
+    '-6': 21
+    '-5': 20
+    '-4': 19
+    '-3': 18
+    '-2': 17
+    '-1': 16
+    '+0': 15
+    '+1': 14
+    '+2': 13
+    '+3': 12
+    '+4': 11
+    '+5': 10
+    '+6': 9
+    '+7': 8
+    '+8': 7
+    '+9': 6
+prototypeToken:
+  name: Pegasus
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: systems/swords-wizardry/assets/game-icons-net/pegasus.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: hp
+  bar2:
+    attribute: ac
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  depth: 1
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items:
+  - name: 2 hooves
+    type: weapon
+    system:
+      description: ''
+      quantity: 1
+      weight: 0
+      gp: 0
+      pp: 0
+      sp: 0
+      cp: 0
+      missile: false
+      range: 0
+      rateOfFire: 1
+      modifier: '0'
+      formula: d20 + @toHit.v
+      damageFormula: 1d8
+    _id: F0UW0igfwa1QMxko
+    img: icons/svg/item-bag.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      uY5ZaNbCwA9WwEXo: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '14.367'
+      systemId: swords-wizardry
+      systemVersion: 2.6.1
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!nZ5FMR5rXg8kwg8A.F0UW0igfwa1QMxko'
+effects: []
+folder: h8JMbP2Owjx0Cj2m
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763251904
+  modifiedTime: 1740763251904
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_id: nZ5FMR5rXg8kwg8A
+sort: 0
+_key: '!actors!nZ5FMR5rXg8kwg8A'

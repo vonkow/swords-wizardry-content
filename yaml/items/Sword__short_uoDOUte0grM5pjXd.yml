@@ -1,0 +1,39 @@
+folder: cbr3eej04djHQUuV
+name: Sword, short
+type: weapon
+_id: uoDOUte0grM5pjXd
+img: systems/swords-wizardry/assets/game-icons-net/gladius.svg
+system:
+  description: ''
+  quantity: 1
+  weight: 5
+  gp: 8
+  pp: 0
+  sp: 0
+  cp: 0
+  missile: false
+  range: 0
+  rateOfFire: 1
+  modifier: '0'
+  formula: d20 + @toHit.v
+  damageFormula: 1d6
+  gold: 8
+  hitdamage: 1d6 + @Damage.v
+effects: []
+sort: 0
+ownership:
+  default: 0
+  saJBeYreurxVYSiH: 3
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763416123
+  modifiedTime: 1740763416123
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!uoDOUte0grM5pjXd'

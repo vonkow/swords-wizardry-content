@@ -1,0 +1,30 @@
+folder: n35SOQd8s42BEvYR
+name: Thieving Skills
+type: feature
+_id: yWdSw0QmdNLyJrOn
+img: systems/swords-wizardry/assets/game-icons-net/cloak-dagger.svg
+system:
+  description: >-
+    <p class="p1">Monks have skills similar to those of Thieves. (See the Thief
+    class for an explanation of abilities in the table.)</p>
+  formula: ''
+  target: ''
+  targetType: descending
+effects: []
+sort: 0
+ownership:
+  default: 0
+  saJBeYreurxVYSiH: 3
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763413850
+  modifiedTime: 1740763413850
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!yWdSw0QmdNLyJrOn'

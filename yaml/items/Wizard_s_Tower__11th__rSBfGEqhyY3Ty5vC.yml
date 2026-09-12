@@ -1,0 +1,38 @@
+folder: RVBxwersWiFCen87
+name: Wizard's Tower (11th)
+type: feature
+_id: rSBfGEqhyY3Ty5vC
+img: systems/swords-wizardry/assets/game-icons-net/white-tower.svg
+system:
+  description: >-
+    <p class="p1">At 11th level, a Magic-User gains&nbsp;the title of
+    &ldquo;wizard&rdquo; and can build a stronghold to contain
+    the&nbsp;necessary libraries and laboratories of a high-level mage.
+    Such&nbsp;a powerful sorcerer attracts a mixed bag of mercenaries,
+    strange&nbsp;servants (some with odd abilities and deformities), and
+    perhaps&nbsp;even a few monsters. This colorful crew swears fealty and
+    serves&nbsp;the wizard with considerable (but not unlimited) loyalty. In
+    general,&nbsp;such a freehold will encompass a small territory around the
+    tower as&nbsp;well &mdash; whatever quantity of wilderness the Magic-User
+    chooses to&nbsp;tame and protect.</p>
+  formula: ''
+  target: ''
+  targetType: descending
+effects: []
+sort: 0
+ownership:
+  default: 0
+  saJBeYreurxVYSiH: 3
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763413850
+  modifiedTime: 1740763413850
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!rSBfGEqhyY3Ty5vC'

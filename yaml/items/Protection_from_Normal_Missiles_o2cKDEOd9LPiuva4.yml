@@ -1,0 +1,29 @@
+folder: JyjLtkmrFkA1auIr
+name: Protection from Normal Missiles
+type: spell
+_id: o2cKDEOd9LPiuva4
+img: systems/swords-wizardry/assets/game-icons-net/arrows-shield.svg
+system:
+  description: >-
+    <p>The caster becomes invulnerable to non-magical missiles, although larger
+    missiles such as boulders overcome the spell’s magic.</p>
+  spellLevel: '3'
+  range: Caster
+  duration: 2 hours
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.8.0
+  createdTime: 1740763417887
+  modifiedTime: 1740806626156
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!o2cKDEOd9LPiuva4'

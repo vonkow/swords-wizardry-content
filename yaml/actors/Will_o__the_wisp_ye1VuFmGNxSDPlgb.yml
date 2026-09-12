@@ -1,0 +1,235 @@
+name: Will-o’-the-wisp
+type: npc
+img: systems/swords-wizardry/assets/game-icons-net/sparkles.svg
+system:
+  hp:
+    value: 0
+    min: 0
+    max: 0
+  save:
+    value: 6
+    min: 0
+    max: 20
+  ac:
+    value: -8
+    min: -9
+    max: 28
+  aac:
+    value: 27
+    min: 0
+    max: 28
+  moveRate:
+    value: '18'
+  tHAACB: 9
+  tHAC0: 10
+  spellSlots:
+    '1':
+      max: 0
+      memorized: []
+    '2':
+      max: 0
+      memorized: []
+    '3':
+      max: 0
+      memorized: []
+    '4':
+      max: 0
+      memorized: []
+    '5':
+      max: 0
+      memorized: []
+    '6':
+      max: 0
+      memorized: []
+    '7':
+      max: 0
+      memorized: []
+    '8':
+      max: 0
+      memorized: []
+    '9':
+      max: 0
+      memorized: []
+  treasure:
+    pp: 0
+    gp: 0
+    sp: 0
+    cp: 0
+    gems: ''
+    misc: ''
+  alignment: C
+  description: >-
+    <p class="p1">Will- o&rsquo;-the-wisps are phantom-like shapes&nbsp;of eerie
+    light, creatures that live in dangerous places and try to lure travelers
+    into&nbsp;quicksand, off the edges of cliffs, etc. They&nbsp;usually inhabit
+    swamps or high moors. They&nbsp;can brighten or dim their own
+    luminescence&nbsp;and change their shapes as well to appear&nbsp;as a group
+    of lights, a wisp of light, or in&nbsp;the glowing wraith-like shape of a
+    human&nbsp;(often female). They generally depart if the&nbsp;attempt to lead
+    victims into danger fails, but&nbsp;if they are attacked, they defend
+    themselves&nbsp;with violent shocks of lightning-like power.&nbsp;These
+    creatures are intelligent and can be&nbsp;forced to reveal the location of
+    their treasure&nbsp;hoards.</p>
+  cl: 11
+  hd: '9'
+  morale: 12
+  special: lights (brighten or dim, or form wraith-like form)
+  xp:
+    value: 2400
+  numberEncountered: 1 or 1d3
+  percentInLair: '5'
+  toHitAC:
+    '-9': 19
+    '-8': 18
+    '-7': 17
+    '-6': 16
+    '-5': 15
+    '-4': 14
+    '-3': 13
+    '-2': 12
+    '-1': 11
+    '+0': 10
+    '+1': 9
+    '+2': 8
+    '+3': 7
+    '+4': 6
+    '+5': 5
+    '+6': 4
+    '+7': 3
+    '+8': 2
+    '+9': 1
+prototypeToken:
+  name: Will-o’-the-wisp
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: systems/swords-wizardry/assets/game-icons-net/sparkles.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: hp
+  bar2:
+    attribute: ac
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  depth: 1
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items:
+  - name: shock
+    type: weapon
+    system:
+      description: ''
+      quantity: 1
+      weight: 0
+      gp: 0
+      pp: 0
+      sp: 0
+      cp: 0
+      missile: false
+      range: 0
+      rateOfFire: 1
+      modifier: '0'
+      formula: d20 + @toHit.v
+      damageFormula: 2d6
+    _id: 9j1FAK0ecMgBqrRk
+    img: icons/svg/item-bag.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      uY5ZaNbCwA9WwEXo: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '14.367'
+      systemId: swords-wizardry
+      systemVersion: 2.6.1
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!ye1VuFmGNxSDPlgb.9j1FAK0ecMgBqrRk'
+effects: []
+folder: LlNX2Xc0LnJEtGTn
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763261806
+  modifiedTime: 1740763261806
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_id: ye1VuFmGNxSDPlgb
+sort: 300000
+_key: '!actors!ye1VuFmGNxSDPlgb'

@@ -1,0 +1,44 @@
+folder: 9TEZjFvmfamticJE
+name: Teleport
+type: spell
+_id: 8ujOTjocmhVdRlNd
+img: systems/swords-wizardry/assets/game-icons-net/teleport.svg
+system:
+  description: >-
+    <p>This spell transports the caster or another person to a destination that
+    the caster knows, or at least knows what it looks like from a picture or a
+    map. Success depends on how well the caster knows the targeted location, as
+    follows:</p><p class="p1">If the caster has only seen the location in a
+    picture or through a map (so that knowledge is not based on direct
+    experience), there is only a 25% chance of success, and failure means death,
+    for the traveler’s soul is lost in the spaces between realities.</p><p
+    class="p1">If the caster has seen but not studied the location, there is a
+    20% chance of error. In the case of an error, there is a 50% chance that the
+    traveler arrives low, 1d10 x 10 feet below the intended location (with death
+    resulting from arrival within a solid substance). If the error is high (over
+    the 50% chance for a “low” arrival), the traveler arrives 1d10 x 10 feet
+    above the targeted location — likely resulting in a deadly fall.</p><p
+    class="p1">If the caster is well familiar with the location or has studied
+    it carefully, there is only a 5% chance of error. On a 1-in-6, the teleport
+    is low; otherwise, it is high. In either case, the arrival is 1d4 x 10 feet
+    high or low.</p>
+  spellLevel: '5'
+  range: Touch
+  duration: Instantaneous
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.9.4
+  createdTime: 1740763417887
+  modifiedTime: 1741395792426
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!8ujOTjocmhVdRlNd'

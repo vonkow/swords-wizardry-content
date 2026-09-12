@@ -1,0 +1,150 @@
+folder: GMcwj291csYhCh5f
+name: Hear Sounds
+type: feature
+_id: wclgHkXIPTpY3gKr
+img: systems/swords-wizardry/assets/game-icons-net/human-ear.svg
+system:
+  description: >-
+    <p class="p1"><strong>Hearing sounds</strong>. A thief can hear well when
+    concentrating;&nbsp;this mainly includes listening at doors.</p>
+
+    <h3 class="p1">Hear Sounds Advancement</h3>
+
+    <p>Assassins have skills similar to those of Thieves, but comparable to a
+    Thief two levels lower than the Assassin character.</p>
+
+    <table style="width: 100%; height: 208px;" border="1"><colgroup><col
+    style="width: 30.7229%;"><col style="width: 69.0763%;"></colgroup>
+
+    <tbody>
+
+    <tr style="height: 16px;">
+
+    <td style="height: 16px;"><strong>Level</strong></td>
+
+    <td style="height: 16px;"><strong>Hear Sounds</strong></td>
+
+    </tr>
+
+    <tr style="height: 16px;">
+
+    <td style="height: 16px;">3</td>
+
+    <td style="height: 16px;">3 in 6</td>
+
+    </tr>
+
+    <tr style="height: 16px;">
+
+    <td style="height: 16px;">4</td>
+
+    <td style="height: 16px;">3 in 6</td>
+
+    </tr>
+
+    <tr style="height: 16px;">
+
+    <td style="height: 16px;">5</td>
+
+    <td style="height: 16px;">4 in 6</td>
+
+    </tr>
+
+    <tr style="height: 16px;">
+
+    <td style="height: 16px;">6</td>
+
+    <td style="height: 16px;">4 in 6</td>
+
+    </tr>
+
+    <tr style="height: 16px;">
+
+    <td style="height: 16px;">7</td>
+
+    <td style="height: 16px;">4 in 6</td>
+
+    </tr>
+
+    <tr style="height: 16px;">
+
+    <td style="height: 16px;">8</td>
+
+    <td style="height: 16px;">4 in 6</td>
+
+    </tr>
+
+    <tr style="height: 16px;">
+
+    <td style="height: 16px;">9</td>
+
+    <td style="height: 16px;">5 in 6</td>
+
+    </tr>
+
+    <tr style="height: 16px;">
+
+    <td style="height: 16px;">10</td>
+
+    <td style="height: 16px;">5 in 6</td>
+
+    </tr>
+
+    <tr style="height: 16px;">
+
+    <td style="height: 16px;">11</td>
+
+    <td style="height: 16px;">5 in 6</td>
+
+    </tr>
+
+    <tr style="height: 16px;">
+
+    <td style="height: 16px;">12</td>
+
+    <td style="height: 16px;">5 in 6</td>
+
+    </tr>
+
+    <tr style="height: 16px;">
+
+    <td style="height: 16px;">13</td>
+
+    <td style="height: 16px;">6 in 6</td>
+
+    </tr>
+
+    <tr style="height: 16px;">
+
+    <td style="height: 16px;">14+</td>
+
+    <td style="height: 16px;">Remains at 6 in 6</td>
+
+    </tr>
+
+    </tbody>
+
+    </table>
+
+    <p>Note: Thieving skills do not gain bonuses from a high Dexterity
+    score.</p>
+  formula: d6
+  target: '3'
+  targetType: descending
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763413850
+  modifiedTime: 1740763413850
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!wclgHkXIPTpY3gKr'

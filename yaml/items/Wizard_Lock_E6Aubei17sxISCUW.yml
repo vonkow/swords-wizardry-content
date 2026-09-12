@@ -1,0 +1,32 @@
+folder: em3jC8vi5E6vvnmq
+name: Wizard Lock
+type: spell
+_id: E6Aubei17sxISCUW
+img: systems/swords-wizardry/assets/game-icons-net/padlock.svg
+system:
+  description: >-
+    <p>As with a hold portal spell, wizard lock holds a door closed, but it is
+    permanent until dispelled. Creatures with magic resistance can shatter the
+    spell without effort. Any Magic-User at least three levels higher than the
+    caster can open the portal, and a knock spell will open it as well, although
+    the spell is not permanently destroyed in these cases.</p>
+  spellLevel: '2'
+  range: Close
+  duration: Permanent until dispelled
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.8.0
+  createdTime: 1740763417887
+  modifiedTime: 1740803664327
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!E6Aubei17sxISCUW'

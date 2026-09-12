@@ -1,0 +1,41 @@
+folder: xWKd4Rwa1PhYRdkA
+name: Symbol
+type: spell
+_id: Or4QRvhlA2uifo2e
+img: systems/swords-wizardry/assets/game-icons-net/moebius-star.svg
+system:
+  description: >-
+    <p>A symbol spell creates a deadly magical trap, written into the shape of
+    an arcane rune. The rune’s magic is activated when any person or creature
+    hostile to the caster reads it, or passes over, under, or past it. Various
+    different runes are known, and others may be possible:</p><p
+    class="p1"><strong>Symbol of Death:</strong> Deals a total of 75 hit points
+    of damage.</p><p class="p1"><strong>Symbol of Discord:</strong> Causes all
+    creatures in the hostile group to begin arguing, and possibly fighting among
+    themselves with lethal intent.</p><p class="p1"><strong>Symbol of
+    Fear:</strong> Casts a fear spell.</p><p class="p1"><strong>Symbol of
+    Insanity:</strong> Up to 100 hit points of creatures are driven insane by a
+    curse.</p><p class="p1"><strong>Symbol of Sleep:</strong> Casts a sleep
+    spell affecting double the normal number of creatures and with double the
+    normal duration.</p><p class="p1"><strong>Symbol of Stunning: </strong>Up to
+    150 hit points of creatures are affected as per a power word, stun.</p>
+  spellLevel: '8'
+  range: Referee's discretion (according to symbol)
+  duration: Varies (depends on symbol used)
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.9.4
+  createdTime: 1740763417887
+  modifiedTime: 1741406506894
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!Or4QRvhlA2uifo2e'

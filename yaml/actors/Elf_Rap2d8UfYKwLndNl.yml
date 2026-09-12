@@ -1,0 +1,276 @@
+name: Elf
+type: npc
+img: systems/swords-wizardry/assets/game-icons-net/woman-elf-face.svg
+system:
+  hp:
+    value: 0
+    min: 0
+    max: 0
+  save:
+    value: 17
+    min: 0
+    max: 20
+  ac:
+    value: 5
+    min: -9
+    max: 28
+  aac:
+    value: 14
+    min: 0
+    max: 28
+  moveRate:
+    value: '12'
+  tHAACB: 1
+  tHAC0: 18
+  spellSlots:
+    '1':
+      max: 0
+      memorized: []
+    '2':
+      max: 0
+      memorized: []
+    '3':
+      max: 0
+      memorized: []
+    '4':
+      max: 0
+      memorized: []
+    '5':
+      max: 0
+      memorized: []
+    '6':
+      max: 0
+      memorized: []
+    '7':
+      max: 0
+      memorized: []
+    '8':
+      max: 0
+      memorized: []
+    '9':
+      max: 0
+      memorized: []
+  treasure:
+    pp: 0
+    gp: 0
+    sp: 0
+    cp: 0
+    gems: ''
+    misc: ''
+  alignment: L (or N)
+  description: >-
+    <p class="p1">The example above is for a typical Elf;&nbsp;trained warriors
+    would likely have the maximum 9 hit points. Obviously, Elves encountered in
+    the course of a party&rsquo;s adventuring&nbsp;will have a variety of powers
+    and different&nbsp;attributes. The Referee will assign such&nbsp;powers as
+    he sees fit, in accordance with the&nbsp;way he envisions elves. They might
+    be the&nbsp;woodland dwellers of Tolkien&rsquo;s The Hobbit,&nbsp;or the
+    high elves of the Lord of the Rings,&nbsp;or might be the faerie folk of
+    Irish legend.&nbsp;In any case, the Referee should not bother&nbsp;trying to
+    fit an idea of &ldquo;advanced&rdquo; elves into&nbsp;the constraints of
+    character classes &mdash; just&nbsp;assign their attributes to fit the
+    concept.&nbsp;Non-player characters are not subject to the&nbsp;rules that
+    govern building a player character; they are tools for good fantasy.</p>
+  cl: 1
+  hd: 1+1
+  morale: 8
+  special: >-
+    darkvision (60ft), find secret doors (4-in-6 chance), immune to ghoul
+    paralysis
+  xp:
+    value: 15
+  numberEncountered: 1d6 or 1d10x3
+  percentInLair: '25'
+  toHitAC:
+    '-9': 27
+    '-8': 26
+    '-7': 25
+    '-6': 24
+    '-5': 23
+    '-4': 22
+    '-3': 21
+    '-2': 20
+    '-1': 19
+    '+0': 18
+    '+1': 17
+    '+2': 16
+    '+3': 15
+    '+4': 14
+    '+5': 13
+    '+6': 12
+    '+7': 11
+    '+8': 10
+    '+9': 9
+prototypeToken:
+  name: Elf
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: systems/swords-wizardry/assets/game-icons-net/woman-elf-face.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: hp
+  bar2:
+    attribute: ac
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  depth: 1
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items:
+  - name: sword
+    type: weapon
+    system:
+      description: ''
+      quantity: 1
+      weight: 0
+      gp: 0
+      pp: 0
+      sp: 0
+      cp: 0
+      missile: false
+      range: 0
+      rateOfFire: 1
+      modifier: '0'
+      formula: d20 + @toHit.v
+      damageFormula: 1d8
+      specialDamage: ''
+    _id: EhkBap9Gu5IgEfFf
+    img: icons/svg/item-bag.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      uY5ZaNbCwA9WwEXo: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '14.367'
+      systemId: swords-wizardry
+      systemVersion: 2.7.0
+      createdTime: null
+      modifiedTime: 1740781547973
+      lastModifiedBy: uY5ZaNbCwA9WwEXo
+      exportSource: null
+    _key: '!actors.items!Rap2d8UfYKwLndNl.EhkBap9Gu5IgEfFf'
+  - name: longbow x2
+    type: weapon
+    system:
+      description: ''
+      quantity: 1
+      weight: 0
+      gp: 0
+      pp: 0
+      sp: 0
+      cp: 0
+      missile: true
+      range: 70
+      rateOfFire: 2
+      modifier: '0'
+      formula: d20
+      damageFormula: 1d6
+      specialDamage: ''
+    _id: vuaP67lQEVChtchm
+    img: icons/svg/item-bag.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      uY5ZaNbCwA9WwEXo: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '14.367'
+      systemId: swords-wizardry
+      systemVersion: 2.7.0
+      createdTime: 1740781549755
+      modifiedTime: 1740781625258
+      lastModifiedBy: uY5ZaNbCwA9WwEXo
+      exportSource: null
+    _key: '!actors.items!Rap2d8UfYKwLndNl.vuaP67lQEVChtchm'
+effects: []
+folder: s2UtJEZWGHT95vDw
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763235646
+  modifiedTime: 1740781642271
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_id: Rap2d8UfYKwLndNl
+sort: 0
+_key: '!actors!Rap2d8UfYKwLndNl'

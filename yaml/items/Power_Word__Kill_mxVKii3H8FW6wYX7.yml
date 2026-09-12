@@ -1,0 +1,31 @@
+folder: tkCTHKEiQWhhHwzy
+name: Power Word, Kill
+type: spell
+_id: mxVKii3H8FW6wYX7
+img: systems/swords-wizardry/assets/game-icons-net/lizard-tongue.svg
+system:
+  description: >-
+    <p>The caster speaks a word of power to a particular creature. If that
+    creature has 50 hit points or fewer, it is slain by the word it hears; if it
+    has more than 50 hit points, it is not affected by the spell. No saving
+    throw is permitted.</p>
+  spellLevel: '9'
+  range: 120 feet
+  duration: Immediate
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.9.4
+  createdTime: 1740763417887
+  modifiedTime: 1741407022110
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!mxVKii3H8FW6wYX7'

@@ -1,0 +1,35 @@
+folder: S6C6djqSw90xc99J
+name: Read Magical Writings (9th)
+type: feature
+_id: bpiId4TctYpctPIK
+img: systems/swords-wizardry/assets/game-icons-net/book-aura.svg
+system:
+  description: >-
+    <p>At 9th level, a Thief has gained&nbsp;enough knowledge to decipher
+    magical writings (although not the&nbsp;&ldquo;divine&rdquo; writings of
+    Clerics), but their understanding is not perfect&nbsp;when the magic is
+    complicated (that is, for spells higher than 6th&nbsp;level). Thieves can
+    cast Magic-User spells from scrolls, but for the&nbsp;high-level spells they
+    have a 10% chance to get a dangerously unpredictable result, usually the
+    reverse of the intended effect.</p>
+  formula: d100
+  target: '90'
+  targetType: descending
+effects: []
+sort: 0
+ownership:
+  default: 0
+  saJBeYreurxVYSiH: 3
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763413850
+  modifiedTime: 1740763413850
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!bpiId4TctYpctPIK'

@@ -1,0 +1,33 @@
+folder: 7qLsWCwb07TaJfLF
+name: Warp Wood
+type: spell
+_id: eb8qQQ4jOQcM2mnw
+img: systems/swords-wizardry/assets/game-icons-net/water-diviner-stick.svg
+system:
+  description: >-
+    <p class="p1">This spell warps, bends, and twists wood.&nbsp;The volume of
+    about one 2-inch x 4-inch&nbsp;x 5-foot plank may be affected per
+    every&nbsp;two levels of the caster &mdash; the volume of a&nbsp;spear or
+    several arrows. However, keep in&nbsp;mind that springing a door open or
+    causing&nbsp;a leak in a ship&rsquo;s planking does not
+    actually&nbsp;require much of the constituent wood to be&nbsp;warped.</p>
+  spellLevel: '2'
+  range: 60 feet
+  duration: Permanent
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!eb8qQQ4jOQcM2mnw'

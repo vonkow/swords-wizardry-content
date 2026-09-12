@@ -1,0 +1,30 @@
+folder: JyjLtkmrFkA1auIr
+name: Slow
+type: spell
+_id: xzQ78SySCQ4Q5rUq
+img: systems/swords-wizardry/assets/game-icons-net/fast-backward-button.svg
+system:
+  description: >-
+    <p>In an area with a radius of 60 feet around the point where the spell is
+    targeted, as many as 24 creatures failing a saving throw can move and attack
+    only at half speed.</p>
+  spellLevel: '3'
+  range: 240 feet
+  duration: 3 turns (30 minutes)
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.8.0
+  createdTime: 1740763417887
+  modifiedTime: 1740806966662
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!xzQ78SySCQ4Q5rUq'

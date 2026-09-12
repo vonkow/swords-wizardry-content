@@ -1,0 +1,29 @@
+folder: 9TEZjFvmfamticJE
+name: Extension II
+type: spell
+_id: YSJCZHA0tvwW2ZM7
+img: systems/swords-wizardry/assets/game-icons-net/duration.svg
+system:
+  description: >-
+    <p>Extension II lengthens the duration of another of the caster’s spells by
+    50%. Only spells of levels 1–4 can be affected by Extension II.</p>
+  spellLevel: '5'
+  range: Caster
+  duration: See below
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.9.4
+  createdTime: 1740763417887
+  modifiedTime: 1741394923782
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!YSJCZHA0tvwW2ZM7'

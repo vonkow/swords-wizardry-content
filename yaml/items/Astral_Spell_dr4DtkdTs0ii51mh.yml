@@ -1,0 +1,43 @@
+folder: tkCTHKEiQWhhHwzy
+name: Astral Spell
+type: spell
+_id: dr4DtkdTs0ii51mh
+img: systems/swords-wizardry/assets/game-icons-net/telepathy.svg
+system:
+  description: >-
+    <p>The caster projects his or her astral form into other places. The astral
+    form is invisible to all creatures but those also traveling the Astral Plane
+    of existence. The spell has a duration of two hours. If the caster’s
+    physical body is moved more than 100 miles from its original location while
+    the astral form is away, the link is sundered and the caster’s soul becomes
+    lost in the beyond. (If the caster’s body is underground, it need only be
+    moved 100 yards before the connection is broken.)</p><p class="p1">The
+    astral form is capable of casting spells, but there is a 5% chance per spell
+    level that the spell fails. Additionally, there is a 2% chance per spell
+    level of the attempted spell that the astral spell itself falters as a
+    result of the spellcasting, and the astral form returns to the physical
+    body. When traveling in astral form upon the earth, the astral form may
+    travel as fast as 100 miles per hour per level above 18th. If the form is
+    traveling underground, its top speed is much slower: 120 feet per 10-minute
+    turn. When traveling into the deeper regions beyond the earth, speed and
+    distance are obviously not measured in miles.</p>
+  spellLevel: '9'
+  range: 100 miles (aboveground), 100 yards (belowground)
+  duration: 2 hours
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.9.4
+  createdTime: 1740763417887
+  modifiedTime: 1741406635287
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!dr4DtkdTs0ii51mh'

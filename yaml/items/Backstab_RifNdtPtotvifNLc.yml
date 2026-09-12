@@ -1,0 +1,37 @@
+folder: GMcwj291csYhCh5f
+name: Backstab
+type: feature
+_id: RifNdtPtotvifNLc
+img: systems/swords-wizardry/assets/game-icons-net/backstab.svg
+system:
+  description: >-
+    <p class="p1">Assassins may attack from behind with a to-hit bonus of +4 and
+    inflict double damage. This damage multiplier increases&nbsp;at the same
+    level as that of a Thief.</p>
+
+    <p class="p1">The original rules did not provide any &ldquo;automatic
+    kill&rdquo; abilities for&nbsp;Assassins, other than for hired Assassins, as
+    a way of determining&nbsp;success or failure on a mission. The Referee might
+    choose to allow&nbsp;Assassin characters to add the Assassin&rsquo;s level
+    of experience to damage inflicted by a backstabbing attack.</p>
+  formula: d6
+  target: '1'
+  targetType: descending
+effects: []
+sort: 0
+ownership:
+  default: 0
+  saJBeYreurxVYSiH: 3
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763413850
+  modifiedTime: 1740763413850
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!RifNdtPtotvifNLc'

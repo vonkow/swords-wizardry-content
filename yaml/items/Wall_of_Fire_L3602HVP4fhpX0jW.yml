@@ -1,0 +1,35 @@
+folder: fcpHI1gquedjQXVD
+name: Wall of Fire
+type: spell
+_id: L3602HVP4fhpX0jW
+img: systems/swords-wizardry/assets/game-icons-net/firewall.svg
+system:
+  description: >-
+    <p class="p1">A wall of fire flares into being and burns for&nbsp;as long as
+    the caster concentrates upon it.&nbsp;Creatures with 3 or fewer hit dice
+    cannot&nbsp;pass through it, and no creature can see&nbsp;through it to the
+    other side. Passing through&nbsp;the fire inflicts 1d6 hit points of damage
+    (no&nbsp;saving throw) and undead creatures sustain&nbsp;twice the normal
+    damage. The caster may&nbsp;choose to create a straight wall 60 feet
+    long&nbsp;and 20 feet high, or a circular wall with a&nbsp;15-foot radius,
+    also 20 feet high.</p>
+  spellLevel: '5'
+  range: 60 feet
+  duration: Concentration
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!L3602HVP4fhpX0jW'

@@ -1,0 +1,40 @@
+folder: cbr3eej04djHQUuV
+name: Axe, hand
+type: weapon
+_id: GtT9Cr5KapnErhA3
+img: systems/swords-wizardry/assets/game-icons-net/hatchet.svg
+system:
+  description: <p class="p1">Can be used as both a melee and a missile weapon.</p>
+  quantity: 1
+  weight: 5
+  gp: 1
+  pp: 0
+  sp: 0
+  cp: 0
+  missile: false
+  range: 10
+  rateOfFire: 1
+  modifier: '0'
+  formula: d20 + @toHit.v
+  damageFormula: 1d6
+  ranged: false
+  gold: 1
+  hitdamage: 1d6 + @Damage.v
+effects: []
+sort: 0
+ownership:
+  default: 0
+  saJBeYreurxVYSiH: 3
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763416123
+  modifiedTime: 1740763416123
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!GtT9Cr5KapnErhA3'

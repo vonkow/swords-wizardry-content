@@ -1,0 +1,31 @@
+folder: JyjLtkmrFkA1auIr
+name: Hold Person (Magic-User)
+type: spell
+_id: TyNofM2v2wlfy3xr
+img: systems/swords-wizardry/assets/game-icons-net/embrassed-energy.svg
+system:
+  description: >-
+    <p>The caster targets 1d4 persons (according to the same parameters as the
+    charm person spell), who are completely immobilized (saving throw applies).
+    The caster may also target a single person, in which case the saving throw
+    is made with a penalty of –2.</p>
+  spellLevel: '3'
+  range: 120 feet
+  duration: 1 hour + 10 minutes/level
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.8.0
+  createdTime: 1740763417887
+  modifiedTime: 1740804652021
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!TyNofM2v2wlfy3xr'

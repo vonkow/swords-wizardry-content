@@ -1,0 +1,301 @@
+name: Minotaur
+type: npc
+img: systems/swords-wizardry/assets/game-icons-net/minotaur.svg
+system:
+  hp:
+    value: 0
+    min: 0
+    max: 0
+  save:
+    value: 11
+    min: 0
+    max: 20
+  ac:
+    value: 6
+    min: -9
+    max: 28
+  aac:
+    value: 13
+    min: 0
+    max: 28
+  moveRate:
+    value: '12'
+  tHAACB: 6
+  tHAC0: 13
+  spellSlots:
+    '1':
+      max: 0
+      memorized: []
+    '2':
+      max: 0
+      memorized: []
+    '3':
+      max: 0
+      memorized: []
+    '4':
+      max: 0
+      memorized: []
+    '5':
+      max: 0
+      memorized: []
+    '6':
+      max: 0
+      memorized: []
+    '7':
+      max: 0
+      memorized: []
+    '8':
+      max: 0
+      memorized: []
+    '9':
+      max: 0
+      memorized: []
+  treasure:
+    pp: 0
+    gp: 0
+    sp: 0
+    cp: 0
+    gems: ''
+    misc: ''
+  alignment: C
+  description: >-
+    <p class="p1">The minotaur is a man-eating predator,&nbsp;with the head of a
+    bull and the body of a&nbsp;massive human, covered in shaggy hair.&nbsp;Most
+    are not particularly intelligent.</p>
+  cl: 6
+  hd: '6'
+  morale: 12
+  special: never get lost in labyrinths
+  xp:
+    value: 400
+  numberEncountered: 1d8
+  percentInLair: '10'
+  toHitAC:
+    '-9': 22
+    '-8': 21
+    '-7': 20
+    '-6': 19
+    '-5': 18
+    '-4': 17
+    '-3': 16
+    '-2': 15
+    '-1': 14
+    '+0': 13
+    '+1': 12
+    '+2': 11
+    '+3': 10
+    '+4': 9
+    '+5': 8
+    '+6': 7
+    '+7': 6
+    '+8': 5
+    '+9': 4
+prototypeToken:
+  name: Minotaur
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: systems/swords-wizardry/assets/game-icons-net/minotaur.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: hp
+  bar2:
+    attribute: ac
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  depth: 1
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items:
+  - name: head butt
+    type: weapon
+    system:
+      description: ''
+      quantity: 1
+      weight: 0
+      gp: 0
+      pp: 0
+      sp: 0
+      cp: 0
+      missile: false
+      range: 0
+      rateOfFire: 1
+      modifier: '0'
+      formula: d20 + @toHit.v
+      damageFormula: 2d4
+    _id: T0XNqay8SWClCrZH
+    img: icons/svg/item-bag.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      uY5ZaNbCwA9WwEXo: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '14.367'
+      systemId: swords-wizardry
+      systemVersion: 2.6.1
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!cB4H4umDnBaVETVY.T0XNqay8SWClCrZH'
+  - name: bite
+    type: weapon
+    system:
+      description: ''
+      quantity: 1
+      weight: 0
+      gp: 0
+      pp: 0
+      sp: 0
+      cp: 0
+      missile: false
+      range: 0
+      rateOfFire: 1
+      modifier: '0'
+      formula: d20 + @toHit.v
+      damageFormula: 1d3
+      specialDamage: ''
+    _id: Vg0C9syDnC6x8HD5
+    img: icons/svg/item-bag.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      uY5ZaNbCwA9WwEXo: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '14.367'
+      systemId: swords-wizardry
+      systemVersion: 2.7.0
+      createdTime: null
+      modifiedTime: 1740782349821
+      lastModifiedBy: uY5ZaNbCwA9WwEXo
+      exportSource: null
+    _key: '!actors.items!cB4H4umDnBaVETVY.Vg0C9syDnC6x8HD5'
+  - name: weapon
+    type: weapon
+    system:
+      description: ''
+      quantity: 1
+      weight: 0
+      gp: 0
+      pp: 0
+      sp: 0
+      cp: 0
+      missile: false
+      range: 0
+      rateOfFire: 1
+      modifier: '0'
+      formula: d20
+      damageFormula: 1d8
+      specialDamage: ''
+    _id: 7ll54cSZOB1PrFmB
+    img: icons/svg/item-bag.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      uY5ZaNbCwA9WwEXo: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '14.367'
+      systemId: swords-wizardry
+      systemVersion: 2.7.0
+      createdTime: 1740782351221
+      modifiedTime: 1740782359826
+      lastModifiedBy: uY5ZaNbCwA9WwEXo
+      exportSource: null
+    _key: '!actors.items!cB4H4umDnBaVETVY.7ll54cSZOB1PrFmB'
+effects: []
+folder: ZTQz297V93OOdYJP
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763247911
+  modifiedTime: 1740763247911
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_id: cB4H4umDnBaVETVY
+sort: 0
+_key: '!actors!cB4H4umDnBaVETVY'

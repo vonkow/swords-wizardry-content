@@ -1,0 +1,84 @@
+folder: sb8wRIIKJfVQMxMB
+name: Fortress (9th)
+type: feature
+_id: ireJZYP13iSwFJi3
+img: systems/swords-wizardry/assets/game-icons-net/military-fort.svg
+system:
+  description: >-
+    <p>At 9th level, the Ranger may build a fortress in the&nbsp;wilderness in
+    order to house the character&rsquo;s growing number of loyal retainers. When
+    the fortress (which may be small or quite large,&nbsp;depending on the
+    Ranger&rsquo;s purposes) is completed, the Ranger&rsquo;s&nbsp;reputation
+    draws a number of new followers, as well as peasants&nbsp;seeking a safe
+    place to settle. Roll 2d12 to determine the number&nbsp;of followers.
+    Determine the class of each in this order: half of the&nbsp;total will be
+    Fighters, a quarter of them will be Clerics, one-fifth of&nbsp;them will be
+    Magic-Users, and if there are more than 20 followers,&nbsp;one of them will
+    be a Neutral-aligned Thief.</p>
+
+    <p>The followers will be at least second level; for each there is a
+    25%&nbsp;chance to add 1d4 to the base second level. Also, for each of
+    these&nbsp;followers, there is a 2% chance that the follower is actually a
+    highly&nbsp;unusual type instead of whatever the dice originally indicated.
+    Roll&nbsp;1d6 on the table below to determine the type:</p>
+
+    <table border="1"><colgroup><col><col></colgroup>
+
+    <tbody>
+
+    <tr>
+
+    <td>1-2</td>
+
+    <td>Another Ranger (level 1d6+1)</td>
+
+    </tr>
+
+    <tr>
+
+    <td>3-4</td>
+
+    <td>A lycanthrope (werebear or wereboar)</td>
+
+    </tr>
+
+    <tr>
+
+    <td>5</td>
+
+    <td>A mated pair of unicorns</td>
+
+    </tr>
+
+    <tr>
+
+    <td>6</td>
+
+    <td>A pegasus</td>
+
+    </tr>
+
+    </tbody>
+
+    </table>
+  formula: ''
+  target: ''
+  targetType: descending
+effects: []
+sort: 0
+ownership:
+  default: 0
+  saJBeYreurxVYSiH: 3
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763413850
+  modifiedTime: 1740763413850
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!ireJZYP13iSwFJi3'

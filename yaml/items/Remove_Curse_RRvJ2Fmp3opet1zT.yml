@@ -1,0 +1,27 @@
+folder: SgSeqcUcsl44a2PJ
+name: Remove Curse
+type: spell
+_id: RRvJ2Fmp3opet1zT
+img: systems/swords-wizardry/assets/game-icons-net/chained-heart.svg
+system:
+  description: <p class="p1">This spell removes one curse from a person&nbsp;or object.</p>
+  spellLevel: '3'
+  range: Very close
+  duration: Immediate
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!RRvJ2Fmp3opet1zT'

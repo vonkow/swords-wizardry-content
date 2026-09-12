@@ -1,0 +1,31 @@
+folder: em3jC8vi5E6vvnmq
+name: Magic Mouth
+type: spell
+_id: LRHuwdbr25G9ZiD0
+img: systems/swords-wizardry/assets/game-icons-net/lips.svg
+system:
+  description: >-
+    <p>This enchantment is set upon an object, and the magic is triggered when
+    certain conditions established by the caster are met. When that happens, a
+    mouth appears on the object and speaks the message it has been commanded to
+    speak. The message may be up to 30 words long.</p>
+  spellLevel: '2'
+  range: Touch
+  duration: Permanent until triggered or dispelled
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.8.0
+  createdTime: 1740763417887
+  modifiedTime: 1740797061731
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!LRHuwdbr25G9ZiD0'

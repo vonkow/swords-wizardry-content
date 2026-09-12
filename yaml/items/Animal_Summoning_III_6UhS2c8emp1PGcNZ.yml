@@ -1,0 +1,32 @@
+folder: PcenDMzPb13XI8Uf
+name: Animal Summoning III
+type: spell
+_id: 6UhS2c8emp1PGcNZ
+img: systems/swords-wizardry/assets/game-icons-net/flat-paw-print.svg
+system:
+  description: >-
+    <p class="p1">The Druid summons forth normal animals&nbsp;to serve as
+    allies: 4 creatures larger than a&nbsp;man (such as an elephant), 12 animals
+    the&nbsp;size of a man or horse (such as a lion), or 24&nbsp;animals smaller
+    than a man (such as wolves).&nbsp;The animals obey the caster&rsquo;s
+    commands.</p>
+  spellLevel: '6'
+  range: 30 feet
+  duration: 4 hours
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!6UhS2c8emp1PGcNZ'

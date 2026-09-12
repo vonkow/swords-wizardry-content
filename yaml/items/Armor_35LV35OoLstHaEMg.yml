@@ -1,0 +1,19 @@
+name: Armor
+sorting: a
+folder: ZEf8XJPtrxD0imXQ
+type: Item
+_id: 35LV35OoLstHaEMg
+sort: 200000
+color: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+description: ''
+_key: '!folders!35LV35OoLstHaEMg'

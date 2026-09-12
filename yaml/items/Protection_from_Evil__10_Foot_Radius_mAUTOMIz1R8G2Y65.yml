@@ -1,0 +1,37 @@
+folder: ukVVv4b1DtaS0ssI
+name: Protection from Evil, 10-Foot Radius
+type: spell
+_id: mAUTOMIz1R8G2Y65
+img: systems/swords-wizardry/assets/game-icons-net/aura.svg
+system:
+  description: >-
+    <p class="p1">The spell creates a magical field of protection, 10 feet in
+    radius, around the caster.&nbsp;The field blocks out all enchanted
+    monsters&nbsp;(such as elementals and demons). Evil monsters suffer a
+    &ndash;1 penalty to hit anyone within&nbsp;the protective globe, and these
+    shielded&nbsp;individuals gain +1 on all saving throws&nbsp;against such
+    attacks. If a person in the circle&nbsp;already has any magical bonuses to
+    saving&nbsp;throws or armor class, the bonus from the&nbsp;magic circle has
+    no effect for that person,&nbsp;although the protective circle still
+    functions&nbsp;against enchanted creatures. This spell may&nbsp;be reversed
+    by a Cleric of Chaos to protect&nbsp;from good.</p>
+  spellLevel: '4'
+  range: Centered on caster
+  duration: 1 hour
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!mAUTOMIz1R8G2Y65'

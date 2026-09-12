@@ -1,0 +1,32 @@
+folder: n35SOQd8s42BEvYR
+name: Weapon Damage Bonus
+type: feature
+_id: kD1YpZAJszD33kDv
+img: systems/swords-wizardry/assets/game-icons-net/saber-slash.svg
+system:
+  description: >-
+    <p class="p1">If the Monk's Wisdom is 15+, they inflict&nbsp;an additional
+    point of damage at 2nd level when using weapons, and&nbsp;this bonus
+    increases every other level (+2 at 4th level, +3 at 6th level)&nbsp;up to a
+    maximum of +5 at 10th level.</p>
+  formula: ''
+  target: ''
+  targetType: descending
+effects: []
+sort: 0
+ownership:
+  default: 0
+  saJBeYreurxVYSiH: 3
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763413850
+  modifiedTime: 1740763413850
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!kD1YpZAJszD33kDv'

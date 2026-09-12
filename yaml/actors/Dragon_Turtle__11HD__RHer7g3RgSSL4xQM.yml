@@ -1,0 +1,308 @@
+name: Dragon Turtle (11HD)
+type: npc
+img: systems/swords-wizardry/assets/game-icons-net/drakkar-dragon.svg
+system:
+  hp:
+    value: 0
+    min: 0
+    max: 0
+  save:
+    value: 4
+    min: 0
+    max: 20
+  ac:
+    value: 2
+    min: -9
+    max: 28
+  aac:
+    value: 17
+    min: 0
+    max: 28
+  moveRate:
+    value: 3 (swim 9)
+  tHAACB: 11
+  tHAC0: 8
+  spellSlots:
+    '1':
+      max: 0
+      memorized: []
+    '2':
+      max: 0
+      memorized: []
+    '3':
+      max: 0
+      memorized: []
+    '4':
+      max: 0
+      memorized: []
+    '5':
+      max: 0
+      memorized: []
+    '6':
+      max: 0
+      memorized: []
+    '7':
+      max: 0
+      memorized: []
+    '8':
+      max: 0
+      memorized: []
+    '9':
+      max: 0
+      memorized: []
+  treasure:
+    pp: 0
+    gp: 0
+    sp: 0
+    cp: 0
+    gems: ''
+    misc: ''
+  alignment: 'N'
+  description: >-
+    <p class="p1">These shell-backed monsters breathe scalding steam in a
+    90-foot-long cone shape roughly 30 feet wide at the base that inflicts as
+    many hit points of damage as the monster has (when at full hp). Dragon
+    turtles have a 75% chance of being able to talk, and these have a 20% chance
+    of being able to cast 1d4 1st-level Magic-User spells, 1d3 2nd-level
+    Magic-User spells, and 1d2 3rd-level Magic-User spells. A dragon turtle that
+    rises beneath all but the largest ship can lift it, possibly making it
+    capsize (roughly 50% chance).</p>
+
+    <hr>
+
+    <p class="p1"><em>The size of a dragon is roughly 5 feet of&nbsp;body length
+    per age category, up to the adult&nbsp;size of 20 feet. Dragons have double
+    normal&nbsp;treasure (that is, a gold piece value of four&nbsp;times the
+    dragon&rsquo;s XP value).&nbsp;Do not roll hit points for dragons as
+    normal.&nbsp;Instead, determine the number of hit dice&nbsp;and the age
+    category of the dragon. The age&nbsp;category indicates the dragon&rsquo;s
+    hit points&nbsp;per die and how much damage the dragon&rsquo;s&nbsp;breath
+    weapon inflicts, given as points per&nbsp;hit die:</em></p>
+
+    <p class="p2"><em><strong>&bull; Very young dragon:</strong> 1 hit point per
+    hit&nbsp;die; 1 hit point per die inflicted by breath&nbsp;weapon.</em></p>
+
+    <p class="p2"><em><strong>&bull; Young:</strong> 2 hit points per hit die; 2
+    hit points&nbsp;per die inflicted by breath weapon.</em></p>
+
+    <p class="p2"><em><strong>&bull; Immature: </strong>3 hit points per hit
+    die; 3 hit&nbsp;points per die inflicted by breath weapon.</em></p>
+
+    <p class="p2"><em><strong>&bull; Adult:</strong> 4 hit points per hit die; 4
+    hit points&nbsp;per die inflicted by breath weapon.</em></p>
+
+    <p class="p2"><em><strong>&bull; Old: </strong>5 hit points per hit die; 5
+    hit points per&nbsp;die inflicted by breath weapon.</em></p>
+
+    <p class="p2"><em><strong>&bull; Very old </strong>(100 years old): 6 hit
+    points per hit&nbsp;die; 6 hit points per die inflicted by
+    breath&nbsp;weapon.</em></p>
+
+    <p class="p2"><em><strong>&bull; Aged </strong>(101&ndash;400 years old): 7
+    hit points per&nbsp;die; 7 hit points per die inflicted by
+    breath&nbsp;weapon.</em></p>
+
+    <p class="p2"><em><strong>&bull; Ancient</strong> (401+ years old): 8 hit
+    points per&nbsp;die; 8 hit points per die inflicted by
+    breath&nbsp;weapon.</em></p>
+  cl: 13
+  hd: '11'
+  morale: 10
+  special: >-
+    break ships (50% chance to capsize), breathe steam (1/day, 90ft-long cone,
+    damage equal to full creature
+  xp:
+    value: 3900
+  numberEncountered: '1'
+  percentInLair: '5'
+  toHitAC:
+    '-9': 17
+    '-8': 16
+    '-7': 15
+    '-6': 14
+    '-5': 13
+    '-4': 12
+    '-3': 11
+    '-2': 10
+    '-1': 9
+    '+0': 8
+    '+1': 7
+    '+2': 6
+    '+3': 5
+    '+4': 4
+    '+5': 3
+    '+6': 2
+    '+7': 1
+    '+8': 1
+    '+9': 1
+prototypeToken:
+  name: Dragon Turtle (11HD)
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: systems/swords-wizardry/assets/game-icons-net/drakkar-dragon.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: hp
+  bar2:
+    attribute: ac
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  depth: 1
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items:
+  - name: 2 claws
+    type: weapon
+    system:
+      description: ''
+      quantity: 1
+      weight: 0
+      gp: 0
+      pp: 0
+      sp: 0
+      cp: 0
+      missile: false
+      range: 0
+      rateOfFire: 1
+      modifier: '0'
+      formula: d20 + @toHit.v
+      damageFormula: 1d8
+    _id: g07q6JnJLpdbcuLy
+    img: icons/svg/item-bag.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      uY5ZaNbCwA9WwEXo: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '14.367'
+      systemId: swords-wizardry
+      systemVersion: 2.6.1
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!RHer7g3RgSSL4xQM.g07q6JnJLpdbcuLy'
+  - name: bite
+    type: weapon
+    system:
+      description: ''
+      quantity: 1
+      weight: 0
+      gp: 0
+      pp: 0
+      sp: 0
+      cp: 0
+      missile: false
+      range: 0
+      rateOfFire: 1
+      modifier: '0'
+      formula: d20 + @toHit.v
+      damageFormula: 3d10
+    _id: SO94PdDdzoJF4KYR
+    img: icons/svg/item-bag.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      uY5ZaNbCwA9WwEXo: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '14.367'
+      systemId: swords-wizardry
+      systemVersion: 2.6.1
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!RHer7g3RgSSL4xQM.SO94PdDdzoJF4KYR'
+effects: []
+folder: ZOJ6LzweUWsymwTR
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763234443
+  modifiedTime: 1740781367099
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_id: RHer7g3RgSSL4xQM
+sort: 100000
+_key: '!actors!RHer7g3RgSSL4xQM'

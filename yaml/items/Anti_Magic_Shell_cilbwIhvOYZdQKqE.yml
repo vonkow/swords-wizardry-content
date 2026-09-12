@@ -1,0 +1,30 @@
+folder: 7TYCol1vgCOCQW6N
+name: Anti-Magic Shell
+type: spell
+_id: cilbwIhvOYZdQKqE
+img: systems/swords-wizardry/assets/game-icons-net/bell-shield.svg
+system:
+  description: >-
+    <p>An invisible bubble of force impenetrable to magic surrounds the caster.
+    Spells and other magical effects cannot pass into or out of the shell. The
+    shell has a radius of 10 feet.</p>
+  spellLevel: '6'
+  range: Caster
+  duration: 2 hours
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.9.4
+  createdTime: 1740763417887
+  modifiedTime: 1741401125994
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!cilbwIhvOYZdQKqE'

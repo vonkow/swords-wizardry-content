@@ -1,0 +1,100 @@
+folder: fcpHI1gquedjQXVD
+name: Passplant
+type: spell
+_id: ObCIZaixwd14H3gf
+img: systems/swords-wizardry/assets/game-icons-net/tree-door.svg
+system:
+  description: >-
+    <p class="p1">The caster may step into one tree and&nbsp;emerge from a
+    distant tree of the same kind;&nbsp;both trees must be living, and have a
+    girth&nbsp;as large as the caster&rsquo;s own. The caster need&nbsp;not step
+    out of the first tree immediately, but&nbsp;may wait within the tree for as
+    long as desired (up to the limit of the spell&rsquo;s duration)&nbsp;before
+    leaving. It is possible for the caster to&nbsp;step from tree to tree in
+    series without ending the spell; however, upon emerging from&nbsp;any tree
+    into the outside, the caster ends the&nbsp;spell. The table below shows the
+    maximum&nbsp;distance the caster may travel in a single&nbsp;step; this is
+    also the maximum total distance&nbsp;that can be traveled in a single
+    casting of the&nbsp;spell, even if the caster moves through multiple trees.
+    Upon casting the spell, the caster&nbsp;becomes aware of the various trees
+    within&nbsp;the range of the spell, so there is no chance&nbsp;of
+    &ldquo;missing&rdquo; the target.</p>
+
+    <h3 class="p1">Passplant</h3>
+
+    <table style="width: 100%; height: 96px;" border="1"><colgroup><col
+    style="width: 38.0252%;"><col style="width: 61.7647%;"></colgroup>
+
+    <tbody>
+
+    <tr style="height: 16px;">
+
+    <td style="height: 16px;"><strong>Type of Tree</strong></td>
+
+    <td style="height: 16px;"><strong>Maximum Distance for Spell</strong></td>
+
+    </tr>
+
+    <tr style="height: 16px;">
+
+    <td style="height: 16px;">Oak, ash, yew</td>
+
+    <td style="height: 16px;">3,000 feet</td>
+
+    </tr>
+
+    <tr style="height: 16px;">
+
+    <td style="height: 16px;">Elm, linden</td>
+
+    <td style="height: 16px;">2,000 feet</td>
+
+    </tr>
+
+    <tr style="height: 16px;">
+
+    <td style="height: 16px;">Other deciduous</td>
+
+    <td style="height: 16px;">1,500 feet</td>
+
+    </tr>
+
+    <tr style="height: 16px;">
+
+    <td style="height: 16px;">Any coniferous</td>
+
+    <td style="height: 16px;">1,000 feet</td>
+
+    </tr>
+
+    <tr style="height: 16px;">
+
+    <td style="height: 16px;">All other trees</td>
+
+    <td style="height: 16px;">500 feet</td>
+
+    </tr>
+
+    </tbody>
+
+    </table>
+  spellLevel: '5'
+  range: Touch (first tree)
+  duration: 1 hour per level or until exit
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!ObCIZaixwd14H3gf'

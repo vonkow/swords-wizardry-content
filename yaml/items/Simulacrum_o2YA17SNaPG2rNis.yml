@@ -1,0 +1,39 @@
+folder: UIdtOsdabTuoaOdC
+name: Simulacrum
+type: spell
+_id: o2YA17SNaPG2rNis
+img: systems/swords-wizardry/assets/game-icons-net/body-swapping.svg
+system:
+  description: >-
+    <p>The caster creates a duplicate of himself or some other person. The basic
+    form is created from snow and ice, and must then be animated (animate dead
+    is an acceptable means.) A limited wish (along with the actual simulacrum
+    spell) is then used to imbue the animated form with intelligence and certain
+    knowledge of the person being simulated. The simulacrum gains 30%–60% (roll
+    1d4+2 x 10%) of the simulated creature’s knowledge and experience. The
+    simulacrum follows its creator’s orders. Note that the simulacrum is not a
+    perfect representation of the original. Side by side, the differences are
+    obvious, and the simulacrum is a magical creature detectable with a detect
+    magic spell. If the original of the simulacrum dies, a strange effect
+    begins: the simulacrum begins to gain the knowledge and experience of the
+    dead individual at a rate of 1% per week, to a maximum of 90%.</p>
+  spellLevel: '7'
+  range: Touch
+  duration: Permanent
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.9.4
+  createdTime: 1740763417887
+  modifiedTime: 1741404912321
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!o2YA17SNaPG2rNis'

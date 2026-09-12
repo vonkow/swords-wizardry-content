@@ -1,0 +1,19 @@
+name: L
+sorting: a
+folder: null
+type: Actor
+_id: tnOX66zDgLsc1hoe
+description: ''
+sort: 100000
+color: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763245851
+  modifiedTime: 1740763245937
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+_key: '!folders!tnOX66zDgLsc1hoe'

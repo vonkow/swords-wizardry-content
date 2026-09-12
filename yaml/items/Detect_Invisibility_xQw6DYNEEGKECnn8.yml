@@ -1,0 +1,29 @@
+folder: em3jC8vi5E6vvnmq
+name: Detect Invisibility
+type: spell
+_id: xQw6DYNEEGKECnn8
+img: systems/swords-wizardry/assets/game-icons-net/radar-sweep.svg
+system:
+  description: >-
+    <p>The caster can perceive invisible objects and creatures, even those
+    lurking in the Astral or Ethereal planes of existence.</p>
+  spellLevel: '2'
+  range: 10 feet per caster level
+  duration: 1 hour
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.8.0
+  createdTime: 1740763417887
+  modifiedTime: 1740796285232
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!xQw6DYNEEGKECnn8'

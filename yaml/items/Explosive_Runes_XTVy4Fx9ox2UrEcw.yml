@@ -1,0 +1,36 @@
+folder: JyjLtkmrFkA1auIr
+name: Explosive Runes
+type: spell
+_id: XTVy4Fx9ox2UrEcw
+img: systems/swords-wizardry/assets/game-icons-net/bright-explosion.svg
+system:
+  description: >-
+    <p>The Magic-User scribes a rune onto parchment, vellum, or paper as a
+    deadly trap. If anyone other than the caster reads the rune, the sigil
+    explodes into fire, automatically dealing 4d6 points of damage to anyone
+    directly in front of it. The parchment or book upon which the rune was
+    scribed is also destroyed. An explosive rune can be detected, bypassed, and
+    even removed by a higher-level Magic-User. Any Magic-User at least two
+    levels higher than the rune’s creator has a 60% chance to detect it, a 75%
+    chance to bypass it (if it is detected), and a 100% chance to remove it (if
+    it is successfully detected and bypassed).</p>
+  spellLevel: '3'
+  range: Written on parchment
+  duration: Permanent
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.8.0
+  createdTime: 1740763417887
+  modifiedTime: 1740804299756
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!XTVy4Fx9ox2UrEcw'

@@ -1,0 +1,228 @@
+name: Kobold
+type: npc
+img: systems/swords-wizardry/assets/game-icons-net/imp-laugh.svg
+system:
+  hp:
+    value: 0
+    min: 0
+    max: 0
+  save:
+    value: 18
+    min: 0
+    max: 20
+  ac:
+    value: 7
+    min: -9
+    max: 28
+  aac:
+    value: 12
+    min: 0
+    max: 28
+  moveRate:
+    value: '6'
+  tHAACB: 0
+  tHAC0: 19
+  spellSlots:
+    '1':
+      max: 0
+      memorized: []
+    '2':
+      max: 0
+      memorized: []
+    '3':
+      max: 0
+      memorized: []
+    '4':
+      max: 0
+      memorized: []
+    '5':
+      max: 0
+      memorized: []
+    '6':
+      max: 0
+      memorized: []
+    '7':
+      max: 0
+      memorized: []
+    '8':
+      max: 0
+      memorized: []
+    '9':
+      max: 0
+      memorized: []
+  treasure:
+    pp: 0
+    gp: 0
+    sp: 0
+    cp: 0
+    gems: ''
+    misc: ''
+  alignment: C
+  description: >-
+    <p class="p1">Kobolds are subterranean, vaguely goblin-like humanoids. They
+    have a &ndash;1 penalty&nbsp;when fighting aboveground. Many use
+    slings&nbsp;or shortbows, and they fight with short&nbsp;swords or spiked
+    clubs in melee combat.</p>
+  cl: 0
+  hd: 1d4
+  morale: 6
+  special: none
+  xp:
+    value: 5
+  numberEncountered: 2d4+1 or 1d10x40
+  percentInLair: '50'
+  toHitAC:
+    '-9': 27
+    '-8': 26
+    '-7': 25
+    '-6': 24
+    '-5': 23
+    '-4': 22
+    '-3': 21
+    '-2': 20
+    '-1': 19
+    '+0': 18
+    '+1': 17
+    '+2': 16
+    '+3': 15
+    '+4': 14
+    '+5': 13
+    '+6': 12
+    '+7': 11
+    '+8': 10
+    '+9': 9
+prototypeToken:
+  name: Kobold
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: systems/swords-wizardry/assets/game-icons-net/imp-laugh.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: hp
+  bar2:
+    attribute: ac
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  depth: 1
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items:
+  - name: weapon
+    type: weapon
+    system:
+      description: ''
+      quantity: 1
+      weight: 0
+      gp: 0
+      pp: 0
+      sp: 0
+      cp: 0
+      missile: false
+      range: 0
+      rateOfFire: 1
+      modifier: '0'
+      formula: d20 + @toHit.v
+      damageFormula: 1d6
+    _id: Pe0gks9lFjA9nvsg
+    img: icons/svg/item-bag.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      uY5ZaNbCwA9WwEXo: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '14.367'
+      systemId: swords-wizardry
+      systemVersion: 2.6.1
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!wyfb4tyZw08nCgGg.Pe0gks9lFjA9nvsg'
+effects: []
+folder: xFagNtZH8ntpW616
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.7.0
+  createdTime: 1740763244187
+  modifiedTime: 1740782090187
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_id: wyfb4tyZw08nCgGg
+sort: 0
+_key: '!actors!wyfb4tyZw08nCgGg'

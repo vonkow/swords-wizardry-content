@@ -1,0 +1,32 @@
+folder: em3jC8vi5E6vvnmq
+name: Mirror Image
+type: spell
+_id: GJUmO4BwiDIqGXkN
+img: systems/swords-wizardry/assets/game-icons-net/two-shadows.svg
+system:
+  description: >-
+    <p>The spell creates 1d4 images of the caster that act in perfect
+    synchronization with him like mirror images. Attackers cannot distinguish
+    the images from the caster and may attack one of the images instead of the
+    caster himself (determined randomly). When a hit is scored upon one of the
+    images, it disappears.</p>
+  spellLevel: '2'
+  range: Around caster
+  duration: 1 hour or until destroyed
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.8.0
+  createdTime: 1740763417887
+  modifiedTime: 1740804702693
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!GJUmO4BwiDIqGXkN'

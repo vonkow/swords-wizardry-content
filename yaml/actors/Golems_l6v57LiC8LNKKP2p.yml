@@ -1,0 +1,19 @@
+name: Golems
+sorting: a
+folder: PCuP6FsIZwzK53QC
+type: Actor
+_id: l6v57LiC8LNKKP2p
+description: ''
+sort: 0
+color: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+_key: '!folders!l6v57LiC8LNKKP2p'

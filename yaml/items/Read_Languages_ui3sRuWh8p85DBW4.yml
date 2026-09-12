@@ -1,0 +1,31 @@
+folder: 7F78RJ3PbCFY9ybh
+name: Read Languages
+type: spell
+_id: ui3sRuWh8p85DBW4
+img: systems/swords-wizardry/assets/game-icons-net/read.svg
+system:
+  description: >-
+    <p class="p1">This spell allows the caster to decipher&nbsp;directions,
+    instructions, and formulae in&nbsp;languages unknown to the caster. This
+    can&nbsp;be particularly useful for treasure maps, but&nbsp;it does not
+    solve any codes.</p>
+  spellLevel: '1'
+  range: Normal reading distance
+  duration: One or two readings
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!ui3sRuWh8p85DBW4'

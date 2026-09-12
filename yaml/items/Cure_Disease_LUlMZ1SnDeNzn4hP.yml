@@ -1,0 +1,30 @@
+folder: FVFfB2fcoY4UshUN
+name: Cure Disease
+type: spell
+_id: LUlMZ1SnDeNzn4hP
+img: systems/swords-wizardry/assets/game-icons-net/apothecary.svg
+system:
+  description: >-
+    <p class="p1">Cures the spell&rsquo;s recipient of any
+    diseases,&nbsp;including magically-inflicted ones. An evil&nbsp;reversal of
+    this spell allows a Chaotically&nbsp;aligned Cleric to cause disease.</p>
+  spellLevel: '3'
+  range: Touch
+  duration: Immediate
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!LUlMZ1SnDeNzn4hP'

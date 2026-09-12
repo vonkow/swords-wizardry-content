@@ -1,0 +1,30 @@
+folder: 9TEZjFvmfamticJE
+name: Animal Growth
+type: spell
+_id: 2O5EZkUNm3M21Jzw
+img: systems/swords-wizardry/assets/game-icons-net/growth.svg
+system:
+  description: >-
+    <p>This spell causes 1d6 normal creatures to grow immediately to giant size.
+    While the spell lasts, the affected creatures can attack as per a giant
+    version of themselves.</p>
+  spellLevel: '5'
+  range: 120 feet
+  duration: 2 hours
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.9.4
+  createdTime: 1740763417887
+  modifiedTime: 1741394327084
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!2O5EZkUNm3M21Jzw'

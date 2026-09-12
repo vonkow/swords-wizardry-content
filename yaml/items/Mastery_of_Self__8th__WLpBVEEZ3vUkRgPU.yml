@@ -1,0 +1,31 @@
+folder: n35SOQd8s42BEvYR
+name: Mastery of Self (8th)
+type: feature
+_id: WLpBVEEZ3vUkRgPU
+img: systems/swords-wizardry/assets/game-icons-net/lotus.svg
+system:
+  description: >-
+    <p class="p1">The Monk is not subject to mental&nbsp;control of any kind,
+    including charm spells and hypnosis. The only&nbsp;exceptions are the
+    <em>geas</em> and <em>quest</em> spells.</p>
+  formula: ''
+  target: ''
+  targetType: descending
+effects: []
+sort: 0
+ownership:
+  default: 0
+  saJBeYreurxVYSiH: 3
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763413850
+  modifiedTime: 1740763413850
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!WLpBVEEZ3vUkRgPU'

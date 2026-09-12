@@ -1,0 +1,31 @@
+folder: K2lQ6B0IiuKV84iX
+name: Find the Path
+type: spell
+_id: 9Ahy4qeasafpKb6D
+img: systems/swords-wizardry/assets/game-icons-net/trail.svg
+system:
+  description: >-
+    <p class="p1">The caster perceives the fastest way out of&nbsp;an area, even
+    if the area is designed to be&nbsp;difficult to navigate, such as a
+    labyrinth.&nbsp;While outdoors, the spell has greater power,&nbsp;lasting a
+    full day.</p>
+  spellLevel: '6'
+  range: Caster
+  duration: 1 hour + 10 minutes/level; 1 day outdoors
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!9Ahy4qeasafpKb6D'

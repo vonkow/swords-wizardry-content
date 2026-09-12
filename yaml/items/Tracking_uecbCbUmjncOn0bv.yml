@@ -1,0 +1,90 @@
+folder: sb8wRIIKJfVQMxMB
+name: Tracking
+type: feature
+_id: uecbCbUmjncOn0bv
+img: systems/swords-wizardry/assets/game-icons-net/footsteps.svg
+system:
+  description: >-
+    <p class="p1">Rangers are able to track down other creatures in
+    the&nbsp;wild, in cities, and even through underground passages.</p>
+
+    <ul>
+
+    <li class="p1"><em>Outdoor Tracking.</em> Outdoors, the basic chance for
+    successful tracking&nbsp;(on a day-to-day basis) is 90%, modified by a
+    &ndash;10% for each day old&nbsp;the tracks are, and modified by &ndash;10%
+    (for the entire effort thereafter)&nbsp;for each day of rain (or snow) that
+    has fallen on the trail.</li>
+
+    <li class="p1"><em>Underground and City Tracking.</em> Tracking in the city
+    (any urban or populated area) or underground, makes it considerably harder
+    to find&nbsp;and follow a trail. First, the beginning of the trail must be
+    no more&nbsp;than an hour old. The base chance to track is still 90%, but
+    each&nbsp;time the trail changes (as described below), there is a chance for
+    the&nbsp;Ranger to lose the trail and be unable to track it further; that
+    is, the&nbsp;Ranger cannot pick up the trail even by circling the area where
+    the&nbsp;trail was lost. The circumstances under which the prey can
+    &ldquo;lose&rdquo;&nbsp;the Ranger are as follows:</li>
+
+    </ul>
+
+    <table border="1"><colgroup><col><col></colgroup>
+
+    <tbody>
+
+    <tr>
+
+    <td>Turns down a side passage:</td>
+
+    <td>25% chance to lose trail</td>
+
+    </tr>
+
+    <tr>
+
+    <td>Goes through a door:</td>
+
+    <td>35% chance to lose trail</td>
+
+    </tr>
+
+    <tr>
+
+    <td>Goes up or down through a trapdoor&nbsp;or ladder:</td>
+
+    <td>40% chance to lose trail</td>
+
+    </tr>
+
+    <tr>
+
+    <td>Climbs a wall up or down (including pits&nbsp;and shafts):</td>
+
+    <td>50% chance to lose trail</td>
+
+    </tr>
+
+    </tbody>
+
+    </table>
+  formula: d100
+  target: '90'
+  targetType: descending
+effects: []
+sort: 0
+ownership:
+  default: 0
+  saJBeYreurxVYSiH: 3
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763413850
+  modifiedTime: 1740763413850
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!uecbCbUmjncOn0bv'

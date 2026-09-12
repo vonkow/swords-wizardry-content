@@ -1,0 +1,33 @@
+folder: vujdD1HXXG8jJdOl
+name: Lay on Hands
+type: feature
+_id: A6X7IdyVAIt7fQ9s
+img: systems/swords-wizardry/assets/game-icons-net/glowing-hands.svg
+system:
+  description: >-
+    <p class="p1">A Paladin can &ldquo;lay on hands&rdquo; once per day to
+    cure&nbsp;others of 2 hit points of damage per level of the Paladin, or to
+    cure&nbsp;disease. If the other person is afflicted by more than one
+    disease, only&nbsp;one of these will be affected per five levels the Paladin
+    has attained.</p>
+  formula: ''
+  target: ''
+  targetType: descending
+effects: []
+sort: 0
+ownership:
+  default: 0
+  saJBeYreurxVYSiH: 3
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763413850
+  modifiedTime: 1740763413850
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!A6X7IdyVAIt7fQ9s'

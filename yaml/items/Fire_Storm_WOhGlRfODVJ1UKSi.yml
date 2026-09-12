@@ -1,0 +1,37 @@
+folder: fsq6EYE2NmVMACXd
+name: Fire Storm
+type: spell
+_id: WOhGlRfODVJ1UKSi
+img: systems/swords-wizardry/assets/game-icons-net/flame-tunnel.svg
+system:
+  description: >-
+    <p class="p1">A massive conflagration of fire erupts in the&nbsp;spot
+    directed by the caster. The fire burns&nbsp;in a shape, area, and size
+    defined by the&nbsp;caster, the volume being no less than 30 feet&nbsp;x 30
+    feet x 30 feet. The maximum possible&nbsp;volume of fire that can be called
+    forth is&nbsp;the minimum area (30x30x30) times the&nbsp;caster&rsquo;s
+    level. While the magical fire burns,&nbsp;creatures with 3 or fewer hit dice
+    cannot&nbsp;pass through it, and no creature can see&nbsp;through it to the
+    other side. Creatures who&nbsp;are able to pass through the fire receive
+    1d6&nbsp;hit points of damage per 10 feet traveled&nbsp;(no saving throw)
+    and undead creatures&nbsp;sustain twice this damage.</p>
+  spellLevel: '7'
+  range: 100 feet + 10 feet/level
+  duration: 1 turn (10 minutes)
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!WOhGlRfODVJ1UKSi'

@@ -1,0 +1,31 @@
+folder: V7L1xETAOpPH4vRG
+name: Fear
+type: spell
+_id: 3iUnxBWAEorixEb1
+img: systems/swords-wizardry/assets/game-icons-net/terror.svg
+system:
+  description: >-
+    <p>This spell causes the creatures in its cone-shaped path to flee in horror
+    if they fail a saving throw. If they do so, there is a 60% chance that they
+    drop whatever they are holding. The cone extends 240 feet to a base 120 feet
+    across.</p>
+  spellLevel: '4'
+  range: 240 feet
+  duration: 1 hour
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.9.4
+  createdTime: 1740763417887
+  modifiedTime: 1741393162286
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!3iUnxBWAEorixEb1'

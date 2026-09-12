@@ -1,0 +1,281 @@
+name: Hezrou Demon (Second-Category Demon)
+type: npc
+img: systems/swords-wizardry/assets/game-icons-net/toad-teeth.svg
+system:
+  hp:
+    value: 0
+    min: 0
+    max: 0
+  save:
+    value: 6
+    min: 0
+    max: 20
+  ac:
+    value: -2
+    min: -9
+    max: 28
+  aac:
+    value: 21
+    min: 0
+    max: 28
+  moveRate:
+    value: 6 (fly 12)
+  tHAACB: 9
+  tHAC0: 10
+  spellSlots:
+    '1':
+      max: 0
+      memorized: []
+    '2':
+      max: 0
+      memorized: []
+    '3':
+      max: 0
+      memorized: []
+    '4':
+      max: 0
+      memorized: []
+    '5':
+      max: 0
+      memorized: []
+    '6':
+      max: 0
+      memorized: []
+    '7':
+      max: 0
+      memorized: []
+    '8':
+      max: 0
+      memorized: []
+    '9':
+      max: 0
+      memorized: []
+  treasure:
+    pp: 0
+    gp: 0
+    sp: 0
+    cp: 0
+    gems: ''
+    misc: ''
+  alignment: C
+  description: >-
+    <p class="p1"><em>Spell-like abilities: at wil</em>l&mdash;darkness 15ft
+    radius,&nbsp;detect invisibility, fear.</p>
+
+    <p class="p1">Toad-like demons with bat wings, the hezrou have magic
+    resistance of 50%. At will, they can cause fear (per the spell), detect
+    invisibility (per the spell), and cause darkness in a 15-foot radius. They
+    are immune to fire.</p>
+
+    <p class="p1">Hezrou have a 20% chance to succeed&nbsp;at summoning another
+    second-category&nbsp;demon to their aid.</p>
+
+    <hr>
+
+    <p class="p1"><em>Demons are creatures of the lower planes of existence, but
+    they are occasionally encountered in places where they have been enslaved to
+    serve as guardians by powerful Magic-Users or evil Clerics. The more
+    intelligent varieties might also be interrupted while carrying out plots of
+    their own. There is no meaningful game distinction between demons and
+    devils; all are creatures of the lower planes.</em></p>
+  cl: 11
+  hd: '9'
+  morale: 10
+  special: >-
+    immune to fire, magic resistance (50%), spell-like abilities, summon demons
+    (20% chance, hezrou)
+  xp:
+    value: 2400
+  numberEncountered: 1d3 or 1d6 (in lair)
+  percentInLair: '10'
+  toHitAC:
+    '-9': 19
+    '-8': 18
+    '-7': 17
+    '-6': 16
+    '-5': 15
+    '-4': 14
+    '-3': 13
+    '-2': 12
+    '-1': 11
+    '+0': 10
+    '+1': 9
+    '+2': 8
+    '+3': 7
+    '+4': 6
+    '+5': 5
+    '+6': 4
+    '+7': 3
+    '+8': 2
+    '+9': 1
+prototypeToken:
+  name: Hezrou Demon (Second-Category Demon)
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: systems/swords-wizardry/assets/game-icons-net/toad-teeth.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: hp
+  bar2:
+    attribute: ac
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  depth: 1
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items:
+  - name: 2 claws
+    type: weapon
+    system:
+      description: ''
+      quantity: 1
+      weight: 0
+      gp: 0
+      pp: 0
+      sp: 0
+      cp: 0
+      missile: false
+      range: 0
+      rateOfFire: 1
+      modifier: '0'
+      formula: d20 + @toHit.v
+      damageFormula: 1d3
+    _id: 4X4sVl9LC8cox8Sa
+    img: icons/svg/item-bag.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      uY5ZaNbCwA9WwEXo: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '14.367'
+      systemId: swords-wizardry
+      systemVersion: 2.6.1
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!pIjZRdwsPDl46KC1.4X4sVl9LC8cox8Sa'
+  - name: bite
+    type: weapon
+    system:
+      description: ''
+      quantity: 1
+      weight: 0
+      gp: 0
+      pp: 0
+      sp: 0
+      cp: 0
+      missile: false
+      range: 0
+      rateOfFire: 1
+      modifier: '0'
+      formula: d20 + @toHit.v
+      damageFormula: 4d4
+    _id: rWAvIKnpt8QcqOQj
+    img: icons/svg/item-bag.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      uY5ZaNbCwA9WwEXo: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '14.367'
+      systemId: swords-wizardry
+      systemVersion: 2.6.1
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!pIjZRdwsPDl46KC1.rWAvIKnpt8QcqOQj'
+effects: []
+folder: kWgeglvJoCFLO1pU
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763234443
+  modifiedTime: 1740763234443
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_id: pIjZRdwsPDl46KC1
+sort: 700000
+_key: '!actors!pIjZRdwsPDl46KC1'

@@ -1,0 +1,30 @@
+folder: sb8wRIIKJfVQMxMB
+name: Alertness
+type: feature
+_id: 7siOMx9RWxSIq7Dx
+img: systems/swords-wizardry/assets/game-icons-net/surrounded-eye.svg
+system:
+  description: >-
+    <p>A party containing a Ranger is unlikely to be surprised,&nbsp;with only a
+    1-in-6 chance.</p>
+  formula: d6
+  target: '1'
+  targetType: descending
+effects: []
+sort: 0
+ownership:
+  default: 0
+  saJBeYreurxVYSiH: 3
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763413850
+  modifiedTime: 1740763413850
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!7siOMx9RWxSIq7Dx'

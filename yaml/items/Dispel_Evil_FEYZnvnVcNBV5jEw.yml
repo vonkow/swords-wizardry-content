@@ -1,0 +1,42 @@
+folder: H1XUiDjxeQDISjHc
+name: Dispel Evil
+type: spell
+_id: FEYZnvnVcNBV5jEw
+img: systems/swords-wizardry/assets/game-icons-net/sunbeams.svg
+system:
+  description: >-
+    <p class="p1">This spell is similar to the Magic-User spell&nbsp;dispel
+    magic, but affects only evil magic.&nbsp;Also unlike the dispel magic spell,
+    dispel&nbsp;evil functions (temporarily) against
+    evil&nbsp;&ldquo;sendings,&rdquo; possibly including dreams
+    or&nbsp;supernatural hunting-beasts. The power of&nbsp;an evil magic item is
+    held in abeyance for 10&nbsp;minutes rather than being permanently
+    dispelled. Evil spells are completely destroyed.&nbsp;As with dispel magic,
+    the chance of successfully dispelling evil is a percentage based on&nbsp;the
+    ratio of the level of the dispelling caster&nbsp;over the level of original
+    caster (or hit dice&nbsp;of the monster). Thus, a 9th-level
+    Cleric&nbsp;attempting to dispel an evil charm cast by a&nbsp;12th-level
+    Cleric has a 75% chance of success (9/12 = 0.75, or 75%). If the
+    12th-level&nbsp;Cleric was dispelling the 9th-level
+    Cleric&rsquo;s&nbsp;charm, success would be certain (12/9 =&nbsp;1.33, or
+    133%). Clerics of Chaos may cast a&nbsp;reversed version to Dispel Good.</p>
+  spellLevel: '5'
+  range: 30 feet
+  duration: 10 minutes against an item
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!FEYZnvnVcNBV5jEw'

@@ -1,0 +1,30 @@
+folder: s0tHYN4wKS8r93E7
+name: Purify Food and Drink
+type: spell
+_id: TMx63k5UsPa9eFxw
+img: systems/swords-wizardry/assets/game-icons-net/cornucopia.svg
+system:
+  description: >-
+    <p class="p1">Enough food and water for up to a dozen&nbsp;people is made
+    pure, removing spoilage and&nbsp;poisons. This spell may be reversed by
+    a&nbsp;Cleric of Chaos to spoil food and drink.</p>
+  spellLevel: '1'
+  range: Close/Touch (Referee's discretion)
+  duration: Immediate
+effects: []
+sort: 162500
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!TMx63k5UsPa9eFxw'

@@ -1,0 +1,31 @@
+folder: 7F78RJ3PbCFY9ybh
+name: Read Magic
+type: spell
+_id: Gf0pVBzOfEbyEwC6
+img: systems/swords-wizardry/assets/game-icons-net/spell-book.svg
+system:
+  description: >-
+    <p class="p1">This spell allows the caster to read the&nbsp;magical writings
+    upon scrolls and (occasionally) dungeon walls. Without the use of
+    this&nbsp;spell, magical writing cannot be read even&nbsp;by a
+    Magic-User.</p>
+  spellLevel: '1'
+  range: Caster only
+  duration: 2 scrolls or other magical writings
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!Gf0pVBzOfEbyEwC6'

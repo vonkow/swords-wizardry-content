@@ -1,0 +1,30 @@
+folder: HnOvKpwuYbMsH07l
+name: Locate Animal
+type: spell
+_id: NOEwZfVEhU3Aeiyj
+img: systems/swords-wizardry/assets/game-icons-net/deer-track.svg
+system:
+  description: >-
+    <p class="p1">Within the spell&rsquo;s range, the caster perceives&nbsp;the
+    correct direction (as the crow flies)&nbsp;toward the nearest specimen of a
+    type of&nbsp;animal named in the casting of the spell.</p>
+  spellLevel: '1'
+  range: 60 feet + 10 feet/level
+  duration: 1 round/level
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!NOEwZfVEhU3Aeiyj'

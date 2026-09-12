@@ -1,0 +1,53 @@
+folder: 7qLsWCwb07TaJfLF
+name: Heat Metal
+type: spell
+_id: JW7ZBrWnYWYGP1se
+img: systems/swords-wizardry/assets/game-icons-net/hot-surface.svg
+system:
+  description: >-
+    <p class="p1">This spell heats metal to searing hot temperatures, affecting
+    20 pounds of metal per&nbsp;level of the caster. As a rule of thumb,
+    this&nbsp;magic affects the armor and weapons of one&nbsp;opponent per
+    caster level when used as a&nbsp;general attack, although the spell is
+    definitely not limited to general combat. Metal does&nbsp;not get a saving
+    throw against being heated,&nbsp;but any sort of magical fire resistance
+    prevents damage from the heat itself.</p>
+
+    <p class="p1">Effect of continuous exposure to heated&nbsp;metal:</p>
+
+    <p class="p1"><strong>Round 1</strong>: The metal becomes hot, but&nbsp;is
+    not yet dangerous.</p>
+
+    <p class="p1"><strong>Round 2</strong>: 1d4 points of damage. If&nbsp;hands
+    are what remain in contact, the&nbsp;blistering makes them unusable for
+    1&nbsp;day thereafter.</p>
+
+    <p class="p1"><strong>Rounds 3&ndash;5</strong>: 1d4+1 points of
+    damage&nbsp;per round. If hands remain in contact,&nbsp;their skin is so
+    badly scorched that&nbsp;they cannot be used for 1d3 weeks. If&nbsp;the head
+    is in contact, the victim falls&nbsp;unconscious for 1d8 turns.</p>
+
+    <p class="p1"><strong>Round 6</strong>: 1d4 points of damage.</p>
+
+    <p class="p1"><strong>Round 7</strong>: The metal has begun to&nbsp;cool,
+    and is merely hot to the touch.</p>
+  spellLevel: '2'
+  range: 30 feet
+  duration: 7 rounds
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!JW7ZBrWnYWYGP1se'

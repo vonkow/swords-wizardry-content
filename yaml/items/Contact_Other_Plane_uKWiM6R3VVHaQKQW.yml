@@ -1,0 +1,45 @@
+folder: 9TEZjFvmfamticJE
+name: Contact Other Plane
+type: spell
+_id: uKWiM6R3VVHaQKQW
+img: systems/swords-wizardry/assets/game-icons-net/floating-tentacles.svg
+system:
+  description: >-
+    <p>The caster creates a mental contact with the planes, forces, powers, and
+    geometries of the beyond in order to gain affirmative or negative answers to
+    the questions being contemplated. The spell’s effects depend upon how deeply
+    the caster quests into the various planes of existence. The caster must
+    decide how “far” into the planes of existence the contact will be attempted.
+    The number of planes in “depth” that the caster chooses affects the number
+    of yes or no questions that can be asked, the chance that the knowledge is
+    available at that level, the chance of receiving a wrong answer, and the
+    chance that the caster becomes temporarily insane from the experience.
+    Temporary insanity lasts for as many weeks as the “number” of the plane
+    where the caster’s sanity failed … or perhaps was deliberately
+    removed.</p><table><tbody><tr><td><p><strong>Plane of
+    Existence</strong></p></td><td><p><strong>Max. # of
+    Questions</strong></p></td><td><p><strong>Knowledge
+    Available</strong></p></td><td><p><strong>Wrong
+    Results</strong></p></td><td><p><strong>Temporary
+    Insanity*</strong></p></td></tr><tr><td><p>3rd</p></td><td><p>3</p></td><td><p>25%</p></td><td><p>70%</p></td><td><p>1%</p></td></tr><tr><td><p>4th</p></td><td><p>4</p></td><td><p>30%</p></td><td><p>60%</p></td><td><p>10%</p></td></tr><tr><td><p>5th</p></td><td><p>5</p></td><td><p>40%</p></td><td><p>50%</p></td><td><p>20%</p></td></tr><tr><td><p>6th</p></td><td><p>6</p></td><td><p>50%</p></td><td><p>40%</p></td><td><p>30%</p></td></tr><tr><td><p>7th</p></td><td><p>7</p></td><td><p>60%</p></td><td><p>30%</p></td><td><p>40%</p></td></tr><tr><td><p>8th</p></td><td><p>8</p></td><td><p>70%</p></td><td><p>25%</p></td><td><p>45%</p></td></tr><tr><td><p>9th</p></td><td><p>9</p></td><td><p>80%</p></td><td><p>20%</p></td><td><p>55%</p></td></tr><tr><td><p>10th</p></td><td><p>10</p></td><td><p>85%</p></td><td><p>15%</p></td><td><p>65%</p></td></tr><tr><td><p>11th</p></td><td><p>11</p></td><td><p>90%</p></td><td><p>10%</p></td><td><p>75%</p></td></tr><tr><td><p>12th</p></td><td><p>12</p></td><td><p>95%</p></td><td><p>1%</p></td><td><p>85%</p></td></tr></tbody></table><p>*
+    This chance is reduced by 5% for every level of the caster above 11th</p>
+  spellLevel: '5'
+  range: None
+  duration: Number of "Yes/No" questions
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.9.4
+  createdTime: 1740763417887
+  modifiedTime: 1741394881218
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!uKWiM6R3VVHaQKQW'

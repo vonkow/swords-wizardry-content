@@ -1,0 +1,35 @@
+folder: em3jC8vi5E6vvnmq
+name: Levitate
+type: spell
+_id: 7TeblXkY1QchGmYL
+img: systems/swords-wizardry/assets/game-icons-net/lift.svg
+system:
+  description: >-
+    <p>This spell allows the Magic-User to levitate himself, moving vertically
+    up or down, but the spell itself provides no assistance with lateral
+    movement. A wall, cliff side, or ceiling could, of course, be used to pull
+    along hand-over-hand. Levitation allows up- or downward movement at a rate
+    of up to 6 feet per minute (60 feet per turn), and the caster cannot
+    levitate more than 20 feet per level from the ground level where the spell
+    was cast. (Such range is applied to movement into the air and to downward
+    movement into a pit or chasm.)</p>
+  spellLevel: '2'
+  range: 20 feet/level
+  duration: 1 turn/level
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.8.0
+  createdTime: 1740763417887
+  modifiedTime: 1741408118709
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!7TeblXkY1QchGmYL'

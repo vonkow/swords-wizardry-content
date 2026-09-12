@@ -1,0 +1,19 @@
+name: D
+sorting: a
+folder: null
+type: Actor
+_id: mn33gHdKj52vpZJy
+description: ''
+sort: 100000
+color: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763234098
+  modifiedTime: 1740763234667
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+_key: '!folders!mn33gHdKj52vpZJy'

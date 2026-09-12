@@ -1,0 +1,33 @@
+folder: FVFfB2fcoY4UshUN
+name: Pyrotechnics
+type: spell
+_id: 6k5sdvOm2Jk30F94
+img: systems/swords-wizardry/assets/game-icons-net/eruption.svg
+system:
+  description: >-
+    <p class="p1">The caster creates either fireworks or&nbsp;blinding smoke
+    from a normal fire source&nbsp;such as a torch or campfire. The Referee
+    decides exactly how much smoke (or&nbsp;fireworks) is produced, what effect
+    it has,&nbsp;and what happens to it as it is produced,&nbsp;but the amount
+    of smoke will definitely be&nbsp;more than 8000 cubic feet (roughly 20 x
+    20&nbsp;x 20 feet).</p>
+  spellLevel: '3'
+  range: 240 feet
+  duration: 1 hour
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!6k5sdvOm2Jk30F94'

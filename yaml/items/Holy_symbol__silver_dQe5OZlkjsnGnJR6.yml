@@ -1,0 +1,35 @@
+name: Holy symbol, silver
+type: item
+_id: dQe5OZlkjsnGnJR6
+img: systems/swords-wizardry/assets/game-icons-net/holy-symbol.svg
+system:
+  description: >-
+    <p class="p1">Often needed for Cleric spells and for turning
+    the&nbsp;undead. In some cases, silver ones work better.</p>
+  quantity: 1
+  weight: 0
+  gp: 25
+  pp: 0
+  sp: 0
+  cp: 0
+  formula: d6
+  gold: 25
+effects: []
+folder: u1wIWsI5L1tgkpvP
+sort: 1900000
+ownership:
+  default: 0
+  saJBeYreurxVYSiH: 3
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763416123
+  modifiedTime: 1740763416123
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!dQe5OZlkjsnGnJR6'

@@ -1,0 +1,33 @@
+folder: AvRQj6k7Yn2rh2i0
+name: Holy Word
+type: spell
+_id: kzMc9H3mDeHZPm6J
+img: systems/swords-wizardry/assets/game-icons-net/shouting.svg
+system:
+  description: >-
+    <p class="p1">The speaking of a holy word dramatically affects all those
+    within the range of its&nbsp;divine power. Creatures of fewer than 5
+    hit&nbsp;dice are slain; creatures of 5&ndash;8 hit dice are&nbsp;stunned
+    for 2d10 turns; and creatures with&nbsp;9&ndash;12 hit dice are deafened for
+    1d6 turns.&nbsp;Creatures with 13+ hit dice are unaffected&nbsp;but probably
+    impressed.</p>
+  spellLevel: '7'
+  range: 40-foot radius
+  duration: Immediate
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!kzMc9H3mDeHZPm6J'

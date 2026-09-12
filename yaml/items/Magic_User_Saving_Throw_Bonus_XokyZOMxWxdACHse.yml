@@ -1,0 +1,30 @@
+folder: RVBxwersWiFCen87
+name: Magic-User Saving Throw Bonus
+type: feature
+_id: XokyZOMxWxdACHse
+img: systems/swords-wizardry/assets/game-icons-net/dice-twenty-faces-twenty.svg
+system:
+  description: >-
+    <p class="p1">Magic-Users gain a bonus of +2 on all&nbsp;saving throw rolls
+    against spells, including spells from magic wands&nbsp;and staffs.</p>
+  formula: ''
+  target: ''
+  targetType: descending
+effects: []
+sort: 0
+ownership:
+  default: 0
+  saJBeYreurxVYSiH: 3
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763413850
+  modifiedTime: 1740763413850
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!XokyZOMxWxdACHse'

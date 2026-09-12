@@ -1,0 +1,39 @@
+folder: RVBxwersWiFCen87
+name: Spell Casting
+type: feature
+_id: NLYBnLVPTbOshqnw
+img: systems/swords-wizardry/assets/game-icons-net/magic-swirl.svg
+system:
+  description: >-
+    <p class="p1">Unlike the Cleric, a Magic-User owns a book&nbsp;of spells,
+    which does not necessarily include all of the spells on&nbsp;the standard
+    lists. Reading from this book, Magic-Users force&nbsp;selected spell
+    formulae into their minds, &ldquo;preparing&rdquo; as many&nbsp;spells as
+    the Magic-User can mentally sustain. (It is possible to&nbsp;prepare a spell
+    multiple times using the available &ldquo;slots&rdquo; in
+    the&nbsp;Magic-User&rsquo;s memory and mental capability.) Once a
+    prepared&nbsp;spell is cast, it disappears from the Magic-User&rsquo;s
+    ability to cast,&nbsp;until it is prepared again. If a Magic-User finds
+    scrolls of spells&nbsp;while adventuring, these spells can be added to the
+    Magic-User&rsquo;s&nbsp;spellbook.</p>
+  formula: ''
+  target: ''
+  targetType: descending
+effects: []
+sort: 0
+ownership:
+  default: 0
+  saJBeYreurxVYSiH: 3
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763413850
+  modifiedTime: 1740763413850
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!NLYBnLVPTbOshqnw'

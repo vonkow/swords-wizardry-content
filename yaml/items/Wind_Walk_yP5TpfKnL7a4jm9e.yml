@@ -1,0 +1,32 @@
+folder: AvRQj6k7Yn2rh2i0
+name: Wind Walk
+type: spell
+_id: yP5TpfKnL7a4jm9e
+img: systems/swords-wizardry/assets/game-icons-net/wingfoot.svg
+system:
+  description: >-
+    <p class="p1">The caster and one other person in contact&nbsp;with him
+    become incorporeal and mist-like,&nbsp;able to travel through walls and
+    other obstacles. The Cleric can bring this companion along and travel at 48
+    feet per minute&nbsp;indoors (or in subterranean settings) and&nbsp;much
+    faster outdoors.</p>
+  spellLevel: '7'
+  range: Touch
+  duration: 1 day or until dispelled
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!yP5TpfKnL7a4jm9e'

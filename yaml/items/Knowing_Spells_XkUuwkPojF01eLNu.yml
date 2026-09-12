@@ -1,0 +1,49 @@
+folder: RVBxwersWiFCen87
+name: Knowing Spells
+type: feature
+_id: XkUuwkPojF01eLNu
+img: systems/swords-wizardry/assets/game-icons-net/spell-book.svg
+system:
+  description: >-
+    <p class="p1">In <strong><em>Swords &amp; Wizardry</em></strong>, a
+    beginning Magic-User&rsquo;s spellbook contains as many of the ten basic
+    1st-level&nbsp;spells as the neophyte character can know. Check each spell
+    to&nbsp;see if the Magic-User can learn and know it, using the
+    &ldquo;Learn&nbsp;Spells&rdquo; column on the table in the description of
+    the Intelligence&nbsp;attribute. Each time the magician gains a level (if
+    the Referee permits), he or she may re-check the spells not
+    understood&nbsp;before, to see if increased experience has granted new
+    understanding &mdash; although the Maximum Number of Basic
+    Spells&nbsp;Understandable (from the Intelligence Table) is still the
+    upper&nbsp;limit. A Magic-User would also still need to find and copy
+    these&nbsp;new spells into his or her spellbook. The same procedure
+    applies&nbsp;to each higher spell level: A wizard must find the
+    higher-level&nbsp;spells in dungeons or musty libraries and copy them into a
+    spellbook, or trade copies with other Magic-Users. New and
+    unusual&nbsp;spells outside the basic lists are not part of the
+    &ldquo;maximum number&rdquo; of knowable spells, although they still require
+    a roll to see if a&nbsp;Magic-User can understand one. (Such spells are rare
+    and seldom&nbsp;traded.) New spells that a wizard researches and creates
+    personally&nbsp;are also not subject to the maximum allowable number of
+    regular&nbsp;spells.</p>
+  formula: ''
+  target: ''
+  targetType: descending
+effects: []
+sort: 0
+ownership:
+  default: 0
+  saJBeYreurxVYSiH: 3
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763413850
+  modifiedTime: 1740763413850
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!XkUuwkPojF01eLNu'

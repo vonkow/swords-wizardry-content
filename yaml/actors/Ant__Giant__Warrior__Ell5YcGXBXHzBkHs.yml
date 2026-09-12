@@ -1,0 +1,228 @@
+name: Ant, Giant (Warrior)
+type: npc
+img: systems/swords-wizardry/assets/game-icons-net/ant.svg
+system:
+  hp:
+    value: 0
+    min: 0
+    max: 0
+  save:
+    value: 14
+    min: 0
+    max: 20
+  ac:
+    value: 3
+    min: -9
+    max: 28
+  aac:
+    value: 16
+    min: 0
+    max: 28
+  moveRate:
+    value: '18'
+  tHAACB: 3
+  tHAC0: 16
+  spellSlots:
+    '1':
+      max: 0
+      memorized: []
+    '2':
+      max: 0
+      memorized: []
+    '3':
+      max: 0
+      memorized: []
+    '4':
+      max: 0
+      memorized: []
+    '5':
+      max: 0
+      memorized: []
+    '6':
+      max: 0
+      memorized: []
+    '7':
+      max: 0
+      memorized: []
+    '8':
+      max: 0
+      memorized: []
+    '9':
+      max: 0
+      memorized: []
+  treasure:
+    pp: 0
+    gp: 0
+    sp: 0
+    cp: 0
+    gems: ''
+    misc: ''
+  alignment: 'N'
+  description: >-
+    <p class="p1">The poison of a warrior ant does 2d6 points&nbsp;of damage if
+    a saving throw is failed, or&nbsp;1d4 points of damage if the saving
+    throw&nbsp;succeeds.</p>
+  cl: 4
+  hd: '3'
+  morale: 10
+  special: poison (2d6 damage, or save for 1d4 damage)
+  xp:
+    value: 120
+  numberEncountered: Scouts (1d4) or hive (see Giant Worker Ant)
+  percentInLair: '10'
+  toHitAC:
+    '-9': 25
+    '-8': 24
+    '-7': 23
+    '-6': 22
+    '-5': 21
+    '-4': 20
+    '-3': 19
+    '-2': 18
+    '-1': 17
+    '+0': 16
+    '+1': 15
+    '+2': 14
+    '+3': 13
+    '+4': 12
+    '+5': 11
+    '+6': 10
+    '+7': 9
+    '+8': 8
+    '+9': 7
+prototypeToken:
+  name: Ant, Giant (Warrior)
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: systems/swords-wizardry/assets/game-icons-net/ant.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: hp
+  bar2:
+    attribute: ac
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  depth: 1
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items:
+  - name: bite
+    type: weapon
+    system:
+      description: ''
+      quantity: 1
+      weight: 0
+      gp: 0
+      pp: 0
+      sp: 0
+      cp: 0
+      missile: false
+      range: 0
+      rateOfFire: 1
+      modifier: '0'
+      formula: d20 + @toHit.v
+      damageFormula: 1d6
+      specialDamage: Poison
+    _id: l8PGC76G7GJ1llYc
+    img: icons/svg/item-bag.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      uY5ZaNbCwA9WwEXo: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '14.367'
+      systemId: swords-wizardry
+      systemVersion: 2.7.0
+      createdTime: null
+      modifiedTime: 1740780479519
+      lastModifiedBy: uY5ZaNbCwA9WwEXo
+      exportSource: null
+    _key: '!actors.items!Ell5YcGXBXHzBkHs.l8PGC76G7GJ1llYc'
+effects: []
+folder: iY78vdgtOC3riU8W
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763228944
+  modifiedTime: 1740763228944
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_id: Ell5YcGXBXHzBkHs
+sort: 300000
+_key: '!actors!Ell5YcGXBXHzBkHs'

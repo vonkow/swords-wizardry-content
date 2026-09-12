@@ -1,0 +1,30 @@
+folder: S6C6djqSw90xc99J
+name: Thief Saving Throw Bonus
+type: feature
+_id: u8HG9aUcRW5VdOP1
+img: systems/swords-wizardry/assets/game-icons-net/dice-twenty-faces-twenty.svg
+system:
+  description: >-
+    <p>Thieves gain a +2 bonus on saving throws&nbsp;against devices, including
+    traps, magical wands or staffs, and other&nbsp;magical devices.</p>
+  formula: ''
+  target: ''
+  targetType: descending
+effects: []
+sort: 0
+ownership:
+  default: 0
+  saJBeYreurxVYSiH: 3
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763413850
+  modifiedTime: 1740763413850
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!u8HG9aUcRW5VdOP1'

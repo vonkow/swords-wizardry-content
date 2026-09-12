@@ -1,0 +1,32 @@
+folder: S6C6djqSw90xc99J
+name: Establish Guild (9th)
+type: feature
+_id: MfgaGRHhocq5qvhR
+img: systems/swords-wizardry/assets/game-icons-net/hooded-figure.svg
+system:
+  description: >-
+    <p>At 9th level, a Thief is well known enough&nbsp;to assemble a small guild
+    of Thieves if the character chooses,&nbsp;attracting a shadowy band of
+    sneaks, thugs, and other unsavory&nbsp;characters into his or her
+    service.</p>
+  formula: ''
+  target: ''
+  targetType: descending
+effects: []
+sort: 0
+ownership:
+  default: 0
+  saJBeYreurxVYSiH: 3
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763413850
+  modifiedTime: 1740763413850
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!MfgaGRHhocq5qvhR'

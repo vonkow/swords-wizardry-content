@@ -1,0 +1,79 @@
+folder: 7F78RJ3PbCFY9ybh
+name: Sleep
+type: spell
+_id: jTaRDjhLmxbcrsI3
+img: systems/swords-wizardry/assets/game-icons-net/night-sleep.svg
+system:
+  description: >-
+    <p class="p1">This spell puts creatures around a targeted&nbsp;point into an
+    enchanted slumber (no saving&nbsp;throw permitted). It affects creatures
+    based&nbsp;on their hit dice.</p>
+
+    <table style="border-width: 1px;"
+    border="1"><caption><strong>Sleep</strong></caption><colgroup><col><col></colgroup>
+
+    <tbody>
+
+    <tr>
+
+    <td><strong>Hit Dice of Victims</strong></td>
+
+    <td><strong>Number Affected</strong></td>
+
+    </tr>
+
+    <tr>
+
+    <td>Less than 1 to 1</td>
+
+    <td>2d8</td>
+
+    </tr>
+
+    <tr>
+
+    <td>1+ to 2+</td>
+
+    <td>2d6</td>
+
+    </tr>
+
+    <tr>
+
+    <td>3 to 3+</td>
+
+    <td>1d6</td>
+
+    </tr>
+
+    <tr>
+
+    <td>4 to 4+</td>
+
+    <td>1</td>
+
+    </tr>
+
+    </tbody>
+
+    </table>
+  spellLevel: '1'
+  range: 240 feet
+  duration: 1 hour
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!jTaRDjhLmxbcrsI3'

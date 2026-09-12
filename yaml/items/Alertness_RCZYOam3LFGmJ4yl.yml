@@ -1,0 +1,31 @@
+folder: n35SOQd8s42BEvYR
+name: Alertness
+type: feature
+_id: RCZYOam3LFGmJ4yl
+img: systems/swords-wizardry/assets/game-icons-net/surrounded-eye.svg
+system:
+  description: >-
+    <p class="p1">Provided that a monk has a Wisdom of 15+, they are&nbsp;not
+    easily attacked by surprise. There is only a 1 in 6 chance for
+    the&nbsp;monk's party to be surprised in a combat.</p>
+  formula: d6
+  target: '1'
+  targetType: descending
+effects: []
+sort: 0
+ownership:
+  default: 0
+  saJBeYreurxVYSiH: 3
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763413850
+  modifiedTime: 1740763413850
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!RCZYOam3LFGmJ4yl'

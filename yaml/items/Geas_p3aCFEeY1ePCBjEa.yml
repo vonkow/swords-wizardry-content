@@ -1,0 +1,31 @@
+folder: 7TYCol1vgCOCQW6N
+name: Geas
+type: spell
+_id: p3aCFEeY1ePCBjEa
+img: systems/swords-wizardry/assets/game-icons-net/stairs-goal.svg
+system:
+  description: >-
+    <p>If the spell succeeds (saving throw cancels), the caster may set a task
+    for the spell’s victim. If the victim does not diligently work at performing
+    the task, the refusal causes weakness (50% reduction in strength). Trying to
+    ignore the geas eventually causes death.</p>
+  spellLevel: '6'
+  range: 30 feet
+  duration: Until task is complete
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.9.4
+  createdTime: 1740763417887
+  modifiedTime: 1741401693440
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!p3aCFEeY1ePCBjEa'

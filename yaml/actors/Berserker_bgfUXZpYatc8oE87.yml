@@ -1,0 +1,238 @@
+name: Berserker
+type: npc
+img: systems/swords-wizardry/assets/game-icons-net/viking-head.svg
+system:
+  hp:
+    value: 0
+    min: 0
+    max: 0
+  save:
+    value: 17
+    min: 0
+    max: 20
+  ac:
+    value: 7
+    min: -9
+    max: 28
+  aac:
+    value: 12
+    min: 0
+    max: 28
+  moveRate:
+    value: '12'
+  tHAACB: 1
+  tHAC0: 18
+  spellSlots:
+    '1':
+      max: 0
+      memorized: []
+    '2':
+      max: 0
+      memorized: []
+    '3':
+      max: 0
+      memorized: []
+    '4':
+      max: 0
+      memorized: []
+    '5':
+      max: 0
+      memorized: []
+    '6':
+      max: 0
+      memorized: []
+    '7':
+      max: 0
+      memorized: []
+    '8':
+      max: 0
+      memorized: []
+    '9':
+      max: 0
+      memorized: []
+  treasure:
+    pp: 0
+    gp: 0
+    sp: 0
+    cp: 0
+    gems: ''
+    misc: ''
+  alignment: N or C
+  description: >-
+    <p class="p1">Berserkers are normal humans, but they&nbsp;fight with
+    astounding ferocity. A bonus of&nbsp;+2 is added to their attack rolls. They
+    do&nbsp;not wear armor heavier than leather armor.</p>
+
+    <hr>
+
+    <p class="p1"><em>Humans are such a versatile ancestry that&nbsp;any number
+    of &ldquo;monsters&rdquo; and NPCs can&nbsp;be made from them. Berserker
+    warriors,&nbsp;tribesmen, cavemen, princesses, evil high&nbsp;priests,
+    captains of the guard, foot-soldiers, and tavern-keepers are all
+    different&nbsp;human &ldquo;monsters.&rdquo; Don&rsquo;t try to build
+    your&nbsp;non-player characters according to the rules&nbsp;for player
+    characters. Just make up their&nbsp;stats and abilities as you see
+    fit.</em></p>
+  cl: 2
+  hd: '1'
+  morale: 8
+  special: berserking (+2 to hit and 12 morale in berserk state)
+  xp:
+    value: 30
+  numberEncountered: 1d6+1 or 1d10x30
+  percentInLair: '15'
+  toHitAC:
+    '-9': 27
+    '-8': 26
+    '-7': 25
+    '-6': 24
+    '-5': 23
+    '-4': 22
+    '-3': 21
+    '-2': 20
+    '-1': 19
+    '+0': 18
+    '+1': 17
+    '+2': 16
+    '+3': 15
+    '+4': 14
+    '+5': 13
+    '+6': 12
+    '+7': 11
+    '+8': 10
+    '+9': 9
+prototypeToken:
+  name: Berserker
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: systems/swords-wizardry/assets/game-icons-net/viking-head.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: hp
+  bar2:
+    attribute: ac
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  depth: 1
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items:
+  - name: weapon
+    type: weapon
+    system:
+      description: ''
+      quantity: 1
+      weight: 0
+      gp: 0
+      pp: 0
+      sp: 0
+      cp: 0
+      missile: false
+      range: 0
+      rateOfFire: 1
+      modifier: '0'
+      formula: d20 + @toHit.v
+      damageFormula: 1d8
+    _id: 4nYRGtQp76aeop5V
+    img: icons/svg/item-bag.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      uY5ZaNbCwA9WwEXo: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '14.367'
+      systemId: swords-wizardry
+      systemVersion: 2.6.1
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!bgfUXZpYatc8oE87.4nYRGtQp76aeop5V'
+effects: []
+folder: JnzPpIV7XXkM9iJb
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763241215
+  modifiedTime: 1740763241215
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_id: bgfUXZpYatc8oE87
+sort: 300000
+_key: '!actors!bgfUXZpYatc8oE87'

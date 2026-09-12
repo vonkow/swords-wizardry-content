@@ -1,0 +1,38 @@
+folder: u1wIWsI5L1tgkpvP
+name: Oil, lamp (1 pint)
+type: item
+_id: QwXEc6IO6QsRdATr
+img: systems/swords-wizardry/assets/game-icons-net/jug.svg
+system:
+  description: >-
+    <p class="p1">A pint of oil keeps a lantern (either type) burning for four
+    hours. Oil is also highly flammable; a lit flask of oil can be used as a
+    thrown weapon to cause 1d4 points of damage with a successful hit, and 1
+    more point of damage per round for the next&nbsp;2 rounds. Burning oil can
+    also be used to create a hazard for pursuing&nbsp;monsters.</p>
+  quantity: 1
+  weight: 0
+  gp: 0.1
+  pp: 0
+  sp: 0
+  cp: 0
+  formula: d6
+  gold: 0.1
+effects: []
+sort: 800000
+ownership:
+  default: 0
+  saJBeYreurxVYSiH: 3
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763416123
+  modifiedTime: 1740763416123
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!QwXEc6IO6QsRdATr'

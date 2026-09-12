@@ -1,0 +1,31 @@
+folder: em3jC8vi5E6vvnmq
+name: Strength
+type: spell
+_id: oERrtxDHnWrOMPia
+img: systems/swords-wizardry/assets/game-icons-net/biceps.svg
+system:
+  description: >-
+    <p>This spell may be cast upon a Fighter or a Cleric. For the duration of
+    the spell, a Fighter gains 2d4 points of Strength, and a Cleric gains 1d6
+    points of Strength. Strength cannot exceed 18 unless the Referee chooses to
+    allow additional bonuses resulting from the additional Strength.</p>
+  spellLevel: '2'
+  range: Touch
+  duration: 8 hours (80 turns)
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.8.0
+  createdTime: 1740763417887
+  modifiedTime: 1740798297370
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!oERrtxDHnWrOMPia'

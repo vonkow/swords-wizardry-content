@@ -1,0 +1,33 @@
+folder: Sskj22iG5s6tBaLO
+name: First Mysteries (2nd)
+type: feature
+_id: BHfKBZNvM5M0Qwf0
+img: systems/swords-wizardry/assets/game-icons-net/plant-roots.svg
+system:
+  description: >-
+    <p class="p1">The &ldquo;First Mysteries&rdquo; that a Druid&nbsp;learns at
+    2nd level grant a variety of abilities to the character. The&nbsp;2nd-level
+    Druid can determine whether water is pure; identify&nbsp;any type of normal
+    plant by sight, smell, or taste; and move easily&nbsp;through non-magical
+    undergrowth, including thorns or heavy vines.</p>
+  formula: ''
+  target: ''
+  targetType: descending
+effects: []
+sort: 0
+ownership:
+  default: 0
+  saJBeYreurxVYSiH: 3
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763413850
+  modifiedTime: 1740763413850
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!BHfKBZNvM5M0Qwf0'

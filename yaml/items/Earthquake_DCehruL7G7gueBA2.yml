@@ -1,0 +1,34 @@
+folder: AvRQj6k7Yn2rh2i0
+name: Earthquake
+type: spell
+_id: DCehruL7G7gueBA2
+img: systems/swords-wizardry/assets/game-icons-net/earth-spit.svg
+system:
+  description: >-
+    <p class="p1">The Cleric causes a powerful earthquake&nbsp;in an area 60 x
+    60 feet plus an additional&nbsp;10 feet (in both length and width) per
+    three&nbsp;levels above 17th. The quake topples walls,&nbsp;causes
+    rockslides, and opens gaping fissures&nbsp;in the earth. Any creature caught
+    in the&nbsp;quake has a 1-in-6 chance of falling into&nbsp;the depths of the
+    earth and being killed.&nbsp;The earthquake&rsquo;s tremors do not extend
+    in&nbsp;any way beyond the spell&rsquo;s area of effect.</p>
+  spellLevel: '7'
+  range: Referee's discretion
+  duration: Immediate
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!DCehruL7G7gueBA2'

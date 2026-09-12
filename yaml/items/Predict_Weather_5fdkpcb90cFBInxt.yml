@@ -1,0 +1,35 @@
+folder: HnOvKpwuYbMsH07l
+name: Predict Weather
+type: spell
+_id: 5fdkpcb90cFBInxt
+img: systems/swords-wizardry/assets/game-icons-net/sun-cloud.svg
+system:
+  description: >-
+    <p class="p1">The Druid silently drinks in knowledge&nbsp;from the
+    surrounding area, becoming&nbsp;attuned to the patterns of air, wind,
+    earth&nbsp;and fire. Within moments, the character&nbsp;can predict what the
+    weather conditions will&nbsp;be for the next 12 hours in the
+    immediate&nbsp;vicinity (2 square miles/level). As with most&nbsp;forecasts
+    of weather, conditions may change&nbsp;unexpectedly, giving rise to a 5%
+    chance&nbsp;that the Druid&rsquo;s prediction will, ultimately,&nbsp;prove
+    to be incorrect.</p>
+  spellLevel: '1'
+  range: Centered on caster
+  duration: Immediate
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!5fdkpcb90cFBInxt'

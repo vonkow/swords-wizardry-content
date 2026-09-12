@@ -1,0 +1,31 @@
+folder: UIdtOsdabTuoaOdC
+name: Phase Door
+type: spell
+_id: OJvC21nNo8VFsL3o
+img: systems/swords-wizardry/assets/game-icons-net/secret-door.svg
+system:
+  description: >-
+    <p>The phase door is an invisible portal about 7 feet high, 10 feet wide,
+    and 10 feet deep, accessible only to the caster. A barrage of dispel magic
+    spells can close the passage, but only if the combined level of the
+    dispelling casters is twice that of the portal’s creator.</p>
+  spellLevel: '7'
+  range: '10 feet from caster '
+  duration: Seven uses
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.9.4
+  createdTime: 1740763417887
+  modifiedTime: 1741404621832
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!OJvC21nNo8VFsL3o'

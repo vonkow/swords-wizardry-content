@@ -1,0 +1,35 @@
+folder: STUomBl7aWsr1PNE
+name: Masonry
+type: feature
+_id: wxQ0Z4CL5yxT9Ej3
+img: systems/swords-wizardry/assets/game-icons-net/stone-wall.svg
+system:
+  description: >-
+    <p>The Dwarf player character&nbsp;easily&nbsp;takes note of certain
+    features of stonework:&nbsp;sloping corridors, moving walls, and
+    traps&nbsp;made of stone &mdash; in particular, falling&nbsp;blocks, rigged
+    ceilings, and tiny arrow slits&nbsp;designed to release poison gas or darts.
+    They&nbsp;can also identify whether stonework is recent&nbsp;or not. There
+    is no established die roll or&nbsp;rule for using these abilities; exactly
+    what a&nbsp;Dwarf does or does not perceive is up to the&nbsp;Referee.</p>
+  formula: ''
+  target: ''
+  targetType: descending
+effects: []
+sort: 0
+ownership:
+  default: 0
+  saJBeYreurxVYSiH: 3
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763413850
+  modifiedTime: 1740763413850
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!wxQ0Z4CL5yxT9Ej3'

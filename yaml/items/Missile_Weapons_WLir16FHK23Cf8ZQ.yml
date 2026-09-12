@@ -1,0 +1,19 @@
+name: Missile Weapons
+sorting: a
+folder: ZEf8XJPtrxD0imXQ
+type: Item
+_id: WLir16FHK23Cf8ZQ
+sort: 500000
+color: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+description: ''
+_key: '!folders!WLir16FHK23Cf8ZQ'

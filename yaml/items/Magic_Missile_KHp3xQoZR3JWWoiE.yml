@@ -1,0 +1,38 @@
+folder: 7F78RJ3PbCFY9ybh
+name: Magic Missile
+type: spell
+_id: KHp3xQoZR3JWWoiE
+img: systems/swords-wizardry/assets/game-icons-net/energy-arrow.svg
+system:
+  description: >-
+    <p class="p1">A magical missile flies where the caster&nbsp;directs, with a
+    range of 150 feet. At the Referee&rsquo;s discretion, this spell may have
+    one of&nbsp;two effects: 1) The Magic-User must roll to&nbsp;hit the target
+    with a +1 bonus to the roll.&nbsp;The missile inflicts 1d6+1 points of
+    damage.&nbsp;2) The missile hits automatically, doing&nbsp;1d4+1 points of
+    damage.</p>
+
+    <p class="p1">In either case, the Magic-User casts an&nbsp;additional two
+    missiles for every 5 levels of&nbsp;experience. Thus, at 5th level, the
+    caster is&nbsp;able to hurl 3 magic missiles, and 5 missiles&nbsp;at 10th
+    level.</p>
+  spellLevel: '1'
+  range: 150 feet
+  duration: Immediate
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!KHp3xQoZR3JWWoiE'

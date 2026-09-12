@@ -1,0 +1,30 @@
+folder: H1XUiDjxeQDISjHc
+name: Finger of Death
+type: spell
+_id: F5aJM0HeHUbousZP
+img: systems/swords-wizardry/assets/game-icons-net/hand-of-god.svg
+system:
+  description: >-
+    <p class="p1">This spell kills a single creature (saving&nbsp;throw
+    applies). Misusing the spell is an evil&nbsp;act that likely invokes divine
+    retribution of&nbsp;some kind.</p>
+  spellLevel: '5'
+  range: 120 feet
+  duration: Immediate
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!F5aJM0HeHUbousZP'

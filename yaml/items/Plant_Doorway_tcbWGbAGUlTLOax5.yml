@@ -1,0 +1,35 @@
+folder: jWkqzSa3QlzF1HdU
+name: Plant Doorway
+type: spell
+_id: tcbWGbAGUlTLOax5
+img: systems/swords-wizardry/assets/game-icons-net/forest-entrance.svg
+system:
+  description: >-
+    <p class="p1">This spell opens a pathway for the caster&nbsp;through even
+    the deepest and most tangled&nbsp;growths of plants, thorns, and trees.
+    The&nbsp;pathway can be made up to 5 feet wide, 6&nbsp;feet tall, and 100
+    feet in length, but only&nbsp;the caster can move through it. The
+    Druid&nbsp;may choose to remain housed safely inside&nbsp;a tree, if the
+    spell has opened a passage&nbsp;through one. It is possible to remain
+    within&nbsp;the tree after the spell expires; for as long as&nbsp;desired,
+    in fact, before leaving it.</p>
+  spellLevel: '4'
+  range: Passage begins where caster stands
+  duration: 3 turns + 1 turn/level
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!tcbWGbAGUlTLOax5'

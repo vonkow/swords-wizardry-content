@@ -1,0 +1,178 @@
+folder: S6C6djqSw90xc99J
+name: Hear Sounds
+type: feature
+_id: 3BsMzg7t03pD69aK
+img: systems/swords-wizardry/assets/game-icons-net/human-ear.svg
+system:
+  description: >-
+    <p class="p1"><strong>Hearing sounds</strong>. A thief can hear well when
+    concentrating;&nbsp;this mainly includes listening at doors.</p>
+
+    <h3 class="p1">Hear Sounds Advancement</h3>
+
+    <table border="1"><colgroup><col><col></colgroup>
+
+    <tbody>
+
+    <tr>
+
+    <td><strong>Level</strong></td>
+
+    <td><strong>Hear Sounds</strong></td>
+
+    </tr>
+
+    <tr>
+
+    <td>1</td>
+
+    <td>3 in 6</td>
+
+    </tr>
+
+    <tr>
+
+    <td>2</td>
+
+    <td>3 in 6</td>
+
+    </tr>
+
+    <tr>
+
+    <td>3</td>
+
+    <td>4 in 6</td>
+
+    </tr>
+
+    <tr>
+
+    <td>4</td>
+
+    <td>4 in 6</td>
+
+    </tr>
+
+    <tr>
+
+    <td>5</td>
+
+    <td>4 in 6</td>
+
+    </tr>
+
+    <tr>
+
+    <td>6</td>
+
+    <td>4 in 6</td>
+
+    </tr>
+
+    <tr>
+
+    <td>7</td>
+
+    <td>5 in 6</td>
+
+    </tr>
+
+    <tr>
+
+    <td>8</td>
+
+    <td>5 in 6</td>
+
+    </tr>
+
+    <tr>
+
+    <td>9</td>
+
+    <td>5 in 6</td>
+
+    </tr>
+
+    <tr>
+
+    <td>10</td>
+
+    <td>5 in 6</td>
+
+    </tr>
+
+    <tr>
+
+    <td>11</td>
+
+    <td>6 in 6</td>
+
+    </tr>
+
+    <tr>
+
+    <td>12</td>
+
+    <td>6 in 6</td>
+
+    </tr>
+
+    <tr>
+
+    <td>13</td>
+
+    <td>6 in 6</td>
+
+    </tr>
+
+    <tr>
+
+    <td>14</td>
+
+    <td>6 in 6</td>
+
+    </tr>
+
+    <tr>
+
+    <td>15</td>
+
+    <td>6 in 6</td>
+
+    </tr>
+
+    <tr>
+
+    <td>16+</td>
+
+    <td>Remains at 6 in 6</td>
+
+    </tr>
+
+    </tbody>
+
+    </table>
+
+    <p>Note: Thieving skills do not gain bonuses from a high Dexterity
+    score.</p>
+  formula: d6
+  target: '3'
+  targetType: descending
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763413850
+  modifiedTime: 1740763413850
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!3BsMzg7t03pD69aK'

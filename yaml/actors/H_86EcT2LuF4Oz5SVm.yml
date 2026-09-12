@@ -1,0 +1,19 @@
+name: H
+sorting: a
+folder: null
+type: Actor
+_id: 86EcT2LuF4Oz5SVm
+description: ''
+sort: 100000
+color: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763241150
+  modifiedTime: 1740763241344
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+_key: '!folders!86EcT2LuF4Oz5SVm'

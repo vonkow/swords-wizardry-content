@@ -1,0 +1,36 @@
+folder: tkCTHKEiQWhhHwzy
+name: Maze
+type: spell
+_id: hAo1JXM3NSo6reND
+img: systems/swords-wizardry/assets/game-icons-net/maze.svg
+system:
+  description: >-
+    <p>The targeted creature disappears into a gap in reality where strange
+    curving and branching passages conceal the way out. Creatures with an
+    Intelligence score lower than 6 require 2d4 x 3 rounds (minutes) to escape
+    the interdimensional prison. Creatures with Intelligence scores 7–11 require
+    2d4 rounds, and creatures with an intelligence of 12+ require only 1d4
+    rounds to puzzle their way back into normal reality. Although monsters are
+    not described with specific Intelligence scores, it should not be hard to
+    determine into which category any specific monster falls. Unless ruled
+    otherwise by the Referee, there is no saving throw to avoid the spell.</p>
+  spellLevel: '9'
+  range: 60 feet
+  duration: Depends on Intelligence
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.9.4
+  createdTime: 1740763417887
+  modifiedTime: 1741406739239
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!hAo1JXM3NSo6reND'

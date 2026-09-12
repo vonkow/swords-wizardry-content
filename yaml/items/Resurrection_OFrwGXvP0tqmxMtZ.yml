@@ -1,0 +1,34 @@
+folder: AvRQj6k7Yn2rh2i0
+name: Resurrection
+type: spell
+_id: OFrwGXvP0tqmxMtZ
+img: systems/swords-wizardry/assets/game-icons-net/healing.svg
+system:
+  description: >-
+    <p class="p1">This spell (also known as &ldquo;raise dead
+    fully&rdquo;)&nbsp;raises the dead back to life in the same manner as the
+    raise dead spell. It is, however,&nbsp;considerably more powerful: the
+    person&nbsp;raised from the dead needs no time to recuperate from the
+    experience of death and&nbsp;suffers no other penalties. An evil
+    &ldquo;reversal&rdquo;&nbsp;of the spell can also be cast, which
+    causes&nbsp;death with no saving throw.</p>
+  spellLevel: '7'
+  range: Referee's discretion
+  duration: Immediate
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!OFrwGXvP0tqmxMtZ'

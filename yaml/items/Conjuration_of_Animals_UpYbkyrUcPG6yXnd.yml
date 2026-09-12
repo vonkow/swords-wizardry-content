@@ -1,0 +1,31 @@
+folder: K2lQ6B0IiuKV84iX
+name: Conjuration of Animals
+type: spell
+_id: UpYbkyrUcPG6yXnd
+img: systems/swords-wizardry/assets/game-icons-net/elephant-head.svg
+system:
+  description: >-
+    <p class="p1">The Cleric conjures up normal animals to&nbsp;serve as allies:
+    1 creature larger than a man&nbsp;(such as an elephant), 3 animals the size
+    of&nbsp;a man or horse (such as a lion), or 6 animals&nbsp;smaller than a
+    man (such as a wolf). The&nbsp;animals obey the caster&rsquo;s commands.</p>
+  spellLevel: '6'
+  range: 30 feet
+  duration: 1 hour
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!UpYbkyrUcPG6yXnd'

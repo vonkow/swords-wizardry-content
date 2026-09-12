@@ -1,0 +1,302 @@
+name: Adult White Dragon (7HD)
+type: npc
+img: systems/swords-wizardry/assets/game-icons-net/dragon-head.svg
+system:
+  hp:
+    value: 0
+    min: 0
+    max: 0
+  save:
+    value: 9
+    min: 0
+    max: 20
+  ac:
+    value: 2
+    min: -9
+    max: 28
+  aac:
+    value: 17
+    min: 0
+    max: 28
+  moveRate:
+    value: 9 (fly 24)
+  tHAACB: 7
+  tHAC0: 12
+  spellSlots:
+    '1':
+      max: 0
+      memorized: []
+    '2':
+      max: 0
+      memorized: []
+    '3':
+      max: 0
+      memorized: []
+    '4':
+      max: 0
+      memorized: []
+    '5':
+      max: 0
+      memorized: []
+    '6':
+      max: 0
+      memorized: []
+    '7':
+      max: 0
+      memorized: []
+    '8':
+      max: 0
+      memorized: []
+    '9':
+      max: 0
+      memorized: []
+  treasure:
+    pp: 0
+    gp: 0
+    sp: 0
+    cp: 0
+    gems: ''
+    misc: ''
+  alignment: C
+  description: >-
+    <p class="p1">White dragons are usually found in cold regions where they
+    camouflage themselves in ice and snow, lying in wait for prey. They breathe
+    a cone of intensely cold air and frost, with a length of 70 feet and a base
+    of 30 feet. White dragons are not able to talk or cast spells.</p>
+
+    <hr>
+
+    <p class="p1"><em>The size of a dragon is roughly 5 feet of&nbsp;body length
+    per age category, up to the adult&nbsp;size of 20 feet. Dragons have double
+    normal&nbsp;treasure (that is, a gold piece value of four&nbsp;times the
+    dragon&rsquo;s XP value).&nbsp;Do not roll hit points for dragons as
+    normal.&nbsp;Instead, determine the number of hit dice&nbsp;and the age
+    category of the dragon. The age&nbsp;category indicates the dragon&rsquo;s
+    hit points&nbsp;per die and how much damage the dragon&rsquo;s&nbsp;breath
+    weapon inflicts, given as points per&nbsp;hit die:</em></p>
+
+    <p class="p2"><em><strong>&bull; Very young dragon:</strong> 1 hit point per
+    hit&nbsp;die; 1 hit point per die inflicted by breath&nbsp;weapon.</em></p>
+
+    <p class="p2"><em><strong>&bull; Young:</strong> 2 hit points per hit die; 2
+    hit points&nbsp;per die inflicted by breath weapon.</em></p>
+
+    <p class="p2"><em><strong>&bull; Immature: </strong>3 hit points per hit
+    die; 3 hit&nbsp;points per die inflicted by breath weapon.</em></p>
+
+    <p class="p2"><em><strong>&bull; Adult:</strong> 4 hit points per hit die; 4
+    hit points&nbsp;per die inflicted by breath weapon.</em></p>
+
+    <p class="p2"><em><strong>&bull; Old: </strong>5 hit points per hit die; 5
+    hit points per&nbsp;die inflicted by breath weapon.</em></p>
+
+    <p class="p2"><em><strong>&bull; Very old </strong>(100 years old): 6 hit
+    points per hit&nbsp;die; 6 hit points per die inflicted by
+    breath&nbsp;weapon.</em></p>
+
+    <p class="p2"><em><strong>&bull; Aged </strong>(101&ndash;400 years old): 7
+    hit points per&nbsp;die; 7 hit points per die inflicted by
+    breath&nbsp;weapon.</em></p>
+
+    <p class="p2"><em><strong>&bull; Ancient</strong> (401+ years old): 8 hit
+    points per&nbsp;die; 8 hit points per die inflicted by
+    breath&nbsp;weapon.</em></p>
+  cl: 9
+  hd: '7'
+  morale: 8
+  special: breathes frost (3/ day, 70ft cone, 20 damage, save for half)
+  xp:
+    value: 1300
+  numberEncountered: 1d4
+  percentInLair: '60'
+  toHitAC:
+    '-9': 23
+    '-8': 22
+    '-7': 21
+    '-6': 20
+    '-5': 19
+    '-4': 18
+    '-3': 17
+    '-2': 16
+    '-1': 15
+    '+0': 14
+    '+1': 13
+    '+2': 12
+    '+3': 11
+    '+4': 10
+    '+5': 9
+    '+6': 8
+    '+7': 7
+    '+8': 6
+    '+9': 5
+prototypeToken:
+  name: Adult White Dragon (5HD)
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: systems/swords-wizardry/assets/game-icons-net/dragon-head.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: hp
+  bar2:
+    attribute: ac
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  depth: 1
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items:
+  - name: 2 claws
+    type: weapon
+    system:
+      description: ''
+      quantity: 1
+      weight: 0
+      gp: 0
+      pp: 0
+      sp: 0
+      cp: 0
+      missile: false
+      range: 0
+      rateOfFire: 1
+      modifier: '0'
+      formula: d20 + @toHit.v
+      damageFormula: 1d4
+    _id: ILmPFnkCSIcDwmlB
+    img: icons/svg/item-bag.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      uY5ZaNbCwA9WwEXo: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '14.367'
+      systemId: swords-wizardry
+      systemVersion: 2.6.1
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!wW0qkg1QUWMIRF3K.ILmPFnkCSIcDwmlB'
+  - name: bite
+    type: weapon
+    system:
+      description: ''
+      quantity: 1
+      weight: 0
+      gp: 0
+      pp: 0
+      sp: 0
+      cp: 0
+      missile: false
+      range: 0
+      rateOfFire: 1
+      modifier: '0'
+      formula: d20 + @toHit.v
+      damageFormula: 2d8
+    _id: hSbXNFuV5vxZefns
+    img: icons/svg/item-bag.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      uY5ZaNbCwA9WwEXo: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '14.367'
+      systemId: swords-wizardry
+      systemVersion: 2.6.1
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!wW0qkg1QUWMIRF3K.hSbXNFuV5vxZefns'
+effects: []
+folder: p5ahrrVcE0EPzPVV
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763234443
+  modifiedTime: 1740763234443
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_id: wW0qkg1QUWMIRF3K
+sort: 0
+_key: '!actors!wW0qkg1QUWMIRF3K'

@@ -1,0 +1,246 @@
+name: Titan (17HD)
+type: npc
+img: systems/swords-wizardry/assets/game-icons-net/atlas.svg
+system:
+  hp:
+    value: 0
+    min: 0
+    max: 0
+  save:
+    value: 3
+    min: 0
+    max: 20
+  ac:
+    value: 2
+    min: -9
+    max: 28
+  aac:
+    value: 17
+    min: 0
+    max: 28
+  moveRate:
+    value: '21'
+  tHAACB: 15
+  tHAC0: 4
+  spellSlots:
+    '1':
+      max: 0
+      memorized: []
+    '2':
+      max: 0
+      memorized: []
+    '3':
+      max: 0
+      memorized: []
+    '4':
+      max: 0
+      memorized: []
+    '5':
+      max: 0
+      memorized: []
+    '6':
+      max: 0
+      memorized: []
+    '7':
+      max: 0
+      memorized: []
+    '8':
+      max: 0
+      memorized: []
+    '9':
+      max: 0
+      memorized: []
+  treasure:
+    pp: 0
+    gp: 0
+    sp: 0
+    cp: 0
+    gems: ''
+    misc: ''
+  alignment: Any
+  description: >-
+    <p class="p1">Titans are mythological creatures almost as&nbsp;powerful as
+    gods. A titan has 2 Magic-User&nbsp;spells of each spell level from
+    1st-level spells&nbsp;to 7th-level spells, and 2 Cleric spells of&nbsp;each
+    spell level from 1st to 7th. The Referee&nbsp;might choose to substitute
+    other magical&nbsp;abilities for spells &mdash; these creatures
+    vary&nbsp;considerably in powers and personalities&nbsp;from one to the
+    next.</p>
+
+    <p class="p1">One possible spell list for a titan might&nbsp;include the
+    following Magic-User and Cleric&nbsp;spells:&nbsp;</p>
+
+    <p class="p1">Magic-User: 1st&mdash;charm person, sleep;
+    2nd&mdash;invisibility, mirror image; 3rd&mdash;fireball, fly;
+    4th&mdash;confusion, polymorph other ,; 5th&mdash;conjuration of elementals,
+    feeblemind; 6th&mdash;anti-magic shell, stone to flesh; 7th&mdash;limited
+    wish, power word stun.</p>
+
+    <p class="p1">Cleric: 1st&mdash;light, protection from
+    evil;&nbsp;2nd&mdash;hold person, speak with animals;&nbsp;3rd&mdash;cure
+    disease, dispel magic; 4th&mdash;cure&nbsp;serious wounds, neutralize
+    poison; 5th&mdash;finger of death, quest; 6th&mdash;blade barrier,
+    word&nbsp;of recall; 7th&mdash;earthquake, resurrection.</p>
+  cl: 19
+  hd: '17'
+  morale: 10
+  special: spells (MU 2/2/2/2/2/2/2; Clr 2/2/2/2/2/2/2).
+  xp:
+    value: 10800
+  numberEncountered: '1'
+  percentInLair: '10'
+  toHitAC:
+    '-9': 11
+    '-8': 10
+    '-7': 9
+    '-6': 8
+    '-5': 7
+    '-4': 6
+    '-3': 5
+    '-2': 4
+    '-1': 3
+    '+0': 2
+    '+1': 1
+    '+2': 1
+    '+3': 1
+    '+4': 1
+    '+5': 1
+    '+6': 1
+    '+7': 1
+    '+8': 1
+    '+9': 1
+prototypeToken:
+  name: Titan (17HD)
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: systems/swords-wizardry/assets/game-icons-net/atlas.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: hp
+  bar2:
+    attribute: ac
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  depth: 1
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items:
+  - name: weapon
+    type: weapon
+    system:
+      description: ''
+      quantity: 1
+      weight: 0
+      gp: 0
+      pp: 0
+      sp: 0
+      cp: 0
+      missile: false
+      range: 0
+      rateOfFire: 1
+      modifier: '0'
+      formula: d20 + @toHit.v
+      damageFormula: 7d6
+    _id: ZYXO4ZKB6g8uTH4Y
+    img: icons/svg/item-bag.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      uY5ZaNbCwA9WwEXo: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '14.367'
+      systemId: swords-wizardry
+      systemVersion: 2.6.1
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!60kGiXj1rkfYqFZK.ZYXO4ZKB6g8uTH4Y'
+effects: []
+folder: 4RPidVmzJSH7cBJk
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763256521
+  modifiedTime: 1740763256521
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_id: 60kGiXj1rkfYqFZK
+sort: 100000
+_key: '!actors!60kGiXj1rkfYqFZK'

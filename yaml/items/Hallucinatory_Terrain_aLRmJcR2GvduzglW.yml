@@ -1,0 +1,30 @@
+folder: V7L1xETAOpPH4vRG
+name: Hallucinatory Terrain
+type: spell
+_id: aLRmJcR2GvduzglW
+img: systems/swords-wizardry/assets/game-icons-net/hills.svg
+system:
+  description: >-
+    <p>This spell changes the appearance of the terrain into the semblance of
+    what the caster desires. A hill can be made to disappear, or it could be
+    replaced with an illusory forest, for example.</p>
+  spellLevel: '4'
+  range: 240 feet
+  duration: Until touched (other than by ally) or dispelled
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.9.4
+  createdTime: 1740763417887
+  modifiedTime: 1741393422424
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!aLRmJcR2GvduzglW'

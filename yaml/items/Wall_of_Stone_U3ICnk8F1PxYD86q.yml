@@ -1,0 +1,31 @@
+folder: 9TEZjFvmfamticJE
+name: Wall of Stone
+type: spell
+_id: U3ICnk8F1PxYD86q
+img: systems/swords-wizardry/assets/game-icons-net/stone-wall.svg
+system:
+  description: >-
+    <p>The wall of stone conjured by this spell is two feet thick, with a
+    surface area of 1,000 square feet. The caster might choose to make the wall
+    50 feet long (in which case it would be 20 feet tall), or 100 feet long (in
+    which case it would be only 10 feet tall).</p>
+  spellLevel: '5'
+  range: 60 feet
+  duration: Permanent until dispelled
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.9.4
+  createdTime: 1740763417887
+  modifiedTime: 1741395960943
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!U3ICnk8F1PxYD86q'

@@ -1,0 +1,47 @@
+folder: GMcwj291csYhCh5f
+name: Disguise
+type: feature
+_id: mwpHi2KhyMhLjD6H
+img: systems/swords-wizardry/assets/game-icons-net/domino-mask.svg
+system:
+  description: >-
+    <p class="p1">Assassins can disguise themselves with great skill, allowing
+    them to blend into other groups without causing suspicion. A person of
+    average Intelligence and Wisdom (both scores averaging about 10) has only a
+    5% chance to see through such a disguise, unless it involves considerable
+    fakery such as posing as a member of the opposite sex. In these cases, the
+    base chance to detect the disguise is 10%. The Referee will modify these
+    chances to take the observer&rsquo;s intelligence into account. As a rough
+    guideline, if the observer had the brutish intelligence of an orc or a
+    particularly foolish human, the chance to detect the disguise might drop by
+    1% or 2%. If the observer were a captain of the guard, a Cleric, a
+    Magic-User, or were otherwise of greater than average mental capacity, the
+    chance to detect such a disguise would increase by 1% to 3%. The
+    Assassin&rsquo;s disguise is more than just a matter of costume; it
+    encompasses mimicry of speech and behavior as well. However, if the
+    character is impersonating a specific individual, the disguise can make the
+    Assassin look only vaguely similar &mdash; anyone at all familiar with the
+    original would spot the imposture immediately. Disguises are more about
+    blending in, mimicking a different social&nbsp;class, and &mdash; especially
+    &mdash; not being recognized afterward.</p>
+  formula: d100
+  target: '95'
+  targetType: descending
+effects: []
+sort: 0
+ownership:
+  default: 0
+  saJBeYreurxVYSiH: 3
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763413850
+  modifiedTime: 1740763413850
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!mwpHi2KhyMhLjD6H'

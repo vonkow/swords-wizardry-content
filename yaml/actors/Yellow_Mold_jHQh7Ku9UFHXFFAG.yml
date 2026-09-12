@@ -1,0 +1,195 @@
+name: Yellow Mold
+type: npc
+img: systems/swords-wizardry/assets/game-icons-net/transparent-slime.svg
+system:
+  hp:
+    value: 0
+    min: 0
+    max: 0
+  save:
+    value: null
+    min: 0
+    max: 20
+  ac:
+    value: null
+    min: -9
+    max: 28
+  aac:
+    value: 10
+    min: 0
+    max: 28
+  moveRate:
+    value: '0'
+  tHAACB: 0
+  tHAC0: 19
+  spellSlots:
+    '1':
+      max: 0
+      memorized: []
+    '2':
+      max: 0
+      memorized: []
+    '3':
+      max: 0
+      memorized: []
+    '4':
+      max: 0
+      memorized: []
+    '5':
+      max: 0
+      memorized: []
+    '6':
+      max: 0
+      memorized: []
+    '7':
+      max: 0
+      memorized: []
+    '8':
+      max: 0
+      memorized: []
+    '9':
+      max: 0
+      memorized: []
+  treasure:
+    pp: 0
+    gp: 0
+    sp: 0
+    cp: 0
+    gems: ''
+    misc: ''
+  alignment: ''
+  description: >-
+    <p class="p1">Yellow mold is a subterranean fungus; it&nbsp;neither moves
+    nor attacks. However, if it&nbsp;is poked or struck, it may (50%
+    chance)&nbsp;release a cloud (roughly 10 feet in diameter)&nbsp;of poisonous
+    spores. Failing a saving throw&nbsp;against the spores means that the
+    character&nbsp;dies a rather horrible death. Even just&nbsp;touching yellow
+    mold inflicts 1d6 points&nbsp;of acid damage on the creature doing
+    the&nbsp;touching. These growths can be destroyed&nbsp;with fire.</p>
+  cl: 3
+  hd: '0'
+  morale: 0
+  special: Poisonous spores
+  xp:
+    value: 60
+  numberEncountered: ''
+  percentInLair: '0'
+  toHitAC:
+    '-9': 28
+    '-8': 27
+    '-7': 26
+    '-6': 25
+    '-5': 24
+    '-4': 23
+    '-3': 22
+    '-2': 21
+    '-1': 20
+    '+0': 19
+    '+1': 18
+    '+2': 17
+    '+3': 16
+    '+4': 15
+    '+5': 14
+    '+6': 13
+    '+7': 12
+    '+8': 11
+    '+9': 10
+prototypeToken:
+  name: Yellow Mold
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: systems/swords-wizardry/assets/game-icons-net/transparent-slime.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: hp
+  bar2:
+    attribute: ac
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  depth: 1
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items: []
+effects: []
+folder: ncnZi8u5mVgX1C92
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763263359
+  modifiedTime: 1740763263359
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_id: jHQh7Ku9UFHXFFAG
+sort: 100000
+_key: '!actors!jHQh7Ku9UFHXFFAG'

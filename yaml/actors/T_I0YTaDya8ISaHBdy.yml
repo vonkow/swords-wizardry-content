@@ -1,0 +1,19 @@
+name: T
+sorting: a
+folder: null
+type: Actor
+_id: I0YTaDya8ISaHBdy
+description: ''
+sort: 100000
+color: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763256471
+  modifiedTime: 1740763256586
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+_key: '!folders!I0YTaDya8ISaHBdy'

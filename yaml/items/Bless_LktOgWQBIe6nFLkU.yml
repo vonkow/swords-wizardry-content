@@ -1,0 +1,32 @@
+folder: CS2IshfPoZ8JR8Is
+name: Bless
+type: spell
+_id: LktOgWQBIe6nFLkU
+img: systems/swords-wizardry/assets/game-icons-net/sun-priest.svg
+system:
+  description: >-
+    <p class="p1">This spell grants 2d6 recipients a +1 to&nbsp;attack rolls
+    (and improves morale, if the&nbsp;recipient is not a player character).
+    The&nbsp;recipient cannot already be in combat when&nbsp;the spell is cast.
+    This spell can be cast in&nbsp;reverse by an evil cleric to produce a
+    minor&nbsp;curse.</p>
+  spellLevel: '2'
+  range: Only upon characters not in combat.
+  duration: 1 hour (6 turns)
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!LktOgWQBIe6nFLkU'

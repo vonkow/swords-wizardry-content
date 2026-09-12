@@ -1,0 +1,48 @@
+folder: AvRQj6k7Yn2rh2i0
+name: Symbol (Cleric)
+type: spell
+_id: OQeFcotk1C7CS9ss
+img: systems/swords-wizardry/assets/game-icons-net/triquetra.svg
+system:
+  description: >-
+    <p class="p1">A symbol spell creates a deadly magical&nbsp;trap, written
+    into the shape of a divine&nbsp;rune. The rune&rsquo;s magic is activated
+    when&nbsp;any person or creature hostile to the caster&nbsp;reads it, or
+    passes over, under, or past it.&nbsp;Various different runes are known,
+    and&nbsp;others may be possible:</p>
+
+    <p class="p1"><strong>Symbol of Discord: </strong>Causes all creatures in
+    the hostile group to begin arguing,&nbsp;and possibly fighting among
+    themselves&nbsp;with lethal intent.</p>
+
+    <p class="p1"><strong>Symbol of Fear: </strong>Casts a fear spell.</p>
+
+    <p class="p1"><strong>Symbol of Sleep: </strong>Casts a sleep
+    spell&nbsp;affecting double the normal number of&nbsp;creatures and with
+    double the normal&nbsp;duration.</p>
+
+    <p class="p1"><strong>Symbol of Stunning:</strong> Up to 150 hit&nbsp;points
+    of creatures are affected as per a&nbsp;power word, stun.</p>
+
+    <p class="p1">Divine symbols cannot be crafted in such a way that would
+    cause a permanent effect (such as insanity) upon those affected.</p>
+  spellLevel: '7'
+  range: Referee’s discretion (according to symbol)
+  duration: Varies (depends upon symbol used)
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!OQeFcotk1C7CS9ss'

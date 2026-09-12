@@ -1,0 +1,152 @@
+folder: GMcwj291csYhCh5f
+name: Hide in Shadows
+type: feature
+_id: 8o6isIRjcuG6Y0OR
+img: systems/swords-wizardry/assets/game-icons-net/cloak-dagger.svg
+system:
+  description: >-
+    <p class="p1"><strong>Hiding in shadows</strong>. Thieves can make
+    themselves very hard to&nbsp;see when lurking in the shadows. Anyone can
+    hide, of course, but&nbsp;thieves are virtually invisible and can move
+    around while hiding.</p>
+
+    <h3 class="p1">Hide in Shadows Advancement</h3>
+
+    <p>Assassins have skills similar to those of Thieves, but comparable to a
+    Thief two levels lower than the Assassin character.</p>
+
+    <table style="width: 100%; height: 208px;" border="1"><colgroup><col
+    style="width: 25.502%;"><col style="width: 74.2972%;"></colgroup>
+
+    <tbody>
+
+    <tr style="height: 16px;">
+
+    <td style="height: 16px;"><strong>Level</strong></td>
+
+    <td style="height: 16px;"><strong>Hide in Shadows</strong></td>
+
+    </tr>
+
+    <tr style="height: 16px;">
+
+    <td style="height: 16px;">3</td>
+
+    <td style="height: 16px;">10%</td>
+
+    </tr>
+
+    <tr style="height: 16px;">
+
+    <td style="height: 16px;">4</td>
+
+    <td style="height: 16px;">15%</td>
+
+    </tr>
+
+    <tr style="height: 16px;">
+
+    <td style="height: 16px;">5</td>
+
+    <td style="height: 16px;">20%</td>
+
+    </tr>
+
+    <tr style="height: 16px;">
+
+    <td style="height: 16px;">6</td>
+
+    <td style="height: 16px;">25%</td>
+
+    </tr>
+
+    <tr style="height: 16px;">
+
+    <td style="height: 16px;">7</td>
+
+    <td style="height: 16px;">30%</td>
+
+    </tr>
+
+    <tr style="height: 16px;">
+
+    <td style="height: 16px;">8</td>
+
+    <td style="height: 16px;">35%</td>
+
+    </tr>
+
+    <tr style="height: 16px;">
+
+    <td style="height: 16px;">9</td>
+
+    <td style="height: 16px;">40%</td>
+
+    </tr>
+
+    <tr style="height: 16px;">
+
+    <td style="height: 16px;">10</td>
+
+    <td style="height: 16px;">55%</td>
+
+    </tr>
+
+    <tr style="height: 16px;">
+
+    <td style="height: 16px;">11</td>
+
+    <td style="height: 16px;">65%</td>
+
+    </tr>
+
+    <tr style="height: 16px;">
+
+    <td style="height: 16px;">12</td>
+
+    <td style="height: 16px;">75%</td>
+
+    </tr>
+
+    <tr style="height: 16px;">
+
+    <td style="height: 16px;">13</td>
+
+    <td style="height: 16px;">85%</td>
+
+    </tr>
+
+    <tr style="height: 16px;">
+
+    <td style="height: 16px;">14+</td>
+
+    <td style="height: 16px;">Remains at 85%</td>
+
+    </tr>
+
+    </tbody>
+
+    </table>
+
+    <p>Note: Thieving skills do not gain bonuses from a high Dexterity
+    score.</p>
+  formula: d100
+  target: '10'
+  targetType: descending
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763413850
+  modifiedTime: 1740763413850
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!8o6isIRjcuG6Y0OR'

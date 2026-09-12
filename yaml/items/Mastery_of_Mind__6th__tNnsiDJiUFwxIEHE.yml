@@ -1,0 +1,33 @@
+folder: n35SOQd8s42BEvYR
+name: Mastery of Mind (6th)
+type: feature
+_id: tNnsiDJiUFwxIEHE
+img: systems/swords-wizardry/assets/game-icons-net/third-eye.svg
+system:
+  description: >-
+    <p class="p1">The Monk&rsquo;s thoughts become so serene&nbsp;and placid
+    that any attempt at mind reading has a 90% chance of&nbsp;failure. The
+    failure chance increases by 1% per monk&rsquo;s level above&nbsp;6th, rising
+    to 100% at 16th, when the Monk&rsquo;s mind is completely at&nbsp;one with
+    the surrounding environment.</p>
+  formula: d100
+  target: '90'
+  targetType: descending
+effects: []
+sort: 0
+ownership:
+  default: 0
+  saJBeYreurxVYSiH: 3
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763413850
+  modifiedTime: 1740763413850
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!tNnsiDJiUFwxIEHE'

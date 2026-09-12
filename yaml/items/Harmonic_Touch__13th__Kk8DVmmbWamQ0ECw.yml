@@ -1,0 +1,37 @@
+folder: n35SOQd8s42BEvYR
+name: Harmonic Touch (13th)
+type: feature
+_id: Kk8DVmmbWamQ0ECw
+img: systems/swords-wizardry/assets/game-icons-net/hand-of-god.svg
+system:
+  description: >-
+    <p class="p1">The Monk can touch any creature&nbsp;of equal or lesser hit
+    dice, and create an attunement by which the&nbsp;creature dies instantly
+    when the Monk gives a mental command for&nbsp;its heart to stop. (The
+    creature must have a heart or other organ that&nbsp;can be stopped.) The
+    creature&rsquo;s bodily vibrations remain attuned to&nbsp;the Monk for a
+    period of one day per level of the Monk, and if the&nbsp;Monk does not
+    mentally command the creature to die within this period of time, the death
+    does not occur. This ability may not be used&nbsp;more frequently than once
+    per week.</p>
+  formula: ''
+  target: ''
+  targetType: descending
+effects: []
+sort: 0
+ownership:
+  default: 0
+  saJBeYreurxVYSiH: 3
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763413850
+  modifiedTime: 1740763413850
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!Kk8DVmmbWamQ0ECw'

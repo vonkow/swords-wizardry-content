@@ -1,0 +1,29 @@
+folder: CS2IshfPoZ8JR8Is
+name: Find Traps
+type: spell
+_id: gme7kneYImlVqxJs
+img: systems/swords-wizardry/assets/game-icons-net/box-trap.svg
+system:
+  description: >-
+    <p class="p1">The caster can perceive magical and&nbsp;non-magical traps at
+    a distance of 30 feet.</p>
+  spellLevel: '2'
+  range: 30 feet
+  duration: 20 minutes (2 turns)
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!gme7kneYImlVqxJs'

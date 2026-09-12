@@ -1,0 +1,33 @@
+folder: PcenDMzPb13XI8Uf
+name: Anti-Animal Ward
+type: spell
+_id: 9wuMPtsOnd4puGUS
+img: systems/swords-wizardry/assets/game-icons-net/slashed-shield.svg
+system:
+  description: >-
+    <p class="p1">A magical barrier surrounds the caster and&nbsp;prevents any
+    sort of normal or giant animal&nbsp;(but not magical beasts such as
+    manticores&nbsp;or griffons) from reaching through or attacking. The spell
+    has a radius of 10 feet. If&nbsp;anyone within the magical warding casts
+    an&nbsp;attack spell or makes a physical attack, the&nbsp;barrier instantly
+    evaporates.</p>
+  spellLevel: '6'
+  range: Caster
+  duration: 2 hours
+effects: []
+sort: 0
+ownership:
+  default: 0
+  uY5ZaNbCwA9WwEXo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.367'
+  systemId: swords-wizardry
+  systemVersion: 2.6.1
+  createdTime: 1740763417887
+  modifiedTime: 1740763417887
+  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  exportSource: null
+_key: '!items!9wuMPtsOnd4puGUS'
