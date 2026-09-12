@@ -12,6 +12,10 @@ system:
   spellLevel: '9'
   range: 240 feet
   duration: Instantaneous
+  requiresSave: true
+  saveEffect: half
+  effectType: damage
+  formula: 10d6
 effects: []
 sort: 0
 ownership:
@@ -23,9 +27,9 @@ _stats:
   duplicateSource: null
   coreVersion: '14.367'
   systemId: swords-wizardry
-  systemVersion: 2.9.4
+  systemVersion: 4.1.0
   createdTime: 1740763417887
-  modifiedTime: 1741406828812
-  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  modifiedTime: 1789237189297
+  lastModifiedBy: vmxWfSELXzEPjuRW
   exportSource: null
 _key: '!items!smquIt06Dtvrsc40'

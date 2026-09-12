@@ -15,6 +15,8 @@ system:
   spellLevel: '3'
   range: 1,000 feet
   duration: One hour
+  formula: 8d6+(@lvl)
+  effectType: damage
 effects: []
 sort: 0
 ownership:
@@ -26,9 +28,9 @@ _stats:
   duplicateSource: null
   coreVersion: '14.367'
   systemId: swords-wizardry
-  systemVersion: 2.6.1
+  systemVersion: 4.1.0
   createdTime: 1740763417887
-  modifiedTime: 1740763417887
-  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  modifiedTime: 1789236073526
+  lastModifiedBy: vmxWfSELXzEPjuRW
   exportSource: null
 _key: '!items!3zEuqQxjfq3udsEP'

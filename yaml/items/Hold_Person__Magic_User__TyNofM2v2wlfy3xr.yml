@@ -12,6 +12,7 @@ system:
   spellLevel: '3'
   range: 120 feet
   duration: 1 hour + 10 minutes/level
+  requiresSave: true
 effects: []
 sort: 0
 ownership:
@@ -23,9 +24,9 @@ _stats:
   duplicateSource: null
   coreVersion: '14.367'
   systemId: swords-wizardry
-  systemVersion: 2.8.0
+  systemVersion: 4.1.0
   createdTime: 1740763417887
-  modifiedTime: 1740804652021
-  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  modifiedTime: 1789236617252
+  lastModifiedBy: vmxWfSELXzEPjuRW
   exportSource: null
 _key: '!items!TyNofM2v2wlfy3xr'

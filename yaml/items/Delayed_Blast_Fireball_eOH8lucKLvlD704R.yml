@@ -13,6 +13,10 @@ system:
   spellLevel: '7'
   range: 240 feet
   duration: Chosen by caster (up to 10 minutes)
+  formula: (@lvl)d6
+  requiresSave: true
+  saveEffect: half
+  effectType: damage
 effects: []
 sort: 0
 ownership:
@@ -24,9 +28,9 @@ _stats:
   duplicateSource: null
   coreVersion: '14.367'
   systemId: swords-wizardry
-  systemVersion: 2.9.4
+  systemVersion: 4.1.0
   createdTime: 1740763417887
-  modifiedTime: 1741403895733
-  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  modifiedTime: 1789237058872
+  lastModifiedBy: vmxWfSELXzEPjuRW
   exportSource: null
 _key: '!items!eOH8lucKLvlD704R'

@@ -11,6 +11,8 @@ system:
   spellLevel: '1'
   range: Touch
   duration: Immediate
+  effectType: healing
+  formula: 1d6+1
 effects: []
 sort: 100000
 ownership:
@@ -22,9 +24,9 @@ _stats:
   duplicateSource: null
   coreVersion: '14.367'
   systemId: swords-wizardry
-  systemVersion: 2.6.1
+  systemVersion: 4.1.0
   createdTime: 1740763417887
-  modifiedTime: 1740763417887
-  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  modifiedTime: 1789235537427
+  lastModifiedBy: vmxWfSELXzEPjuRW
   exportSource: null
 _key: '!items!51YjmwSfWLQYaFRz'

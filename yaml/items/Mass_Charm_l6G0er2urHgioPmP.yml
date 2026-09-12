@@ -11,6 +11,7 @@ system:
   spellLevel: '8'
   range: 120 feet
   duration: Until dispelled
+  requiresSave: true
 effects: []
 sort: 0
 ownership:
@@ -22,9 +23,9 @@ _stats:
   duplicateSource: null
   coreVersion: '14.367'
   systemId: swords-wizardry
-  systemVersion: 2.9.4
+  systemVersion: 4.1.0
   createdTime: 1740763417887
-  modifiedTime: 1741405203012
-  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  modifiedTime: 1789237109851
+  lastModifiedBy: vmxWfSELXzEPjuRW
   exportSource: null
 _key: '!items!l6G0er2urHgioPmP'

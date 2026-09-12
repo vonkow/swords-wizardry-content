@@ -4,12 +4,7 @@ type: spell
 _id: QwdblnskO3TDsmPN
 img: systems/swords-wizardry/assets/game-icons-net/ants.svg
 system:
-  description: >-
-    <p class="p1">This spell works only outdoors. A storm&nbsp;of insects
-    gathers and goes wherever the&nbsp;caster directs. The cloud covers
-    approxi-&nbsp;mately 400 square feet (20 feet by 20 feet,&nbsp;with roughly
-    corresponding height). Any&nbsp;creature with 2 or fewer hit dice exposed
-    to&nbsp;the cloud of insects flees in terror (no saving&nbsp;throw).</p>
+  description: "<p class=\"p1\">This spell works only outdoors. A storm\_of insects gathers and goes wherever the\_caster directs. The cloud covers approximately 400 square feet (20 feet by 20 feet,\_with roughly corresponding height). Any\_creature with 2 or fewer hit dice exposed to\_the cloud of insects flees in terror (no saving\_throw).</p>"
   spellLevel: '5'
   range: 480 feet
   duration: 1 day
@@ -24,9 +19,9 @@ _stats:
   duplicateSource: null
   coreVersion: '14.367'
   systemId: swords-wizardry
-  systemVersion: 2.6.1
+  systemVersion: 4.1.0
   createdTime: 1740763417887
-  modifiedTime: 1740763417887
-  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  modifiedTime: 1789235862190
+  lastModifiedBy: vmxWfSELXzEPjuRW
   exportSource: null
 _key: '!items!QwdblnskO3TDsmPN'
