@@ -19,7 +19,43 @@ system:
   range: 60 feet
   duration: See below
   requiresSave: true
-effects: []
+effects:
+  - name: Charmed
+    type: base
+    disabled: true
+    transfer: false
+    _id: TqgXREvvgiFe3Uq0
+    img: systems/swords-wizardry/assets/game-icons-net/evil-love.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: ''
+      durationFormulaUnits: rounds
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 2
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790442813482
+      modifiedTime: 1790442827741
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!58O2Rtnn8tdv9Y1b.TqgXREvvgiFe3Uq0'
 sort: 0
 ownership:
   default: 0
@@ -36,3 +72,4 @@ _stats:
   lastModifiedBy: vmxWfSELXzEPjuRW
   exportSource: null
 _key: '!items!58O2Rtnn8tdv9Y1b'
+

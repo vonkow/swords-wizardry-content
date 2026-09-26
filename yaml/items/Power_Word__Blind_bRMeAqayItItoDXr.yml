@@ -12,8 +12,45 @@ system:
     No saving throw applies.</p>
   spellLevel: '8'
   range: 120 feet
-  duration: 1d4 or 1d4 days (See below)
-effects: []
+  duration: 2d4 or 1d4 days (See below)
+effects:
+  - name: Blind
+    type: base
+    disabled: true
+    transfer: false
+    _id: jJDX4CWuHYqijKZs
+    img: systems/swords-wizardry/assets/game-icons-net/sight-disabled.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: 2d4
+      durationFormulaUnits: days
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses:
+      - blind
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790444371624
+      modifiedTime: 1790444471524
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!bRMeAqayItItoDXr.jJDX4CWuHYqijKZs'
 sort: 0
 ownership:
   default: 0
@@ -22,11 +59,12 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '14.367'
+  coreVersion: '14.366'
   systemId: swords-wizardry
-  systemVersion: 2.9.4
+  systemVersion: 4.3.0
   createdTime: 1740763417887
-  modifiedTime: 1741406133795
-  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  modifiedTime: 1790444369480
+  lastModifiedBy: BGgsaqYZJQzqaTYG
   exportSource: null
 _key: '!items!bRMeAqayItItoDXr'
+

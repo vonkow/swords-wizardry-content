@@ -13,7 +13,43 @@ system:
   spellLevel: '2'
   range: Close
   duration: Permanent until dispelled
-effects: []
+effects:
+  - name: Wizard Locked
+    type: base
+    disabled: true
+    transfer: false
+    _id: Rs0fRyWn0ZBXvWif
+    img: systems/swords-wizardry/assets/game-icons-net/padlock.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: ''
+      durationFormulaUnits: rounds
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 2
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790439494470
+      modifiedTime: 1790439514150
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!E6Aubei17sxISCUW.Rs0fRyWn0ZBXvWif'
 sort: 0
 ownership:
   default: 0
@@ -30,3 +66,4 @@ _stats:
   lastModifiedBy: uY5ZaNbCwA9WwEXo
   exportSource: null
 _key: '!items!E6Aubei17sxISCUW'
+

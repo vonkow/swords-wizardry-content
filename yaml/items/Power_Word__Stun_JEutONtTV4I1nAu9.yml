@@ -13,7 +13,44 @@ system:
   spellLevel: '7'
   range: 120 feet
   duration: 1d6 or 2d6 turns (See below)
-effects: []
+effects:
+  - name: Stunned
+    type: base
+    disabled: true
+    transfer: false
+    _id: 2PpdO0XJe1Ca1OkP
+    img: systems/swords-wizardry/assets/game-icons-net/star-swirl.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: 2d6
+      durationFormulaUnits: rounds
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses:
+      - stun
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790444059737
+      modifiedTime: 1790444151347
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!JEutONtTV4I1nAu9.2PpdO0XJe1Ca1OkP'
 sort: 0
 ownership:
   default: 0
@@ -30,3 +67,4 @@ _stats:
   lastModifiedBy: uY5ZaNbCwA9WwEXo
   exportSource: null
 _key: '!items!JEutONtTV4I1nAu9'
+

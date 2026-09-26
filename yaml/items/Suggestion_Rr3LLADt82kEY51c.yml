@@ -15,7 +15,43 @@ system:
   range: Shouting distance
   duration: 1 week
   requiresSave: true
-effects: []
+effects:
+  - name: Suggestion
+    type: base
+    disabled: true
+    transfer: false
+    _id: m52oOwTpWhLP821i
+    img: systems/swords-wizardry/assets/game-icons-net/teacher.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: '7'
+      durationFormulaUnits: days
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790442447115
+      modifiedTime: 1790442462352
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!Rr3LLADt82kEY51c.m52oOwTpWhLP821i'
 sort: 0
 ownership:
   default: 0
@@ -32,3 +68,4 @@ _stats:
   lastModifiedBy: vmxWfSELXzEPjuRW
   exportSource: null
 _key: '!items!Rr3LLADt82kEY51c'
+

@@ -11,7 +11,43 @@ system:
   spellLevel: '4'
   range: 240 feet
   duration: Until negated by caster or dispelled
-effects: []
+effects:
+  - name: Massmorph
+    type: base
+    disabled: true
+    transfer: false
+    _id: SVr9xLKdfW0WpwZs
+    img: systems/swords-wizardry/assets/game-icons-net/forest.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: ''
+      durationFormulaUnits: rounds
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 2
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790442970685
+      modifiedTime: 1790442985340
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!KHfgq7MFxJXjLar3.SVr9xLKdfW0WpwZs'
 sort: 0
 ownership:
   default: 0
@@ -28,3 +64,4 @@ _stats:
   lastModifiedBy: uY5ZaNbCwA9WwEXo
   exportSource: null
 _key: '!items!KHfgq7MFxJXjLar3'
+

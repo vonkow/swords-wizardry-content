@@ -11,8 +11,10 @@ system:
   pp: 0
   sp: 0
   cp: 0
-  formula: d6
+  formula: ''
   gold: 5
+  usable: false
+  consumable: false
 effects: []
 sort: 3700000
 ownership:
@@ -23,11 +25,12 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '14.367'
+  coreVersion: '14.366'
   systemId: swords-wizardry
-  systemVersion: 2.6.1
+  systemVersion: 4.3.0
   createdTime: 1740763416123
-  modifiedTime: 1740763416123
-  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  modifiedTime: 1790379624690
+  lastModifiedBy: BGgsaqYZJQzqaTYG
   exportSource: null
 _key: '!items!F29fX4x4GxnoJiJz'
+

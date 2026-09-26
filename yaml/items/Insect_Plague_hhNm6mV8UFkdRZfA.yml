@@ -13,7 +13,43 @@ system:
   spellLevel: '4'
   range: 480 feet
   duration: 1 day
-effects: []
+effects:
+  - name: Insect Plague
+    type: base
+    disabled: true
+    transfer: false
+    _id: TR2tnjV4wFRJ78Yg
+    img: systems/swords-wizardry/assets/game-icons-net/ants.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: '1'
+      durationFormulaUnits: days
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790396120251
+      modifiedTime: 1790396136954
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!hhNm6mV8UFkdRZfA.TR2tnjV4wFRJ78Yg'
 sort: 0
 ownership:
   default: 0
@@ -30,3 +66,4 @@ _stats:
   lastModifiedBy: uY5ZaNbCwA9WwEXo
   exportSource: null
 _key: '!items!hhNm6mV8UFkdRZfA'
+

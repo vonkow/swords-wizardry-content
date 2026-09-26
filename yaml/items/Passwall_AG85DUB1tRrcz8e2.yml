@@ -11,7 +11,43 @@ system:
   spellLevel: '5'
   range: 30 feet
   duration: 3 turns (30 minutes)
-effects: []
+effects:
+  - name: Passwall
+    type: base
+    disabled: true
+    transfer: false
+    _id: U8rlxJsr7IyjX65Y
+    img: systems/swords-wizardry/assets/game-icons-net/cave-entrance.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: '30'
+      durationFormulaUnits: minutes
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790443388794
+      modifiedTime: 1790443410887
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!AG85DUB1tRrcz8e2.U8rlxJsr7IyjX65Y'
 sort: 0
 ownership:
   default: 0
@@ -28,3 +64,4 @@ _stats:
   lastModifiedBy: uY5ZaNbCwA9WwEXo
   exportSource: null
 _key: '!items!AG85DUB1tRrcz8e2'
+

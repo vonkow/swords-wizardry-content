@@ -60,7 +60,44 @@ system:
   spellLevel: '1'
   range: 240 feet
   duration: 1 hour
-effects: []
+effects:
+  - name: Sleep
+    type: base
+    disabled: true
+    transfer: false
+    _id: jcNlAWetu5dYTpNL
+    img: systems/swords-wizardry/assets/game-icons-net/night-sleep.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: '1'
+      durationFormulaUnits: hours
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses:
+      - sleep
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790401341971
+      modifiedTime: 1790401367385
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!jTaRDjhLmxbcrsI3.jcNlAWetu5dYTpNL'
 sort: 0
 ownership:
   default: 0
@@ -77,3 +114,4 @@ _stats:
   lastModifiedBy: uY5ZaNbCwA9WwEXo
   exportSource: null
 _key: '!items!jTaRDjhLmxbcrsI3'
+

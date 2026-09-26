@@ -13,7 +13,49 @@ system:
   spellLevel: '2'
   range: Only upon characters not in combat.
   duration: 1 hour (6 turns)
-effects: []
+effects:
+  - name: Blessed
+    type: base
+    disabled: true
+    transfer: false
+    _id: kwxahHlK2LbmgkX0
+    img: systems/swords-wizardry/assets/game-icons-net/sun-priest.svg
+    system:
+      changes:
+        - key: system.modifiers.toHit.value
+          type: add
+          value: 1
+          phase: initial
+          priority: null
+      targeted: true
+      durationFormula: '1'
+      durationFormulaUnits: hours
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses:
+      - bless
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790381556846
+      modifiedTime: 1790385009595
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!LktOgWQBIe6nFLkU.kwxahHlK2LbmgkX0'
 sort: 0
 ownership:
   default: 0
@@ -30,3 +72,4 @@ _stats:
   lastModifiedBy: uY5ZaNbCwA9WwEXo
   exportSource: null
 _key: '!items!LktOgWQBIe6nFLkU'
+

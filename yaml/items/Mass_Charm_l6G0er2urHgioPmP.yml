@@ -12,7 +12,43 @@ system:
   range: 120 feet
   duration: Until dispelled
   requiresSave: true
-effects: []
+effects:
+  - name: Charmed
+    type: base
+    disabled: true
+    transfer: false
+    _id: GGNpcflYjkWxbBSs
+    img: systems/swords-wizardry/assets/game-icons-net/charm.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: ''
+      durationFormulaUnits: rounds
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 2
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790444227445
+      modifiedTime: 1790444238959
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!l6G0er2urHgioPmP.GGNpcflYjkWxbBSs'
 sort: 0
 ownership:
   default: 0
@@ -29,3 +65,4 @@ _stats:
   lastModifiedBy: vmxWfSELXzEPjuRW
   exportSource: null
 _key: '!items!l6G0er2urHgioPmP'
+

@@ -13,7 +13,43 @@ system:
   spellLevel: '2'
   range: 240 feet
   duration: 1 hour
-effects: []
+effects:
+  - name: Pyrotechnics
+    type: base
+    disabled: true
+    transfer: false
+    _id: Mja6IAEBX9tSr9dI
+    img: systems/swords-wizardry/assets/game-icons-net/eruption.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: '1'
+      durationFormulaUnits: hours
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790439340528
+      modifiedTime: 1790439356497
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!dLhMx9r5RtZK2U5P.Mja6IAEBX9tSr9dI'
 sort: 0
 ownership:
   default: 0
@@ -30,3 +66,4 @@ _stats:
   lastModifiedBy: uY5ZaNbCwA9WwEXo
   exportSource: null
 _key: '!items!dLhMx9r5RtZK2U5P'
+

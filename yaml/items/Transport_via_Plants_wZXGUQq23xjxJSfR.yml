@@ -22,7 +22,43 @@ system:
   spellLevel: '6'
   range: Touch first plant
   duration: 24 hours or until travel is completed
-effects: []
+effects:
+  - name: Transport via Plants
+    type: base
+    disabled: true
+    transfer: false
+    _id: g1w46bbNdCPhVK0p
+    img: systems/swords-wizardry/assets/game-icons-net/beanstalk.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: '24'
+      durationFormulaUnits: hours
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790396950407
+      modifiedTime: 1790396982734
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!wZXGUQq23xjxJSfR.g1w46bbNdCPhVK0p'
 sort: 0
 ownership:
   default: 0
@@ -39,3 +75,4 @@ _stats:
   lastModifiedBy: uY5ZaNbCwA9WwEXo
   exportSource: null
 _key: '!items!wZXGUQq23xjxJSfR'
+

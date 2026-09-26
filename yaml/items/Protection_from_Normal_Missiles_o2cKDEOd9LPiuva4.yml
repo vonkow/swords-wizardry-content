@@ -10,7 +10,43 @@ system:
   spellLevel: '3'
   range: Caster
   duration: 2 hours
-effects: []
+effects:
+  - name: Protection From Normal Missiles
+    type: base
+    disabled: true
+    transfer: false
+    _id: s14rUvEzBBKR03k5
+    img: systems/swords-wizardry/assets/game-icons-net/arrows-shield.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: '2'
+      durationFormulaUnits: hours
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790442336507
+      modifiedTime: 1790442382087
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!o2cKDEOd9LPiuva4.s14rUvEzBBKR03k5'
 sort: 0
 ownership:
   default: 0
@@ -27,3 +63,4 @@ _stats:
   lastModifiedBy: uY5ZaNbCwA9WwEXo
   exportSource: null
 _key: '!items!o2cKDEOd9LPiuva4'
+

@@ -11,7 +11,43 @@ system:
   spellLevel: '5'
   range: Centered on caster
   duration: 6 turns + 1 turn/level
-effects: []
+effects:
+  - name: Control Winds
+    type: base
+    disabled: true
+    transfer: false
+    _id: ONt6921rIgKVWexy
+    img: systems/swords-wizardry/assets/game-icons-net/wind-hole.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: 6 + (@lvl)
+      durationFormulaUnits: turns
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790396443915
+      modifiedTime: 1790396464415
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!GZepllOOfatns7Mg.ONt6921rIgKVWexy'
 sort: 0
 ownership:
   default: 0
@@ -28,3 +64,4 @@ _stats:
   lastModifiedBy: uY5ZaNbCwA9WwEXo
   exportSource: null
 _key: '!items!GZepllOOfatns7Mg'
+

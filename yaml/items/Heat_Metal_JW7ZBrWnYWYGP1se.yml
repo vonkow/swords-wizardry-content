@@ -34,7 +34,43 @@ system:
   spellLevel: '2'
   range: 30 feet
   duration: 7 rounds
-effects: []
+effects:
+  - name: Heat Metal
+    type: base
+    disabled: true
+    transfer: false
+    _id: ZFzzShPh2dFaTQ5a
+    img: systems/swords-wizardry/assets/game-icons-net/hot-surface.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: '7'
+      durationFormulaUnits: rounds
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790395363064
+      modifiedTime: 1790395381261
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!JW7ZBrWnYWYGP1se.ZFzzShPh2dFaTQ5a'
 sort: 0
 ownership:
   default: 0
@@ -51,3 +87,4 @@ _stats:
   lastModifiedBy: uY5ZaNbCwA9WwEXo
   exportSource: null
 _key: '!items!JW7ZBrWnYWYGP1se'
+

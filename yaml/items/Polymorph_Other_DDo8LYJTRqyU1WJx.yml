@@ -12,7 +12,43 @@ system:
   spellLevel: '4'
   range: 240 feet
   duration: Permanent until dispelled
-effects: []
+effects:
+  - name: Polymorphed
+    type: base
+    disabled: true
+    transfer: false
+    _id: re6jZg2PvOY0F8yB
+    img: systems/swords-wizardry/assets/game-icons-net/frog.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: ''
+      durationFormulaUnits: rounds
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 2
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790443049478
+      modifiedTime: 1790443065873
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!DDo8LYJTRqyU1WJx.re6jZg2PvOY0F8yB'
 sort: 0
 ownership:
   default: 0
@@ -29,3 +65,4 @@ _stats:
   lastModifiedBy: uY5ZaNbCwA9WwEXo
   exportSource: null
 _key: '!items!DDo8LYJTRqyU1WJx'
+

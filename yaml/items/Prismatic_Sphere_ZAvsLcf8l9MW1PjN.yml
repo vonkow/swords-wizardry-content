@@ -37,7 +37,259 @@ system:
   spellLevel: '9'
   range: 10-foot sphere
   duration: 1 hour
-effects: []
+effects:
+  - name: Red Sphere
+    type: base
+    disabled: true
+    transfer: false
+    _id: gYrZRSVct78CGEu6
+    img: systems/swords-wizardry/assets/game-icons-net/caged-ball.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: '1'
+      durationFormulaUnits: hours
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ff0000'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790444696296
+      modifiedTime: 1790444813229
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!ZAvsLcf8l9MW1PjN.gYrZRSVct78CGEu6'
+  - name: Orange Sphere
+    type: base
+    disabled: true
+    transfer: false
+    _id: eFSJbmnhx8Yxe7gK
+    img: systems/swords-wizardry/assets/game-icons-net/caged-ball.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: '1'
+      durationFormulaUnits: hours
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffa500'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790444747804
+      modifiedTime: 1790444841872
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!ZAvsLcf8l9MW1PjN.eFSJbmnhx8Yxe7gK'
+  - name: Yellow Sphere
+    type: base
+    disabled: true
+    transfer: false
+    _id: W20qfwKN8mt516ib
+    img: systems/swords-wizardry/assets/game-icons-net/caged-ball.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: '1'
+      durationFormulaUnits: hours
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffff00'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790444767754
+      modifiedTime: 1790444804452
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!ZAvsLcf8l9MW1PjN.W20qfwKN8mt516ib'
+  - name: Green Sphere
+    type: base
+    disabled: true
+    transfer: false
+    _id: 0Q6XhwrRY52yw2eP
+    img: systems/swords-wizardry/assets/game-icons-net/caged-ball.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: '1'
+      durationFormulaUnits: hours
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#00ff00'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790444853345
+      modifiedTime: 1790444887197
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!ZAvsLcf8l9MW1PjN.0Q6XhwrRY52yw2eP'
+  - name: Blue Sphere
+    type: base
+    disabled: true
+    transfer: false
+    _id: YSVfr1OyoTWRCxU0
+    img: systems/swords-wizardry/assets/game-icons-net/caged-ball.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: '1'
+      durationFormulaUnits: hours
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#0000ff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790444899226
+      modifiedTime: 1790444933705
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!ZAvsLcf8l9MW1PjN.YSVfr1OyoTWRCxU0'
+  - name: Indigo Sphere
+    type: base
+    disabled: true
+    transfer: false
+    _id: BUAr7z7uPZL8HrT0
+    img: systems/swords-wizardry/assets/game-icons-net/caged-ball.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: '1'
+      durationFormulaUnits: hours
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#4b0082'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790444906821
+      modifiedTime: 1790444977992
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!ZAvsLcf8l9MW1PjN.BUAr7z7uPZL8HrT0'
+  - name: Violet Sphere
+    type: base
+    disabled: true
+    transfer: false
+    _id: FFyxRtlPwdb4NkLA
+    img: systems/swords-wizardry/assets/game-icons-net/caged-ball.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: '1'
+      durationFormulaUnits: hours
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#8f00ff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790444908212
+      modifiedTime: 1790445006859
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!ZAvsLcf8l9MW1PjN.FFyxRtlPwdb4NkLA'
 sort: 0
 ownership:
   default: 0
@@ -54,3 +306,4 @@ _stats:
   lastModifiedBy: uY5ZaNbCwA9WwEXo
   exportSource: null
 _key: '!items!ZAvsLcf8l9MW1PjN'
+

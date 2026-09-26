@@ -81,7 +81,43 @@ system:
   spellLevel: '5'
   range: Touch (first tree)
   duration: 1 hour per level or until exit
-effects: []
+effects:
+  - name: Passplant
+    type: base
+    disabled: true
+    transfer: false
+    _id: 5NaQFIbYMUcD9qLa
+    img: systems/swords-wizardry/assets/game-icons-net/tree-door.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: (@lvl)
+      durationFormulaUnits: hours
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790396642346
+      modifiedTime: 1790396657354
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!ObCIZaixwd14H3gf.5NaQFIbYMUcD9qLa'
 sort: 0
 ownership:
   default: 0
@@ -98,3 +134,4 @@ _stats:
   lastModifiedBy: uY5ZaNbCwA9WwEXo
   exportSource: null
 _key: '!items!ObCIZaixwd14H3gf'
+

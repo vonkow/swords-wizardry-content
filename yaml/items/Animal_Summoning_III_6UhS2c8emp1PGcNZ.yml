@@ -13,7 +13,43 @@ system:
   spellLevel: '6'
   range: 30 feet
   duration: 4 hours
-effects: []
+effects:
+  - name: Animal Summoning III
+    type: base
+    disabled: true
+    transfer: false
+    _id: B5SrSj5ku9iaVB5q
+    img: systems/swords-wizardry/assets/game-icons-net/flat-paw-print.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: '4'
+      durationFormulaUnits: hours
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790396785223
+      modifiedTime: 1790396802621
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!6UhS2c8emp1PGcNZ.B5SrSj5ku9iaVB5q'
 sort: 0
 ownership:
   default: 0
@@ -30,3 +66,4 @@ _stats:
   lastModifiedBy: uY5ZaNbCwA9WwEXo
   exportSource: null
 _key: '!items!6UhS2c8emp1PGcNZ'
+

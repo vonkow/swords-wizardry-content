@@ -13,7 +13,43 @@ system:
   spellLevel: '3'
   range: As far as the caster can throw a rope
   duration: 1 hour + 1 turn/level
-effects: []
+effects:
+  - name: Rope Trick
+    type: base
+    disabled: true
+    transfer: false
+    _id: QNenJa1X4nD8kbX9
+    img: systems/swords-wizardry/assets/game-icons-net/rope-coil.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: 6 + (@lvl)
+      durationFormulaUnits: turns
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790442396137
+      modifiedTime: 1790442411104
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!GOZFVkGGgTPEaheS.QNenJa1X4nD8kbX9'
 sort: 0
 ownership:
   default: 0
@@ -30,3 +66,4 @@ _stats:
   lastModifiedBy: uY5ZaNbCwA9WwEXo
   exportSource: null
 _key: '!items!GOZFVkGGgTPEaheS'
+

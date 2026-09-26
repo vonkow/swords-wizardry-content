@@ -15,7 +15,43 @@ system:
   spellLevel: '3'
   range: Touch
   duration: 3 turns + 1 turn/level
-effects: []
+effects:
+  - name: Protection from Fire
+    type: base
+    disabled: true
+    transfer: false
+    _id: JBnonTfoVcgdk1hE
+    img: systems/swords-wizardry/assets/game-icons-net/fire-shield.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: 3 + (@lvl)
+      durationFormulaUnits: turns
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790395766623
+      modifiedTime: 1790395786272
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!r0Haz5jn4byWSQlP.JBnonTfoVcgdk1hE'
 sort: 0
 ownership:
   default: 0
@@ -32,3 +68,4 @@ _stats:
   lastModifiedBy: uY5ZaNbCwA9WwEXo
   exportSource: null
 _key: '!items!r0Haz5jn4byWSQlP'
+

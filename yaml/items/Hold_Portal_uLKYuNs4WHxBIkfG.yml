@@ -11,7 +11,43 @@ system:
   spellLevel: '1'
   range: Referee's Discretion
   duration: 2d6 turns
-effects: []
+effects:
+  - name: Hold Portal
+    type: base
+    disabled: true
+    transfer: false
+    _id: sr9q1TnwZN1pfJBy
+    img: systems/swords-wizardry/assets/game-icons-net/closed-doors.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: 2d6
+      durationFormulaUnits: turns
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790398401340
+      modifiedTime: 1790398430386
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!uLKYuNs4WHxBIkfG.sr9q1TnwZN1pfJBy'
 sort: 400000
 ownership:
   default: 0
@@ -28,3 +64,4 @@ _stats:
   lastModifiedBy: uY5ZaNbCwA9WwEXo
   exportSource: null
 _key: '!items!uLKYuNs4WHxBIkfG'
+

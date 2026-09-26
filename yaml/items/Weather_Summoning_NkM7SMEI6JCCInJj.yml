@@ -18,7 +18,43 @@ system:
   spellLevel: '6'
   range: Centered on caster
   duration: 1 hour/level
-effects: []
+effects:
+  - name: Weather Summoning
+    type: base
+    disabled: true
+    transfer: false
+    _id: noZHO73bGsSUHtQn
+    img: systems/swords-wizardry/assets/game-icons-net/sun-cloud.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: (@lvl)
+      durationFormulaUnits: hours
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790396993783
+      modifiedTime: 1790397018626
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!NkM7SMEI6JCCInJj.noZHO73bGsSUHtQn'
 sort: 0
 ownership:
   default: 0
@@ -35,3 +71,4 @@ _stats:
   lastModifiedBy: uY5ZaNbCwA9WwEXo
   exportSource: null
 _key: '!items!NkM7SMEI6JCCInJj'
+

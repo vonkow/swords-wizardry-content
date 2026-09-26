@@ -21,7 +21,43 @@ system:
   spellLevel: '5'
   range: N/A
   duration: 6 rounds (minutes)
-effects: []
+effects:
+  - name: Monster Summoning III
+    type: base
+    disabled: true
+    transfer: false
+    _id: Ugc4OObB4E0qUEhq
+    img: systems/swords-wizardry/assets/game-icons-net/evil-minion.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: '6'
+      durationFormulaUnits: rounds
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790443364276
+      modifiedTime: 1790443380909
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!w5I6vT44tUGMl26s.Ugc4OObB4E0qUEhq'
 sort: 0
 ownership:
   default: 0
@@ -38,3 +74,4 @@ _stats:
   lastModifiedBy: uY5ZaNbCwA9WwEXo
   exportSource: null
 _key: '!items!w5I6vT44tUGMl26s'
+

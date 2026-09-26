@@ -12,7 +12,44 @@ system:
   spellLevel: '9'
   range: 120 feet
   duration: Immediate
-effects: []
+effects:
+  - name: Dead
+    type: base
+    disabled: true
+    transfer: false
+    _id: Cj4cfiyrNu4e2dwY
+    img: systems/swords-wizardry/assets/game-icons-net/dead-head.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: ''
+      durationFormulaUnits: rounds
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses:
+      - dead
+    showIcon: 2
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790444647621
+      modifiedTime: 1790444680400
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!mxVKii3H8FW6wYX7.Cj4cfiyrNu4e2dwY'
 sort: 0
 ownership:
   default: 0
@@ -29,3 +66,4 @@ _stats:
   lastModifiedBy: uY5ZaNbCwA9WwEXo
   exportSource: null
 _key: '!items!mxVKii3H8FW6wYX7'
+

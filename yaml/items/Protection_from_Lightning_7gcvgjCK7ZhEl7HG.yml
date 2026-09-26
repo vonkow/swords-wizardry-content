@@ -11,7 +11,43 @@ system:
   spellLevel: '4'
   range: Touch
   duration: 6 turns + 1 turn/level
-effects: []
+effects:
+  - name: Protection from Lightning
+    type: base
+    disabled: true
+    transfer: false
+    _id: d9Z0CGMeA2BWqbUV
+    img: systems/swords-wizardry/assets/game-icons-net/lightning-shield.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: 6 + (@lvl)
+      durationFormulaUnits: turns
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790396231722
+      modifiedTime: 1790396254217
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!7gcvgjCK7ZhEl7HG.d9Z0CGMeA2BWqbUV'
 sort: 0
 ownership:
   default: 0
@@ -28,3 +64,4 @@ _stats:
   lastModifiedBy: uY5ZaNbCwA9WwEXo
   exportSource: null
 _key: '!items!7gcvgjCK7ZhEl7HG'
+

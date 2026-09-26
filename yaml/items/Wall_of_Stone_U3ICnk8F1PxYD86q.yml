@@ -12,7 +12,43 @@ system:
   spellLevel: '5'
   range: 60 feet
   duration: Permanent until dispelled
-effects: []
+effects:
+  - name: Wall of Stone
+    type: base
+    disabled: true
+    transfer: false
+    _id: a5GHUdMumKqGBttx
+    img: systems/swords-wizardry/assets/game-icons-net/stone-wall.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: ''
+      durationFormulaUnits: rounds
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 2
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790443544225
+      modifiedTime: 1790443559172
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!U3ICnk8F1PxYD86q.a5GHUdMumKqGBttx'
 sort: 0
 ownership:
   default: 0
@@ -29,3 +65,4 @@ _stats:
   lastModifiedBy: uY5ZaNbCwA9WwEXo
   exportSource: null
 _key: '!items!U3ICnk8F1PxYD86q'
+

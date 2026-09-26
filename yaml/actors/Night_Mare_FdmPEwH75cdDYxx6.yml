@@ -102,7 +102,8 @@ prototypeToken:
   width: 1
   height: 1
   texture:
-    src: systems/swords-wizardry/assets/game-icons-net/cloaked-figure-on-horseback.svg
+    src: >-
+      systems/swords-wizardry/assets/game-icons-net/cloaked-figure-on-horseback.svg
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -264,3 +265,4 @@ _stats:
 _id: FdmPEwH75cdDYxx6
 sort: 300000
 _key: '!actors!FdmPEwH75cdDYxx6'
+

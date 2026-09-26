@@ -21,7 +21,43 @@ system:
   spellLevel: '1'
   range: Caster
   duration: 2 hours
-effects: []
+effects:
+  - name: Protection from Evil
+    type: base
+    disabled: true
+    transfer: false
+    _id: 1ZqDO3DTI3fc8Exx
+    img: systems/swords-wizardry/assets/game-icons-net/aura.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: '2'
+      durationFormulaUnits: hours
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790381246410
+      modifiedTime: 1790381270718
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!WqCO68rQx6dF10jR.1ZqDO3DTI3fc8Exx'
 sort: 175000
 ownership:
   default: 0
@@ -38,3 +74,4 @@ _stats:
   lastModifiedBy: uY5ZaNbCwA9WwEXo
   exportSource: null
 _key: '!items!WqCO68rQx6dF10jR'
+

@@ -16,7 +16,43 @@ system:
   range: Moves 6 feet per minute
   duration: 1 hour
   requiresSave: true
-effects: []
+effects:
+  - name: Cloudkill
+    type: base
+    disabled: true
+    transfer: false
+    _id: DvH1xF5EEDR2ca2g
+    img: systems/swords-wizardry/assets/game-icons-net/poison-cloud.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: '1'
+      durationFormulaUnits: hours
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790443203477
+      modifiedTime: 1790443216195
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!2gTq2paGyCD0QZFl.DvH1xF5EEDR2ca2g'
 sort: 0
 ownership:
   default: 0
@@ -33,3 +69,4 @@ _stats:
   lastModifiedBy: vmxWfSELXzEPjuRW
   exportSource: null
 _key: '!items!2gTq2paGyCD0QZFl'
+

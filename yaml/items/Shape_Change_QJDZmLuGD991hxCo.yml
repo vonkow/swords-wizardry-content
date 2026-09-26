@@ -16,7 +16,43 @@ system:
   spellLevel: '9'
   range: Caster
   duration: 1d6 + 10 turns + 1 turn/level
-effects: []
+effects:
+  - name: Shape Changed
+    type: base
+    disabled: true
+    transfer: false
+    _id: 7vLoW6c2gc2NUJRf
+    img: systems/swords-wizardry/assets/game-icons-net/werewolf.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: 10 + 1d6 + (@lvl)
+      durationFormulaUnits: turns
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790445041562
+      modifiedTime: 1790445065442
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!QJDZmLuGD991hxCo.7vLoW6c2gc2NUJRf'
 sort: 0
 ownership:
   default: 0
@@ -33,3 +69,4 @@ _stats:
   lastModifiedBy: uY5ZaNbCwA9WwEXo
   exportSource: null
 _key: '!items!QJDZmLuGD991hxCo'
+

@@ -13,7 +13,43 @@ system:
   spellLevel: '2'
   range: 60 feet + 10 feet/level
   duration: 1 round/level
-effects: []
+effects:
+  - name: Locate Object
+    type: base
+    disabled: true
+    transfer: false
+    _id: XM3NvCGXkY3mGyF9
+    img: systems/swords-wizardry/assets/game-icons-net/magnifying-glass.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: (@lvl)
+      durationFormulaUnits: rounds
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790439241282
+      modifiedTime: 1790439260958
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!tGMk9nt7JXa9nJtG.XM3NvCGXkY3mGyF9'
 sort: 0
 ownership:
   default: 0
@@ -30,3 +66,4 @@ _stats:
   lastModifiedBy: uY5ZaNbCwA9WwEXo
   exportSource: null
 _key: '!items!tGMk9nt7JXa9nJtG'
+

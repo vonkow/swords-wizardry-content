@@ -11,7 +11,43 @@ system:
   spellLevel: '3'
   range: 240 feet
   duration: 30 minutes
-effects: []
+effects:
+  - name: Haste
+    type: base
+    disabled: true
+    transfer: false
+    _id: bowW04O3P9jEkRuf
+    img: systems/swords-wizardry/assets/game-icons-net/fast-forward-button.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: '30'
+      durationFormulaUnits: minutes
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790442148418
+      modifiedTime: 1790442162354
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!H0wjfbnTnvNqbPnR.bowW04O3P9jEkRuf'
 sort: 0
 ownership:
   default: 0
@@ -28,3 +64,4 @@ _stats:
   lastModifiedBy: uY5ZaNbCwA9WwEXo
   exportSource: null
 _key: '!items!H0wjfbnTnvNqbPnR'
+

@@ -14,7 +14,118 @@ system:
   spellLevel: '7'
   range: 40-foot radius
   duration: Immediate
-effects: []
+effects:
+  - name: Dead (< 5 HD)
+    type: base
+    disabled: true
+    transfer: false
+    _id: BF1nBAFEafLBGSVs
+    img: systems/swords-wizardry/assets/game-icons-net/death-skull.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: ''
+      durationFormulaUnits: rounds
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses:
+      - dead
+    showIcon: 2
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790394217354
+      modifiedTime: 1790394371696
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!kzMc9H3mDeHZPm6J.BF1nBAFEafLBGSVs'
+  - name: Stunned (5-8 HD)
+    type: base
+    disabled: true
+    transfer: false
+    _id: eyNlbmbTeOupmZ86
+    img: systems/swords-wizardry/assets/game-icons-net/star-swirl.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: 2d10
+      durationFormulaUnits: turns
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses:
+      - stun
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790394218175
+      modifiedTime: 1790394518487
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!kzMc9H3mDeHZPm6J.eyNlbmbTeOupmZ86'
+  - name: Deafened (9-12 HD)
+    type: base
+    disabled: true
+    transfer: false
+    _id: hZMvC0rTJj6FP1Kv
+    img: icons/svg/deaf.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: 1d6
+      durationFormulaUnits: turns
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses:
+      - deaf
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790394218760
+      modifiedTime: 1790394572340
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!kzMc9H3mDeHZPm6J.hZMvC0rTJj6FP1Kv'
 sort: 0
 ownership:
   default: 0
@@ -23,11 +134,12 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '14.367'
+  coreVersion: '14.366'
   systemId: swords-wizardry
   systemVersion: 2.6.1
   createdTime: 1740763417887
-  modifiedTime: 1740763417887
-  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  modifiedTime: 1790394283185
+  lastModifiedBy: BGgsaqYZJQzqaTYG
   exportSource: null
 _key: '!items!kzMc9H3mDeHZPm6J'
+

@@ -29,7 +29,43 @@ system:
   spellLevel: '7'
   range: Referee’s discretion (according to symbol)
   duration: Varies (depends upon symbol used)
-effects: []
+effects:
+  - name: Symbol
+    type: base
+    disabled: true
+    transfer: false
+    _id: fp4MeK8ayXwZfURZ
+    img: systems/swords-wizardry/assets/game-icons-net/triquetra.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: ''
+      durationFormulaUnits: rounds
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 2
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790394705199
+      modifiedTime: 1790394722960
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!OQeFcotk1C7CS9ss.fp4MeK8ayXwZfURZ'
 sort: 0
 ownership:
   default: 0
@@ -46,3 +82,4 @@ _stats:
   lastModifiedBy: uY5ZaNbCwA9WwEXo
   exportSource: null
 _key: '!items!OQeFcotk1C7CS9ss'
+

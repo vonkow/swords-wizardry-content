@@ -12,7 +12,43 @@ system:
   spellLevel: '5'
   range: 120 feet
   duration: 1 hour
-effects: []
+effects:
+  - name: Sticks to Snakes
+    type: base
+    disabled: true
+    transfer: false
+    _id: SpkILkMzkcvzj6T9
+    img: systems/swords-wizardry/assets/game-icons-net/plants-and-animals.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: '1'
+      durationFormulaUnits: hours
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790396687201
+      modifiedTime: 1790396706394
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!r0EkadYvkuHVecSN.SpkILkMzkcvzj6T9'
 sort: 0
 ownership:
   default: 0
@@ -29,3 +65,4 @@ _stats:
   lastModifiedBy: uY5ZaNbCwA9WwEXo
   exportSource: null
 _key: '!items!r0EkadYvkuHVecSN'
+

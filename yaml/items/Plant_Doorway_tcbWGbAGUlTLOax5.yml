@@ -16,7 +16,43 @@ system:
   spellLevel: '4'
   range: Passage begins where caster stands
   duration: 3 turns + 1 turn/level
-effects: []
+effects:
+  - name: Plant Doorway
+    type: base
+    disabled: true
+    transfer: false
+    _id: HWwb7TFWZDx0zX6h
+    img: systems/swords-wizardry/assets/game-icons-net/forest-entrance.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: 3 + (@lvl)
+      durationFormulaUnits: turns
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790396160251
+      modifiedTime: 1790396181905
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!tcbWGbAGUlTLOax5.HWwb7TFWZDx0zX6h'
 sort: 0
 ownership:
   default: 0
@@ -33,3 +69,4 @@ _stats:
   lastModifiedBy: uY5ZaNbCwA9WwEXo
   exportSource: null
 _key: '!items!tcbWGbAGUlTLOax5'
+

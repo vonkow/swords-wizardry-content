@@ -11,7 +11,43 @@ system:
   spellLevel: '1'
   range: 60 feet + 10 feet/level
   duration: 1 round/level
-effects: []
+effects:
+  - name: Locate Animal
+    type: base
+    disabled: true
+    transfer: false
+    _id: vUiXQC15mK4XtCAR
+    img: systems/swords-wizardry/assets/game-icons-net/deer-track.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: (@lvl)
+      durationFormulaUnits: rounds
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790395282832
+      modifiedTime: 1790395308173
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!NOEwZfVEhU3Aeiyj.vUiXQC15mK4XtCAR'
 sort: 0
 ownership:
   default: 0
@@ -28,3 +64,4 @@ _stats:
   lastModifiedBy: uY5ZaNbCwA9WwEXo
   exportSource: null
 _key: '!items!NOEwZfVEhU3Aeiyj'
+

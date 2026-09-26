@@ -17,7 +17,43 @@ system:
   requiresSave: true
   saveEffect: half
   effectType: damage
-effects: []
+effects:
+  - name: Delayed Blast Fireball
+    type: base
+    disabled: true
+    transfer: false
+    _id: Td593JRUpiFol5gp
+    img: systems/swords-wizardry/assets/game-icons-net/flaming-sheet.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: '10'
+      durationFormulaUnits: minutes
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790443901454
+      modifiedTime: 1790443929771
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!eOH8lucKLvlD704R.Td593JRUpiFol5gp'
 sort: 0
 ownership:
   default: 0
@@ -34,3 +70,4 @@ _stats:
   lastModifiedBy: vmxWfSELXzEPjuRW
   exportSource: null
 _key: '!items!eOH8lucKLvlD704R'
+

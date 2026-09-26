@@ -14,7 +14,44 @@ system:
   range: 180 feet
   duration: 9 turns
   requiresSave: true
-effects: []
+effects:
+  - name: Held
+    type: base
+    disabled: true
+    transfer: false
+    _id: mjYv5Zw9k9rlEL68
+    img: systems/swords-wizardry/assets/game-icons-net/embrassed-energy.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: '9'
+      durationFormulaUnits: turns
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses:
+      - paralysis
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790385086739
+      modifiedTime: 1790385121093
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!JYMmyXwZWdHSzrU4.mjYv5Zw9k9rlEL68'
 sort: 0
 ownership:
   default: 0
@@ -31,3 +68,4 @@ _stats:
   lastModifiedBy: vmxWfSELXzEPjuRW
   exportSource: null
 _key: '!items!JYMmyXwZWdHSzrU4'
+

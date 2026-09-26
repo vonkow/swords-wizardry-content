@@ -13,6 +13,8 @@ system:
   duration: Immediate
   effectType: healing
   formula: 1d6+1
+  rollType: damage
+  requiresSave: false
 effects: []
 sort: 100000
 ownership:
@@ -22,11 +24,12 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '14.367'
+  coreVersion: '14.366'
   systemId: swords-wizardry
-  systemVersion: 4.1.0
+  systemVersion: 4.3.0
   createdTime: 1740763417887
-  modifiedTime: 1789235537427
-  lastModifiedBy: vmxWfSELXzEPjuRW
+  modifiedTime: 1790379329562
+  lastModifiedBy: BGgsaqYZJQzqaTYG
   exportSource: null
 _key: '!items!51YjmwSfWLQYaFRz'
+

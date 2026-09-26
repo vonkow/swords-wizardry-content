@@ -9,7 +9,43 @@ system:
   range: 120 feet
   duration: 2 hours
   requiresSave: true
-effects: []
+effects:
+  - name: Confusion
+    type: base
+    disabled: true
+    transfer: false
+    _id: 6qWidloLoVh7Os16
+    img: systems/swords-wizardry/assets/game-icons-net/knocked-out-stars.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: '2'
+      durationFormulaUnits: hours
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790397119993
+      modifiedTime: 1790397133997
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!YmhCCkXrolkHmeNw.6qWidloLoVh7Os16'
 sort: 0
 ownership:
   default: 0
@@ -26,3 +62,4 @@ _stats:
   lastModifiedBy: vmxWfSELXzEPjuRW
   exportSource: null
 _key: '!items!YmhCCkXrolkHmeNw'
+

@@ -18,7 +18,43 @@ system:
   spellLevel: '8'
   range: 240 feet
   duration: Referee's discretion
-effects: []
+effects:
+  - name: Polymorphed
+    type: base
+    disabled: true
+    transfer: false
+    _id: bZ6No1asovsvpVMG
+    img: systems/swords-wizardry/assets/game-icons-net/transform.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: ''
+      durationFormulaUnits: rounds
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 2
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790444332891
+      modifiedTime: 1790444349045
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!Pn9xF84mEcY0CMSO.bZ6No1asovsvpVMG'
 sort: 0
 ownership:
   default: 0
@@ -35,3 +71,4 @@ _stats:
   lastModifiedBy: uY5ZaNbCwA9WwEXo
   exportSource: null
 _key: '!items!Pn9xF84mEcY0CMSO'
+

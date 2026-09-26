@@ -13,7 +13,43 @@ system:
   spellLevel: '4'
   range: 30 feet
   duration: 1 turn (10 minutes)
-effects: []
+effects:
+  - name: Fire
+    type: base
+    disabled: true
+    transfer: false
+    _id: PgJ5LN54nu65fnoe
+    img: systems/swords-wizardry/assets/game-icons-net/celebration-fire.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: '1'
+      durationFormulaUnits: turns
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790396203462
+      modifiedTime: 1790396215685
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!TVKkQP8YXwWX5MfG.PgJ5LN54nu65fnoe'
 sort: 0
 ownership:
   default: 0
@@ -30,3 +66,4 @@ _stats:
   lastModifiedBy: uY5ZaNbCwA9WwEXo
   exportSource: null
 _key: '!items!TVKkQP8YXwWX5MfG'
+

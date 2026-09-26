@@ -11,7 +11,43 @@ system:
   spellLevel: '1'
   range: 60 feet
   duration: 20 minutes
-effects: []
+effects:
+  - name: Detect Magic
+    type: base
+    disabled: true
+    transfer: false
+    _id: 5rprHEInQxHYB2Si
+    img: systems/swords-wizardry/assets/game-icons-net/radar-cross-section.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: '20'
+      durationFormulaUnits: minutes
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790394854777
+      modifiedTime: 1790394894163
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!cVXi07O9xPV3cgZK.5rprHEInQxHYB2Si'
 ownership:
   default: 0
   uY5ZaNbCwA9WwEXo: 3
@@ -29,3 +65,4 @@ _stats:
 _id: cVXi07O9xPV3cgZK
 sort: 0
 _key: '!items!cVXi07O9xPV3cgZK'
+

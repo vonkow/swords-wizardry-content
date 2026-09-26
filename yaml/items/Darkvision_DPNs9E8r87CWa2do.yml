@@ -10,7 +10,43 @@ system:
   spellLevel: '3'
   range: 40 feet
   duration: 1 day
-effects: []
+effects:
+  - name: Darkvision
+    type: base
+    disabled: true
+    transfer: false
+    _id: d7XqKfZNpbSvnatJ
+    img: systems/swords-wizardry/assets/game-icons-net/semi-closed-eye.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: '1'
+      durationFormulaUnits: days
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790441989512
+      modifiedTime: 1790442010005
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!DPNs9E8r87CWa2do.d7XqKfZNpbSvnatJ'
 sort: 0
 ownership:
   default: 0
@@ -27,3 +63,4 @@ _stats:
   lastModifiedBy: uY5ZaNbCwA9WwEXo
   exportSource: null
 _key: '!items!DPNs9E8r87CWa2do'
+

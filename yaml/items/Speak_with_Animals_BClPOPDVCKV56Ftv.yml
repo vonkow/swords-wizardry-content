@@ -12,7 +12,43 @@ system:
   spellLevel: '2'
   range: Caster
   duration: 6 turns
-effects: []
+effects:
+  - name: Speak with Animals
+    type: base
+    disabled: true
+    transfer: false
+    _id: n6LDZckrzmGNsB0R
+    img: systems/swords-wizardry/assets/game-icons-net/bird-twitter.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: '6'
+      durationFormulaUnits: turns
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790387490535
+      modifiedTime: 1790387525483
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!BClPOPDVCKV56Ftv.n6LDZckrzmGNsB0R'
 sort: 0
 ownership:
   default: 0
@@ -29,3 +65,4 @@ _stats:
   lastModifiedBy: uY5ZaNbCwA9WwEXo
   exportSource: null
 _key: '!items!BClPOPDVCKV56Ftv'
+

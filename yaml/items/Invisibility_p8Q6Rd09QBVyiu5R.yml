@@ -14,7 +14,44 @@ system:
   spellLevel: '2'
   range: 240 feet
   duration: Until dispelled or an attack is made
-effects: []
+effects:
+  - name: Invisibility
+    type: base
+    disabled: true
+    transfer: false
+    _id: tAaX82z3eptVqGza
+    img: systems/swords-wizardry/assets/game-icons-net/invisible.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: ''
+      durationFormulaUnits: rounds
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses:
+      - invisible
+    showIcon: 2
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790439173033
+      modifiedTime: 1790439190220
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!p8Q6Rd09QBVyiu5R.tAaX82z3eptVqGza'
 sort: 0
 ownership:
   default: 0
@@ -31,3 +68,4 @@ _stats:
   lastModifiedBy: uY5ZaNbCwA9WwEXo
   exportSource: null
 _key: '!items!p8Q6Rd09QBVyiu5R'
+

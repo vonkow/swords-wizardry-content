@@ -14,7 +14,43 @@ system:
   spellLevel: '2'
   range: Palm of hand
   duration: 2 turns/level
-effects: []
+effects:
+  - name: Produce Flame
+    type: base
+    disabled: true
+    transfer: false
+    _id: k9vvXy4QcGYRxuJa
+    img: systems/swords-wizardry/assets/game-icons-net/fire-spell-cast.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: 2 * (@lvl)
+      durationFormulaUnits: turns
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790395526256
+      modifiedTime: 1790395554615
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!EFiluGbvgJLfvpMX.k9vvXy4QcGYRxuJa'
 sort: 0
 ownership:
   default: 0
@@ -31,3 +67,4 @@ _stats:
   lastModifiedBy: uY5ZaNbCwA9WwEXo
   exportSource: null
 _key: '!items!EFiluGbvgJLfvpMX'
+

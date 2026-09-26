@@ -14,7 +14,43 @@ system:
   spellLevel: '6'
   range: Caster
   duration: 2 hours
-effects: []
+effects:
+  - name: Anti-Animal Ward
+    type: base
+    disabled: true
+    transfer: false
+    _id: a4mTleK6bdizpqRB
+    img: systems/swords-wizardry/assets/game-icons-net/slashed-shield.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: '2'
+      durationFormulaUnits: hours
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790396815457
+      modifiedTime: 1790396835521
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!9wuMPtsOnd4puGUS.a4mTleK6bdizpqRB'
 sort: 0
 ownership:
   default: 0
@@ -31,3 +67,4 @@ _stats:
   lastModifiedBy: uY5ZaNbCwA9WwEXo
   exportSource: null
 _key: '!items!9wuMPtsOnd4puGUS'
+

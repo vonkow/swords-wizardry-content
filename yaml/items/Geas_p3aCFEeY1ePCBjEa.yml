@@ -13,7 +13,43 @@ system:
   range: 30 feet
   duration: Until task is complete
   requiresSave: true
-effects: []
+effects:
+  - name: Geas
+    type: base
+    disabled: true
+    transfer: false
+    _id: 6ygi6e8Mlg0mof1C
+    img: systems/swords-wizardry/assets/game-icons-net/stairs-goal.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: ''
+      durationFormulaUnits: rounds
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 2
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790443661662
+      modifiedTime: 1790443674878
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!p3aCFEeY1ePCBjEa.6ygi6e8Mlg0mof1C'
 sort: 0
 ownership:
   default: 0
@@ -30,3 +66,4 @@ _stats:
   lastModifiedBy: vmxWfSELXzEPjuRW
   exportSource: null
 _key: '!items!p3aCFEeY1ePCBjEa'
+

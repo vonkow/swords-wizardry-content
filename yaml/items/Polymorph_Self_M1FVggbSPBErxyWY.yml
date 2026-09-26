@@ -13,7 +13,43 @@ system:
   spellLevel: '4'
   range: Caster
   duration: 1 hour or Referee's discretion
-effects: []
+effects:
+  - name: Polymorphed
+    type: base
+    disabled: true
+    transfer: false
+    _id: DNv3LxL33tZgG9KS
+    img: systems/swords-wizardry/assets/game-icons-net/ghost-ally.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: '1'
+      durationFormulaUnits: hours
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790443084703
+      modifiedTime: 1790443099371
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!M1FVggbSPBErxyWY.DNv3LxL33tZgG9KS'
 sort: 0
 ownership:
   default: 0
@@ -30,3 +66,4 @@ _stats:
   lastModifiedBy: uY5ZaNbCwA9WwEXo
   exportSource: null
 _key: '!items!M1FVggbSPBErxyWY'
+

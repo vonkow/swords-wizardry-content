@@ -20,7 +20,43 @@ system:
   spellLevel: '7'
   range: 60 feet
   duration: 1 hour
-effects: []
+effects:
+  - name: Animate Rock
+    type: base
+    disabled: true
+    transfer: false
+    _id: IK9TgVXf4GfuyRxO
+    img: systems/swords-wizardry/assets/game-icons-net/summits.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: '1'
+      durationFormulaUnits: hours
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790397037104
+      modifiedTime: 1790397057338
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!gVSAlQs9D89x8nWw.IK9TgVXf4GfuyRxO'
 sort: 0
 ownership:
   default: 0
@@ -37,3 +73,4 @@ _stats:
   lastModifiedBy: uY5ZaNbCwA9WwEXo
   exportSource: null
 _key: '!items!gVSAlQs9D89x8nWw'
+

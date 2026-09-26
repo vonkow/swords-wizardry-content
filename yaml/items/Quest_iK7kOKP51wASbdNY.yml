@@ -15,7 +15,43 @@ system:
   range: Speaking range
   duration: Until completed
   requiresSave: true
-effects: []
+effects:
+  - name: Quested
+    type: base
+    disabled: true
+    transfer: false
+    _id: 61ARtS8l34h4mJIQ
+    img: systems/swords-wizardry/assets/game-icons-net/holy-grail.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: ''
+      durationFormulaUnits: rounds
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 2
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790393681989
+      modifiedTime: 1790393725848
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!iK7kOKP51wASbdNY.61ARtS8l34h4mJIQ'
 sort: 0
 ownership:
   default: 0
@@ -32,3 +68,4 @@ _stats:
   lastModifiedBy: vmxWfSELXzEPjuRW
   exportSource: null
 _key: '!items!iK7kOKP51wASbdNY'
+

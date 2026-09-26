@@ -22,7 +22,43 @@ system:
   spellLevel: '8'
   range: Referee's discretion (according to symbol)
   duration: Varies (depends on symbol used)
-effects: []
+effects:
+  - name: Symbol
+    type: base
+    disabled: true
+    transfer: false
+    _id: J9T8jl8f5QzeQRWQ
+    img: systems/swords-wizardry/assets/game-icons-net/moebius-star.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: ''
+      durationFormulaUnits: rounds
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 2
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790444484340
+      modifiedTime: 1790444496619
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!Or4QRvhlA2uifo2e.J9T8jl8f5QzeQRWQ'
 sort: 0
 ownership:
   default: 0
@@ -39,3 +75,4 @@ _stats:
   lastModifiedBy: uY5ZaNbCwA9WwEXo
   exportSource: null
 _key: '!items!Or4QRvhlA2uifo2e'
+

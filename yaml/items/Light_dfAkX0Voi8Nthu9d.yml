@@ -11,7 +11,43 @@ system:
   spellLevel: '1'
   range: 60 feet
   duration: 1 hour + 10 minutes/level
-effects: []
+effects:
+  - name: Light
+    type: base
+    disabled: true
+    transfer: false
+    _id: 2Gu77Fz63l4JYkX0
+    img: systems/swords-wizardry/assets/game-icons-net/sundial.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: 6 + (@lvl)
+      durationFormulaUnits: turns
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790398449204
+      modifiedTime: 1790398473038
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!dfAkX0Voi8Nthu9d.2Gu77Fz63l4JYkX0'
 ownership:
   default: 0
   uY5ZaNbCwA9WwEXo: 3
@@ -29,3 +65,4 @@ _stats:
 _id: dfAkX0Voi8Nthu9d
 sort: 300000
 _key: '!items!dfAkX0Voi8Nthu9d'
+

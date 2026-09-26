@@ -2,7 +2,7 @@ folder: tkCTHKEiQWhhHwzy
 name: Astral Spell
 type: spell
 _id: dr4DtkdTs0ii51mh
-img: systems/swords-wizardry/assets/game-icons-net/telepathy.svg
+img: systems/swords-wizardry/assets/game-icons-net/psychic-waves.svg
 system:
   description: >-
     <p>The caster projects his or her astral form into other places. The astral
@@ -24,7 +24,43 @@ system:
   spellLevel: '9'
   range: 100 miles (aboveground), 100 yards (belowground)
   duration: 2 hours
-effects: []
+effects:
+  - name: Astral Projection
+    type: base
+    disabled: true
+    transfer: false
+    _id: g0JPLmNhUgLvCJV4
+    img: systems/swords-wizardry/assets/game-icons-net/psychic-waves.svg
+    system:
+      changes: []
+      targeted: true
+      durationFormula: '2'
+      durationFormulaUnits: hours
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.366'
+      systemId: swords-wizardry
+      systemVersion: 4.3.0
+      createdTime: 1790444524711
+      modifiedTime: 1790444548231
+      lastModifiedBy: BGgsaqYZJQzqaTYG
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!dr4DtkdTs0ii51mh.g0JPLmNhUgLvCJV4'
 sort: 0
 ownership:
   default: 0
@@ -33,11 +69,12 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '14.367'
+  coreVersion: '14.366'
   systemId: swords-wizardry
   systemVersion: 2.9.4
   createdTime: 1740763417887
-  modifiedTime: 1741406635287
-  lastModifiedBy: uY5ZaNbCwA9WwEXo
+  modifiedTime: 1790444554105
+  lastModifiedBy: BGgsaqYZJQzqaTYG
   exportSource: null
 _key: '!items!dr4DtkdTs0ii51mh'
+
