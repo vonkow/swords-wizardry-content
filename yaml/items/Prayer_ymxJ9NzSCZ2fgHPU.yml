@@ -24,7 +24,7 @@ effects:
     img: systems/swords-wizardry/assets/game-icons-net/prayer.svg
     system:
       changes:
-        - key: system.modifiers.save.value
+        - key: system.modifiers.saveMod.value
           type: add
           value: -1
           phase: initial
@@ -52,7 +52,7 @@ effects:
       systemId: swords-wizardry
       systemVersion: 4.3.0
       createdTime: 1790388879198
-      modifiedTime: 1790441423858
+      modifiedTime: 1790570210198
       lastModifiedBy: BGgsaqYZJQzqaTYG
       compendiumSource: null
       duplicateSource: null
